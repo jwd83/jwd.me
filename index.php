@@ -35,8 +35,9 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Simplical</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Learning More</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Free Download</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#learnmore">Learning More</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#download">Free Download</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#shop">Shop</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -70,8 +71,8 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                 </div>
             </div>
         </section>
-        <!-- Services-->
-        <section class="page-section" id="services">
+        <!-- learnmore-->
+        <section class="page-section" id="learnmore">
             <div class="container">
                 <h2 class="text-center mt-0">Learning More</h2>
                 <hr class="divider my-4" />
@@ -110,82 +111,43 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
 
 
 
-        <!-- Portfolio-->
-        <section id="portfolio">
-        </section>
-<!-- 
-        
-            <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                </div>
-            </div>
-        </section>
-
- -->
-
-
-
-        <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
+        <!-- download-->
+        <section id="download" class="page-section bg-dark text-white">
             <div class="container text-center">
                 <h2 class="mb-4">Free Download at GitHub! Coming soon to the Google Play Store!</h2>
                 <a class="btn btn-light btn-xl" href="https://github.com/jwd83/Simplical/releases">Download Now!</a>
             </div>
         </section>
+
+        <!-- shop -->
+
+
+        <!-- Coming soon snippet -->
+        <section id="shop" class="page-section">
+            <div class="container text-center">
+                <h2 class="mb-4">Shop coming soon!</h2>
+            </div>
+        </section>
+
+<!-- 
+
+        <section id="shop" class="page-section">
+            <div class="container text-center">
+                <h2 class="mb-4">My Shop</h2>
+                <div>
+                    Large physical goods are local pickup only in Mechanicsville, VA.
+                </div>
+<div id="my-store-33330036"></div>
+<div>
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?33330036&data_platform=code&data_date=2020-07-20" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-33330036");</script>
+</div>
+
+            </div>
+        </section>
+ -->
+
+
+
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -202,6 +164,10 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                 </div>
             </div>
         </section>
+
+
+
+
         <!-- Footer-->
         <footer class="bg-light py-5">
             <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Jared De Blander</div></div>
