@@ -1,0 +1,1872 @@
+[
+  {
+    "title": "A Universe from Nothing",
+    "url": "/public/Books/A%20Universe%20from%20Nothing/",
+    "path": "Books/A Universe from Nothing.md",
+    "excerpt": "A book by Lawrence M. Krauss describing our understanding of the physical universe at time of publication. The book covers topics ranging from from the smallest subatomic scales to the largest cosmological/multiversal sc..."
+  },
+  {
+    "title": "On the Origin of Species",
+    "url": "/public/Books/On%20the%20Origin%20of%20Species/",
+    "path": "Books/On the Origin of Species.md",
+    "excerpt": "The book by Charles Darwin describing how the endless forms of species arose from simpler beginnings through genetic diversity and natural selection. See Charles Darwin and Evolution for more information. It is interesti..."
+  },
+  {
+    "title": "Quantum Man",
+    "url": "/public/Books/Quantum%20Man/",
+    "path": "Books/Quantum Man.md",
+    "excerpt": "A book about the life of Richard Feynman a brilliant scientist of the 20th century. written by Lawrence M. Krauss another brilliant scientist of the 20th and 21st centuries."
+  },
+  {
+    "title": "The Ascent of Man",
+    "url": "/public/Books/The%20Ascent%20of%20Man/",
+    "path": "Books/The Ascent of Man.md",
+    "excerpt": "Written by Jacob Bronowski The Ascent of Man series features scenes of lighthearted humility... “It is important that students bring a certain ragamuffin, barefoot irreverence to their studies; they are not here to wor..."
+  },
+  {
+    "title": "The History of God",
+    "url": "/public/Books/The%20History%20of%20God/",
+    "path": "Books/The History of God.md",
+    "excerpt": "Karen Armstrong's \"The History of God\" provides an extensive historical examination of the three major monotheistic religions: Judaism, Christianity, and Islam as well as their polytheistic roots. The book explores the c..."
+  },
+  {
+    "title": "The Moral Landscape",
+    "url": "/public/Books/The%20Moral%20Landscape/",
+    "path": "Books/The Moral Landscape.md",
+    "excerpt": "A book by Sam Harris discussing what science could say about morality. Sam Harris argues that moral values can be objectively determined using Science and reason, challenging the notion that moral questions are inherentl..."
+  },
+  {
+    "title": "AM",
+    "url": "/public/Concepts/AM/",
+    "path": "Concepts/AM.md",
+    "excerpt": "AM (amplitude modulation) is a way to encode audio onto a radio carrier by changing the signal amplitude while the carrier frequency stays fixed. It is older broadcast tech, but still useful for long-range radio because...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Atheism",
+    "url": "/public/Concepts/Atheism/",
+    "path": "Concepts/Atheism.md",
+    "excerpt": "The lack of belief in things supernatural such as God, psychics, prayer, ESP, ghosts and more. This does not require the belief in anything else. See also: Naturalism"
+  },
+  {
+    "title": "Atom",
+    "url": "/public/Concepts/Atom/",
+    "path": "Concepts/Atom.md",
+    "excerpt": "A fundamental unit of matter consisting of a central nucleus containing Protons and Neutrons and an outer shell or cloud of electrons."
+  },
+  {
+    "title": "Black Hole",
+    "url": "/public/Concepts/Black%20Hole/",
+    "path": "Concepts/Black Hole.md",
+    "excerpt": "A Black Hole is an object so dense that beyond its event horizon, escape velocity is greater than the speed of light. The stellar-mass ones form when very massive stars collapse after a Supernova. At the centers of galax...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Bluetooth",
+    "url": "/public/Concepts/Bluetooth/",
+    "path": "Concepts/Bluetooth.md",
+    "excerpt": "Bluetooth is a short-range wireless standard mostly used for low-power device-to-device communication. Typical use cases are headphones, keyboards, controllers, health sensors, and phone pairing. It shares parts of the 2...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Cosmic Microwave Background Radiation",
+    "url": "/public/Concepts/Cosmic%20Microwave%20Background%20Radiation/",
+    "path": "Concepts/Cosmic Microwave Background Radiation.md",
+    "excerpt": "Cosmic Microwave Background Radiation (CMB) is relic Electromagnetic Radiation from the early universe. It was released when the universe cooled enough for atoms to form and photons could travel freely (roughly 380,000 y...",
+    "headings": [
+      "Why it matters",
+      "See also"
+    ]
+  },
+  {
+    "title": "Cosmos",
+    "url": "/public/Concepts/Cosmos/",
+    "path": "Concepts/Cosmos.md",
+    "excerpt": "In the words of the late, great Carl Sagan... The Cosmos is all that is or was or ever will be. Carl Sagan Our universe and all things in it. Unimaginably vast. There are in excess of a hundred billion galaxies in our ob..."
+  },
+  {
+    "title": "D Layer",
+    "url": "/public/Concepts/D%20Layer/",
+    "path": "Concepts/D Layer.md",
+    "excerpt": "The D Layer is the lowest part of the ionosphere, and it matters a lot for AM radio. ELI5 version Think of the sky as having invisible layers. In the daytime, sunlight \"turns on\" the D layer and it acts like a sponge for...",
+    "headings": [
+      "ELI5 version",
+      "See also"
+    ]
+  },
+  {
+    "title": "Electromagnetic Radiation",
+    "url": "/public/Concepts/Electromagnetic%20Radiation/",
+    "path": "Concepts/Electromagnetic Radiation.md",
+    "excerpt": "Electromagnetic radiation is energy carried by the electromagnetic field. In quantum theory, it is quantized into photons; in many situations it is also well-described as a wave. What it includes The electromagnetic spec...",
+    "headings": [
+      "What it includes",
+      "Production in atoms",
+      "Wave and particle picture",
+      "Cosmology note",
+      "See also"
+    ]
+  },
+  {
+    "title": "Electromagnetic Spectrum",
+    "url": "/public/Concepts/Electromagnetic%20Spectrum/",
+    "path": "Concepts/Electromagnetic Spectrum.md",
+    "excerpt": "The electromagnetic spectrum is a spectrum that encompasses the range of wavelengths of Electromagnetic Radiation. The US government regulates license frequency ranges to be used as signals within this spectrum. Broadcas..."
+  },
+  {
+    "title": "Electron",
+    "url": "/public/Concepts/Electron/",
+    "path": "Concepts/Electron.md",
+    "excerpt": "Electrons are fundamental leptons with electric charge \\(-1e\\). They are stable, very light compared with protons and neutrons, and are essential to chemistry, electricity, and most everyday matter interactions. In atoms...",
+    "headings": [
+      "In atoms",
+      "Wave–particle behavior",
+      "Why they matter",
+      "See also"
+    ]
+  },
+  {
+    "title": "empty space",
+    "url": "/public/Concepts/empty%20space/",
+    "path": "Concepts/empty space.md",
+    "excerpt": "empty space is less empty than the name suggests. Even far from obvious matter, space contains fields, radiation, sparse particles, and structure at very large scales. At quantum scales, vacuum states still have measurab...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Evolution",
+    "url": "/public/Concepts/Evolution/",
+    "path": "Concepts/Evolution.md",
+    "excerpt": "As discovered by Charles Darwin Evolution is the process by which all life known to exist on earth came to exist from a single initial organism through the process of variation, mutation and Natural Selection and huge am..."
+  },
+  {
+    "title": "expansion of the universe",
+    "url": "/public/Concepts/expansion%20of%20the%20universe/",
+    "path": "Concepts/expansion of the universe.md",
+    "excerpt": "expansion of the universe means that, on large scales, space itself is stretching over time. That expansion shifts light to longer wavelengths (redshift), which is one key observation in cosmology. It also explains why a...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "FM",
+    "url": "/public/Concepts/FM/",
+    "path": "Concepts/FM.md",
+    "excerpt": "FM (frequency modulation) is a way to encode audio by varying carrier frequency instead of amplitude. In everyday radio use, FM usually sounds cleaner than AM because it is less sensitive to amplitude noise. The tradeoff...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Galaxy",
+    "url": "/public/Concepts/Galaxy/",
+    "path": "Concepts/Galaxy.md",
+    "excerpt": "A Galaxy is a gravitationally bound system of stars, gas, dust, dark matter, and often a central black hole. Our Sun lives in the Milky Way, which is just one galaxy among a ridiculous number in the observable Cosmos. Ga...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Gravity",
+    "url": "/public/Concepts/Gravity/",
+    "path": "Concepts/Gravity.md",
+    "excerpt": "The force in the universe that pulls all things together."
+  },
+  {
+    "title": "BMI",
+    "url": "/public/Concepts/Health/BMI/",
+    "path": "Concepts/Health/BMI.md",
+    "excerpt": "Body mass index (BMI) is a measure of body fat based upon your height and weight that applies to adult men and women only. The formula in imperial freedom units is as follows. $$ \\text{BMI}=703.0717\\frac{\\text{Pounds}}{\\..."
+  },
+  {
+    "title": "BMR",
+    "url": "/public/Concepts/Health/BMR/",
+    "path": "Concepts/Health/BMR.md",
+    "excerpt": "The basal metabolic rate - or about the number of calories your body would consume if you were living the non moving vegetable life. For men and women in imperial \"freedom\" units this works out to: $$ \\begin{align} \\text..."
+  },
+  {
+    "title": "TDEE",
+    "url": "/public/Concepts/Health/TDEE/",
+    "path": "Concepts/Health/TDEE.md",
+    "excerpt": "Estimating your Total Daily Energy Expenditure is as simple as calculating your BMR and multiplying it by your TDEE activity level multiplier. Approximate TDEE Multiplier | Activity Level |--: 1.2|points for a person who..."
+  },
+  {
+    "title": "human vision",
+    "url": "/public/Concepts/human%20vision/",
+    "path": "Concepts/human vision.md",
+    "excerpt": "human vision is our biological system for detecting and interpreting Visible Light. Our eyes sample only a narrow band of the full Electromagnetic Spectrum, which is a useful reminder that perception is filtered. Rods ar...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Humans",
+    "url": "/public/Concepts/Humans/",
+    "path": "Concepts/Humans.md",
+    "excerpt": "Home Sapiens, or Humans, are perhaps apt to think of ourselves as the highest leaf on the tree of life. We believe ourselves to be the only species who have come to make insights about nature such as Evolution or The Big..."
+  },
+  {
+    "title": "Ionosphere",
+    "url": "/public/Concepts/Ionosphere/",
+    "path": "Concepts/Ionosphere.md",
+    "excerpt": "The Ionosphere is a region of Earth's upper atmosphere where sunlight knocks electrons loose, creating charged particles (ions and free electrons). If you want the practical version: it is one of the big reasons radio ra...",
+    "headings": [
+      "Why it exists",
+      "Why radio people care",
+      "See also"
+    ]
+  },
+  {
+    "title": "Leptons",
+    "url": "/public/Concepts/Leptons/",
+    "path": "Concepts/Leptons.md",
+    "excerpt": "Leptons are a family of elementary particles that do not feel the strong nuclear force. The set includes charged leptons (electron, muon, tau) plus neutrinos. They are fundamental building blocks in the Standard Model an...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Light",
+    "url": "/public/Concepts/Light/",
+    "path": "Concepts/Light.md",
+    "excerpt": "Light - Is it a wave or is a particle? Is it both? The wave-particle duality is a principal of light in that it appears to act as both a wave and a particle. Light is said to travel in quanta or packets of energy. Humans..."
+  },
+  {
+    "title": "Meme",
+    "url": "/public/Concepts/Meme/",
+    "path": "Concepts/Meme.md",
+    "excerpt": "Coined by Richard Dawkins in his book The Selfish Gene. A meme is the idea that knowledges spreads in much the same way a gene does. A good meme will flourish and a bad one will flounder. The internet gave new rise to id..."
+  },
+  {
+    "title": "God",
+    "url": "/public/Concepts/Mythology/God/",
+    "path": "Concepts/Mythology/God.md",
+    "excerpt": "A common figure in Religions \u0026 Mythology. Sometimes there is only one in the case of Monotheism or many in the case of Polytheism."
+  },
+  {
+    "title": "Monotheism",
+    "url": "/public/Concepts/Mythology/Monotheism/",
+    "path": "Concepts/Mythology/Monotheism.md",
+    "excerpt": "A belief that a single super natural entity, like god, governs, influences or gave rise to the cosmos."
+  },
+  {
+    "title": "Polytheism",
+    "url": "/public/Concepts/Mythology/Polytheism/",
+    "path": "Concepts/Mythology/Polytheism.md",
+    "excerpt": "A belief that multiple super natural entities or gods govern, influence or gave rise to the cosmos"
+  },
+  {
+    "title": "Religions \u0026 Mythology",
+    "url": "/public/Concepts/Mythology/Religions%20\u0026%20Mythology/",
+    "path": "Concepts/Mythology/Religions \u0026 Mythology.md",
+    "excerpt": "Karen Armstrong's The History of God has a great deal of information on humanities transition from polytheism to monotheism and provides a timeline of authors and edits to the bible supported by evidence and the majority..."
+  },
+  {
+    "title": "Natural Selection",
+    "url": "/public/Concepts/Natural%20Selection/",
+    "path": "Concepts/Natural Selection.md",
+    "excerpt": "Natural Selection is the core mechanism of Evolution. If traits vary, are heritable, and affect survival/reproduction, then over generations those traits shift in frequency. Selection is not goal-directed. It is just dif...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Naturalism",
+    "url": "/public/Concepts/Naturalism/",
+    "path": "Concepts/Naturalism.md",
+    "excerpt": "The view that nature is all that exists. We do not now know, nor do I expect we will in my lifetime begin to completely comprehend the full extent of nature. You see, one thing is I can live with doubt, uncertainty and n..."
+  },
+  {
+    "title": "Neutrinos",
+    "url": "/public/Concepts/Neutrinos/",
+    "path": "Concepts/Neutrinos.md",
+    "excerpt": "Neutrinos are electrically neutral, extremely light elementary particles that interact only through the weak force and gravity. Because they almost never interact with matter, enormous numbers pass through Earth (and us)...",
+    "headings": [
+      "Why they matter",
+      "Detection",
+      "Key physics insight",
+      "See also"
+    ]
+  },
+  {
+    "title": "Neutron Star",
+    "url": "/public/Concepts/Neutron%20Star/",
+    "path": "Concepts/Neutron Star.md",
+    "excerpt": "A Neutron Star is the ultra-dense collapsed core left behind after some massive stars end in a Supernova. Roughly a city-sized object can hold more mass than the Sun, which is mind-bending. Some neutron stars are observe...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Neutrons",
+    "url": "/public/Concepts/Neutrons/",
+    "path": "Concepts/Neutrons.md",
+    "excerpt": "Neutrons are electrically neutral particles found in atomic nuclei with Protons. They strongly influence isotope stability and nuclear behavior. A free neutron is unstable and eventually decays, which is one reason neutr...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Nobel Prize",
+    "url": "/public/Concepts/Nobel%20Prize/",
+    "path": "Concepts/Nobel Prize.md",
+    "excerpt": "The Nobel Prize is one of the most famous international awards for major contributions in science, literature, peace, and economics. The original categories were Physics, Chemistry, Physiology or Medicine, Literature, an...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Photon",
+    "url": "/public/Concepts/Photon/",
+    "path": "Concepts/Photon.md",
+    "excerpt": "A Photon is the quantum particle of Electromagnetic Radiation. In wave language, photon energy tracks frequency: higher frequency means higher energy. Photons are massless, travel at light speed in vacuum, and mediate el...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Positron",
+    "url": "/public/Concepts/Positron/",
+    "path": "Concepts/Positron.md",
+    "excerpt": "Positrons seems to appear when an electron jumps energy levels and emits a photon. In the moment of the electron jumping there appears to be three particles, two electrons and a positron, the positron starts where the el..."
+  },
+  {
+    "title": "Protons",
+    "url": "/public/Concepts/Protons/",
+    "path": "Concepts/Protons.md",
+    "excerpt": "Protons are at the center of an atom and thought to be positively charged. They are made of of smaller fundamental particles such as quarks popping in out of existence as well as a boiling, bubbling brew of empty space...."
+  },
+  {
+    "title": "Satellite",
+    "url": "/public/Concepts/Satellite/",
+    "path": "Concepts/Satellite.md",
+    "excerpt": "A Satellite is any object orbiting another body. Natural satellites include moons. Artificial satellites are human-made and power modern navigation, weather forecasting, TV distribution, and global communications. A lot...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Science",
+    "url": "/public/Concepts/Science/",
+    "path": "Concepts/Science.md",
+    "excerpt": "Science is a systematic approach to understanding the natural world through observation, experimentation, and analysis. It is a methodical process that seeks to uncover knowledge and explanations about how things work an...",
+    "headings": [
+      "The Scientific Method",
+      "Summary"
+    ]
+  },
+  {
+    "title": "Star",
+    "url": "/public/Concepts/Star/",
+    "path": "Concepts/Star.md",
+    "excerpt": "A Star is a self-gravitating sphere of hot plasma that produces energy through nuclear fusion. Stars are the element factories of the universe and the energy source for planetary systems. The lifecycle matters: some star...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Sun",
+    "url": "/public/Concepts/Sun/",
+    "path": "Concepts/Sun.md",
+    "excerpt": "The Sun is the star at the center of our solar system and the main energy source for life on Earth. Its core fusion powers sunlight and constantly emits particles, including Neutrinos. The Sun's higher-energy light (espe...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Supernova",
+    "url": "/public/Concepts/Supernova/",
+    "path": "Concepts/Supernova.md",
+    "excerpt": "A Supernova is the explosive death of a star, releasing an enormous amount of energy in a short time. Supernovae matter because they: forge and disperse many heavy elements (like iron, gold, and uranium) into space, can...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "The Big Bang",
+    "url": "/public/Concepts/The%20Big%20Bang/",
+    "path": "Concepts/The Big Bang.md",
+    "excerpt": "The start of our universe. When all space and matter was exploded out from a single point. Evidenced by the motion of galaxies as observed by redshift, the cosmic microwave background radiation, etc."
+  },
+  {
+    "title": "The Universe is Flat",
+    "url": "/public/Concepts/The%20Universe%20is%20Flat/",
+    "path": "Concepts/The Universe is Flat.md",
+    "excerpt": "The shape of the universe itself on large scales is flat. That is to say that if you shine a beam of light in a direction it will continue straight on average in that direction until reaching a surface. This is NOT the s..."
+  },
+  {
+    "title": "AD",
+    "url": "/public/Concepts/Time/AD/",
+    "path": "Concepts/Time/AD.md",
+    "excerpt": "AD stands for Anno Domini, Latin for “in the year of the Lord” and is analogous to CE. Used in tandem with BC"
+  },
+  {
+    "title": "BC",
+    "url": "/public/Concepts/Time/BC/",
+    "path": "Concepts/Time/BC.md",
+    "excerpt": "BC stands for “before Christ\" and is analogous to BCE"
+  },
+  {
+    "title": "BCE",
+    "url": "/public/Concepts/Time/BCE/",
+    "path": "Concepts/Time/BCE.md",
+    "excerpt": "Stands for Before Common Era and is used in tandem with CE. BCE analogous to BC."
+  },
+  {
+    "title": "CE",
+    "url": "/public/Concepts/Time/CE/",
+    "path": "Concepts/Time/CE.md",
+    "excerpt": "Stand for the Common Era and is used in tandem with BCE. CE is analogous to AD."
+  },
+  {
+    "title": "Time",
+    "url": "/public/Concepts/Time/Time/",
+    "path": "Concepts/Time/Time.md",
+    "excerpt": "Aside from being one of my favorite songs by Pink Floyd, time is a difficult concept to understand, especially once you start thinking about things like The Big Bang. It appears to only move in one direction; however; El..."
+  },
+  {
+    "title": "UNIX",
+    "url": "/public/Concepts/Time/UNIX/",
+    "path": "Concepts/Time/UNIX.md",
+    "excerpt": "UNIX time (Unix timestamp) counts seconds elapsed since 1970-01-01 00:00:00 UTC. It is simple, sortable, and everywhere in software/logging pipelines, which is why it never dies. The name traces back to Unix systems and...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "TV",
+    "url": "/public/Concepts/TV/",
+    "path": "Concepts/TV.md",
+    "excerpt": "TV started as analog over-the-air broadcasting and evolved into cable, satellite, digital terrestrial, and now mostly internet streaming delivery. Under the hood it has always been signal transport plus decoding, just wi...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Visible Light",
+    "url": "/public/Concepts/Visible%20Light/",
+    "path": "Concepts/Visible Light.md",
+    "excerpt": "Visible Light is a form of Electromagnetic Radiation that features a wavelength that is in the visible range for human vision. Note that is is only a single region of the broader Electromagnetic Spectrum whose full bread..."
+  },
+  {
+    "title": "WiFi",
+    "url": "/public/Concepts/WiFi/",
+    "path": "Concepts/WiFi.md",
+    "excerpt": "WiFi is a family of wireless LAN standards used for local networking over radio. It is the default way devices connect to home/office networks without cables. Compared to Bluetooth, WiFi usually targets higher throughput...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Gear",
+    "url": "/public/Games/Baldur%27s%20Gate%203/Astarion%20Build/",
+    "path": "Games/Baldur's Gate 3/Astarion Build.md",
+    "excerpt": "Gear Gear - best medium armor you can get Short Sword or Scimitar finesse weapons for dex scaling. Leveling Respec when you can into the following path.... Level 1 - Ranger 1 16 dex 16 cons 14 wis Favored enemy - whateve...",
+    "headings": [
+      "Gear",
+      "Leveling"
+    ]
+  },
+  {
+    "title": "Loot Catalog",
+    "url": "/public/Games/Baldur%27s%20Gate%203/Loot%20Catalog/",
+    "path": "Games/Baldur's Gate 3/Loot Catalog.md",
+    "excerpt": "Act 1: Forging: Susser weapons (dagger, greatsword, ) Githyanki Cresche: Soulbreaker Greatsword"
+  },
+  {
+    "title": "Baldur's Gate",
+    "url": "/public/Games/Baldur%27s%20Gate/",
+    "path": "Games/Baldur's Gate.md",
+    "excerpt": "A classic CRPG series based on Dungeons \u0026 Dragons. Most recently, Astarion Build and Loot Catalog."
+  },
+  {
+    "title": "Consoles I've Owned",
+    "url": "/public/Games/Consoles%20I%27ve%20Owned/",
+    "path": "Games/Consoles I've Owned.md",
+    "excerpt": "A running list of the video game consoles I've owned. Atari 2600 GB SP GBA Game Boy NES N64 GB DSi Switch Wii PS1 PS2 PS3 PS4 PS5 Dreamcast Genesis SNES Virtual Boy Xbox 360 Xbox"
+  },
+  {
+    "title": "Atari 2600",
+    "url": "/public/Games/Consoles/Atari%202600/",
+    "path": "Games/Consoles/Atari 2600.md",
+    "excerpt": "Quick Specs Manufacturer: Atari, Inc. First release: September 11, 1977 (US) Designed by: Atari console team (Joe Decuir, Jay Miner, Ron Milner, Steve Mayer, Larry Wagner) CPU: MOS Technology 6507 (~1.19 MHz) Memory: 128...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Game Boy Advance SP",
+    "url": "/public/Games/Consoles/Game%20Boy%20Advance%20SP/",
+    "path": "Games/Consoles/Game Boy Advance SP.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: February 14, 2003 (Japan); March 23, 2003 (US) Designed by: Nintendo handheld hardware team CPU: ARM7TDMI (16.78 MHz) Memory: 256 KB external WRAM + 32 KB internal WRAM +...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Game Boy Advance",
+    "url": "/public/Games/Consoles/Game%20Boy%20Advance/",
+    "path": "Games/Consoles/Game Boy Advance.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: March 21, 2001 (Japan); June 11, 2001 (US) Designed by: Nintendo handheld hardware team (led by Satoru Okada) CPU: ARM7TDMI (16.78 MHz) Memory: 256 KB external WRAM + 32...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Game Boy",
+    "url": "/public/Games/Consoles/Game%20Boy/",
+    "path": "Games/Consoles/Game Boy.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: April 21, 1989 (Japan); July 31, 1989 (US) Designed by: Nintendo R\u0026D1 (Gunpei Yokoi, Satoru Okada) CPU: Sharp LR35902 (4.19 MHz) Memory: 8 KB RAM, 8 KB VRAM Display: 160x...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "NES",
+    "url": "/public/Games/Consoles/NES/",
+    "path": "Games/Consoles/NES.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: July 15, 1983 (Japan, as Famicom); October 18, 1985 (US, as NES) Designed by: Nintendo R\u0026D2 (led by Masayuki Uemura) CPU: Ricoh 2A03/2A07 (6502-based, ~1.79 MHz NTSC) Mem...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Nintendo 64",
+    "url": "/public/Games/Consoles/Nintendo%2064/",
+    "path": "Games/Consoles/Nintendo 64.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: June 23, 1996 (Japan); September 26, 1996 (US) Designed by: Nintendo (project led by Genyo Takeda), with SGI partnership CPU: NEC VR4300 (93.75 MHz) Memory: 4 MB Rambus R...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Nintendo DSi",
+    "url": "/public/Games/Consoles/Nintendo%20DSi/",
+    "path": "Games/Consoles/Nintendo DSi.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: November 1, 2008 (Japan); April 5, 2009 (US) Designed by: Nintendo handheld hardware team CPU: ARM9 + ARM7 (faster clock than original DS) Memory: 16 MB RAM Storage: 256...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Nintendo Switch",
+    "url": "/public/Games/Consoles/Nintendo%20Switch/",
+    "path": "Games/Consoles/Nintendo Switch.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: March 3, 2017 (worldwide) Designed by: Nintendo Platform Technology Development group CPU/GPU: Nvidia Tegra X1-based SoC Memory: 4 GB LPDDR4 Storage: 32 GB internal (base...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Nintendo Wii",
+    "url": "/public/Games/Consoles/Nintendo%20Wii/",
+    "path": "Games/Consoles/Nintendo Wii.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: November 19, 2006 (US) Designed by: Nintendo IRD (hardware group led by Genyo Takeda) CPU: IBM PowerPC \"Broadway\" (729 MHz) Memory: 88 MB total (24 MB + 64 MB) Graphics:...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "PlayStation 1",
+    "url": "/public/Games/Consoles/PlayStation%201/",
+    "path": "Games/Consoles/PlayStation 1.md",
+    "excerpt": "Quick Specs Manufacturer: Sony Computer Entertainment First release: December 3, 1994 (Japan); September 9, 1995 (US) Designed by: Sony team led by Ken Kutaragi CPU: MIPS R3000A (33.87 MHz) Memory: 2 MB RAM, 1 MB VRAM Gr...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "PlayStation 2",
+    "url": "/public/Games/Consoles/PlayStation%202/",
+    "path": "Games/Consoles/PlayStation 2.md",
+    "excerpt": "Quick Specs Manufacturer: Sony Computer Entertainment First release: March 4, 2000 (Japan); October 26, 2000 (US) Designed by: Sony team led by Ken Kutaragi CPU: Emotion Engine (294.9 MHz) Memory: 32 MB RDRAM Graphics: G...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "PlayStation 3",
+    "url": "/public/Games/Consoles/PlayStation%203/",
+    "path": "Games/Consoles/PlayStation 3.md",
+    "excerpt": "Quick Specs Manufacturer: Sony Computer Entertainment First release: November 11, 2006 (Japan); November 17, 2006 (US) Designed by: Sony hardware team (Cell architecture with IBM and Toshiba) CPU: Cell Broadband Engine (...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "PlayStation 4",
+    "url": "/public/Games/Consoles/PlayStation%204/",
+    "path": "Games/Consoles/PlayStation 4.md",
+    "excerpt": "Quick Specs Manufacturer: Sony Computer Entertainment First release: November 15, 2013 (US) Designed by: Sony (lead system architect: Mark Cerny) CPU: 8-core AMD Jaguar x86-64 Memory: 8 GB GDDR5 Graphics: AMD GCN GPU (1....",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "PlayStation 5",
+    "url": "/public/Games/Consoles/PlayStation%205/",
+    "path": "Games/Consoles/PlayStation 5.md",
+    "excerpt": "Quick Specs Manufacturer: Sony Interactive Entertainment First release: November 12, 2020 (US) Designed by: Sony (lead system architect: Mark Cerny) CPU: 8-core AMD Zen 2 (up to 3.5 GHz) Memory: 16 GB GDDR6 Graphics: AMD...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Sega Dreamcast",
+    "url": "/public/Games/Consoles/Sega%20Dreamcast/",
+    "path": "Games/Consoles/Sega Dreamcast.md",
+    "excerpt": "Quick Specs Manufacturer: Sega First release: November 27, 1998 (Japan); September 9, 1999 (US) Designed by: Sega hardware team (headed by Hideki Sato) CPU: Hitachi SH-4 (200 MHz) Memory: 16 MB main RAM, 8 MB VRAM, 2 MB...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Sega Genesis",
+    "url": "/public/Games/Consoles/Sega%20Genesis/",
+    "path": "Games/Consoles/Sega Genesis.md",
+    "excerpt": "Quick Specs Manufacturer: Sega First release: October 29, 1988 (Japan, as Mega Drive); August 14, 1989 (US, as Genesis) Designed by: Sega hardware team (led by Hideki Sato) CPU: Motorola 68000 (7.67 MHz) + Zilog Z80 (3.5...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "SNES",
+    "url": "/public/Games/Consoles/SNES/",
+    "path": "Games/Consoles/SNES.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: November 21, 1990 (Japan); August 23, 1991 (US) Designed by: Nintendo R\u0026D2 (led by Masayuki Uemura) CPU: Ricoh 5A22 (~3.58 MHz, variable) Memory: 128 KB RAM, 64 KB VRAM G...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Virtual Boy",
+    "url": "/public/Games/Consoles/Virtual%20Boy/",
+    "path": "Games/Consoles/Virtual Boy.md",
+    "excerpt": "Quick Specs Manufacturer: Nintendo First release: July 21, 1995 (Japan); August 14, 1995 (US) Designed by: Nintendo R\u0026D1 (led by Gunpei Yokoi) CPU: NEC V810 (20 MHz) Memory: 1 MB DRAM (system) Display: Dual red monochrom...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Xbox 360",
+    "url": "/public/Games/Consoles/Xbox%20360/",
+    "path": "Games/Consoles/Xbox 360.md",
+    "excerpt": "Quick Specs Manufacturer: Microsoft First release: November 22, 2005 (US) Designed by: Microsoft Xbox hardware team CPU: IBM Xenon (3 cores at 3.2 GHz) Memory: 512 MB GDDR3 RAM Graphics: ATI Xenos (500 MHz) Game format:...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "Xbox",
+    "url": "/public/Games/Consoles/Xbox/",
+    "path": "Games/Consoles/Xbox.md",
+    "excerpt": "Quick Specs Manufacturer: Microsoft First release: November 15, 2001 (US) Designed by: Microsoft Xbox hardware team CPU: Intel Pentium III-based (733 MHz) Memory: 64 MB DDR SDRAM Graphics: Nvidia NV2A (233 MHz) Game form...",
+    "headings": [
+      "Quick Specs"
+    ]
+  },
+  {
+    "title": "CPU",
+    "url": "/public/Games/CPU/",
+    "path": "Games/CPU.md",
+    "excerpt": "In game terms, a CPU is the machine you end up building and programming in Turing Complete. In real-world terms, a CPU is the control/compute core that repeatedly fetches, decodes, and executes instructions. Once you des...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Dark Souls",
+    "url": "/public/Games/Dark%20Souls/",
+    "path": "Games/Dark Souls.md",
+    "excerpt": "An action RPG series by FromSoftware. It had a huge impact on combat pacing, level design, and challenge philosophy in modern games."
+  },
+  {
+    "title": "Diablo",
+    "url": "/public/Games/Diablo/",
+    "path": "Games/Diablo.md",
+    "excerpt": "A series of games by Blizzard Entertainment. The earlier entries have reached legendary status in the gaming world while the later entries have been less well received."
+  },
+  {
+    "title": "Dragon Quest",
+    "url": "/public/Games/Dragon%20Quest/",
+    "path": "Games/Dragon Quest.md",
+    "excerpt": "A classic Japanese RPG series from Enix (later Square Enix). It helped define turn-based JRPG structure for decades."
+  },
+  {
+    "title": "Elden Ring",
+    "url": "/public/Games/Elden%20Ring/",
+    "path": "Games/Elden Ring.md",
+    "excerpt": "FromSoftware's open-world action RPG, built in the lineage of Dark Souls. It keeps the same core feel while expanding exploration in a much bigger world."
+  },
+  {
+    "title": "Expedition 33",
+    "url": "/public/Games/Expedition%2033/",
+    "path": "Games/Expedition 33.md",
+    "excerpt": "Clair Obscur: Expedition 33 is a turn-based RPG from Sandfall Interactive. Easy one of the biggest breakout games of 2025. Nominations and awards (so far) The Game Awards 2025: won Game of the Year, Best Game Direction,...",
+    "headings": [
+      "Nominations and awards (so far)"
+    ]
+  },
+  {
+    "title": "Final Fantasy",
+    "url": "/public/Games/Final%20Fantasy/",
+    "path": "Games/Final Fantasy.md",
+    "excerpt": "A long-running JRPG series by Square (now Square Enix). The first one I played was on NES, and it was my first real taste of RPG games."
+  },
+  {
+    "title": "MMO",
+    "url": "/public/Games/MMO/",
+    "path": "Games/MMO.md",
+    "excerpt": "A massively multiplayer online game. Most MMOs were RPG's in their early days, though more and more genres seem to fit into the MMO category as time goes on."
+  },
+  {
+    "title": "Motor City Online",
+    "url": "/public/Games/Motor%20City%20Online/",
+    "path": "Games/Motor City Online.md",
+    "excerpt": "An early MMO racing game of sorts. My crew/guild/clan of sorts was The Detroit Lubricators. We had typically held most weekly records on our server."
+  },
+  {
+    "title": "Piloting the Cloud Strife Boros starter deck",
+    "url": "/public/Games/MTG/Cloud%20Starter%20Deck/",
+    "path": "Games/MTG/Cloud Starter Deck.md",
+    "excerpt": "Piloting the Cloud Strife Boros starter deck The Cloud, Planet's Champion deck from the MTG × Final Fantasy Starter Kit is an equipment-based midrange Voltron deck that wins by suiting up creatures — especially Cloud...",
+    "headings": [
+      "Piloting the Cloud Strife Boros starter deck",
+      "Cloud turns one equipment into a wrecking ball",
+      "Mulligan for creatures, lands, and a weapon",
+      "The three phases of winning with equipment",
+      "Five synergies that make or break your games",
+      "Mistakes that cost you games",
+      "Conclusion"
+    ]
+  },
+  {
+    "title": "Mastering the Sephiroth starter deck in MTG × Final Fantasy",
+    "url": "/public/Games/MTG/Sephiroth%20Starter%20Deck/",
+    "path": "Games/MTG/Sephiroth Starter Deck.md",
+    "excerpt": "Mastering the Sephiroth starter deck in MTG × Final Fantasy The Sephiroth starter deck is a Dimir (blue-black) midrange control deck that wins by surviving the early game, removing threats, filling its graveyard, then d...",
+    "headings": [
+      "Mastering the Sephiroth starter deck in MTG × Final Fantasy",
+      "The deck's core engine revolves around death and the graveyard",
+      "How to pilot each phase of the game",
+      "Mulligan guidelines",
+      "Early game (turns 1–3): trade freely, set up the graveyard",
+      "Mid game (turns 4–5): deploy threats, control the board",
+      "Late game (turns 6+): close with bombs",
+      "Five synergies that win games",
+      "Upgrading from starter to standard-playable",
+      "The Cloud matchup and broader competitive context",
+      "Conclusion"
+    ]
+  },
+  {
+    "title": "opcodes",
+    "url": "/public/Games/opcodes/",
+    "path": "Games/opcodes.md",
+    "excerpt": "opcodes are the numeric/bit-level instruction identifiers a CPU decodes. In Turing Complete, defining your own opcodes makes the hardware/software boundary click instantly. You stop thinking \"magic instruction\" and start...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "RPG",
+    "url": "/public/Games/RPG/",
+    "path": "Games/RPG.md",
+    "excerpt": "A role playing game. Final Fantasy 1 for the NES was my first experience of this type of game, though Final Fantasy 2 for the SNES was my first time really delving into the genre hard and completing this type of game. Ma..."
+  },
+  {
+    "title": "The Detroit Lubricators",
+    "url": "/public/Games/The%20Detroit%20Lubricators/",
+    "path": "Games/The Detroit Lubricators.md",
+    "excerpt": "The Detroit Lubricators is one of those names I mainly remember from the Motor City Online era. For me it lives in the same nostalgia bucket as old online crews, server reputations, and community identity from early mult...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "The Game Awards",
+    "url": "/public/Games/The%20Game%20Awards/",
+    "path": "Games/The Game Awards.md",
+    "excerpt": "The Game Awards is the yearly high-visibility game awards show and trailer showcase. Honestly, I track it as much for announcements as for winners. It is useful as a time marker for release windows, hype cycles, and \"wha...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Chapter 1 - The simplest 8 bit CPU",
+    "url": "/public/Games/Turing%20Complete/",
+    "path": "Games/Turing Complete.md",
+    "excerpt": "A game that aids in teaching you combinational logic and CPU design in turn. As I see it the game is broken up into 4 main chapters or sections. Chapter 1 - The simplest 8 bit CPU The first chapter teaches you the basics...",
+    "headings": [
+      "Chapter 1 - The simplest 8 bit CPU",
+      "Chapter 2 - Programming the simplest 8 bit CPU",
+      "Chapter 3 - Designing a more complex 8 bit CPU",
+      "Chapter 4 - Programming the new 8 bit CPU"
+    ]
+  },
+  {
+    "title": "World of Warcraft",
+    "url": "/public/Games/World%20of%20Warcraft/",
+    "path": "Games/World of Warcraft.md",
+    "excerpt": "Blizzard's MMO set in the Warcraft universe. For years this was the dominant MMO, and one of the biggest live-service RPG experiences."
+  },
+  {
+    "title": "Welcome to The Maze",
+    "url": "/",
+    "path": "index.md",
+    "excerpt": "CTRL K to search A collection of my thoughts and notes as life long computer programmer and naturalist. Some of my favorite writers include Jacob Bronowski, Sam Harris, Lawrence M. Krauss, Richard Dawkins \u0026 Carl Sagan. S...",
+    "headings": [
+      "CTRL K  to search"
+    ]
+  },
+  {
+    "title": "Motorsports",
+    "url": "/public/Motorsports/",
+    "path": "Motorsports.md",
+    "excerpt": "Motorsports Notes on racing series, rules changes, and stuff I find interesting from the engineering / strategy side. Right now this is mostly a place for regulation-era timelines and quick reference notes. F1 WRC",
+    "headings": [
+      "Motorsports"
+    ]
+  },
+  {
+    "title": "Major \u0026 Minor F1 Rule “Resets” (by season)",
+    "url": "/public/Motorsports/F1/",
+    "path": "Motorsports/F1.md",
+    "excerpt": "Back to: Motorsports This is a working note for tracking the big F1 rules changes that actually reset the field vs the smaller changes that mostly reshape strategy, setup, or weekend flow. The goal is to have a quick tim...",
+    "headings": [
+      "Major \u0026 Minor F1 Rule “Resets” (by season)",
+      "Table of rule resets"
+    ]
+  },
+  {
+    "title": "Major \u0026 Minor WRC Rule \"Resets\" (by season)",
+    "url": "/public/Motorsports/WRC/",
+    "path": "Motorsports/WRC.md",
+    "excerpt": "Back to: Motorsports This is a working note for tracking the big WRC rules changes that actually reset the field vs the smaller changes that mostly reshape event format, setup, or strategy. The goal is to have a quick ti...",
+    "headings": [
+      "Major \u0026 Minor WRC Rule \"Resets\" (by season)",
+      "Table of rule resets"
+    ]
+  },
+  {
+    "title": "consciousness",
+    "url": "/public/Movies/consciousness/",
+    "path": "Movies/consciousness.md",
+    "excerpt": "consciousness is one of the core themes that keeps pulling me back to Ghost in the Shell. The question is not only \"what is a mind?\" but also \"how much continuity do you need before identity breaks?\" Cyberpunk stories ar...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Ghost in the Shell",
+    "url": "/public/Movies/Ghost%20in%20the%20Shell/",
+    "path": "Movies/Ghost in the Shell.md",
+    "excerpt": "Fantastic movie with a lot more going on than what is on the surface a short action film. What does it mean to be alive/conscious. What is consciousness? When could a machine be considered conscious. What implications do..."
+  },
+  {
+    "title": "Terminator 2",
+    "url": "/public/Movies/Terminator%202/",
+    "path": "Movies/Terminator 2.md",
+    "excerpt": "A movie about AI taking over and ending humanity as we know it."
+  },
+  {
+    "title": "Art Rock",
+    "url": "/public/Music/Art%20Rock/",
+    "path": "Music/Art Rock.md",
+    "excerpt": "An experimental form of rock. My favorite Art Rock bands are Pink Floyd and Radiohead."
+  },
+  {
+    "title": "Borislav Slavov",
+    "url": "/public/Music/Borislav%20Slavov/",
+    "path": "Music/Borislav Slavov.md",
+    "excerpt": "I love the music Borislav Slavov did for DOS2 and BG3. It fits the world and mood perfectly. Rivellon's bass hit around 1:03ish is one of my favorite tracks to test bass response in new speakers/headphones."
+  },
+  {
+    "title": "Christopher Larkin",
+    "url": "/public/Music/Christopher%20Larkin/",
+    "path": "Music/Christopher Larkin.md",
+    "excerpt": "Composer for Hollow Knight and Silksong. His music nails that strange mix of melancholy and wonder. Silksong continued hollow knight's lead of making absolutely beautiful music like Choral Chambers."
+  },
+  {
+    "title": "Christopher Tin",
+    "url": "/public/Music/Christopher%20Tin/",
+    "path": "Music/Christopher Tin.md",
+    "excerpt": "Composer behind Baba Yetu and Dream of Flight, both of which are favorites of mine. Baba Yetu was the first game song to win a grammy I believe."
+  },
+  {
+    "title": "Daft Punk",
+    "url": "/public/Music/Daft%20Punk/",
+    "path": "Music/Daft Punk.md",
+    "excerpt": "Daft Punk has a huge catalog and I keep revisiting albums decades on. Their movie was also a really new way to experience an album."
+  },
+  {
+    "title": "Evan Call",
+    "url": "/public/Music/Evan%20Call/",
+    "path": "Music/Evan Call.md",
+    "excerpt": "Best known to me for his Frieren soundtrack work. Great atmosphere and emotion without being overdone. Some of his songs can move me to tears in the right setting."
+  },
+  {
+    "title": "Favorite Musicians",
+    "url": "/public/Music/Favorite%20Musicians/",
+    "path": "Music/Favorite Musicians.md",
+    "excerpt": "Favorite Musicians I keep coming back to these artists and composers. Christopher Tin Baba Yetu was the track that first hooked me. Dream of Flight is another favorite and has the same big, uplifting feel. Borislav Slavo...",
+    "headings": [
+      "Favorite Musicians",
+      "Christopher Tin",
+      "Borislav Slavov",
+      "Evan Call",
+      "Christopher Larkin",
+      "Pink Floyd",
+      "Daft Punk",
+      "String Cheese Incident",
+      "John Williams",
+      "Howard Shore",
+      "Nobuo Uematsu"
+    ]
+  },
+  {
+    "title": "Good Times Around the Bend",
+    "url": "/public/Music/Good%20Times%20Around%20the%20Bend/",
+    "path": "Music/Good Times Around the Bend.md",
+    "excerpt": "Good Times Around the Bend is one of those tracks I associate with the jam-band side of my listening history. It has that loose, road-trip energy where the groove matters more than polished precision. I keep this mostly...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Howard Shore",
+    "url": "/public/Music/Howard%20Shore/",
+    "path": "Music/Howard Shore.md",
+    "excerpt": "Howard Shore's Lord of the Rings scores are some of my favorite film music ever."
+  },
+  {
+    "title": "John Williams",
+    "url": "/public/Music/John%20Williams/",
+    "path": "Music/John Williams.md",
+    "excerpt": "His Star Wars work is foundational soundtrack music for me. I sung and hummed along to star wars music for so much of my childhood."
+  },
+  {
+    "title": "Lorien Testard",
+    "url": "/public/Music/Lorien%20Testard/",
+    "path": "Music/Lorien Testard.md",
+    "excerpt": "The composer behind Expedition 33 and one of my favorite recent soundtrack discoveries. Gestral Summer Party, Lamplighter, and Monoco's Song are absolute fire, plus a bunch of other bangers across the OST."
+  },
+  {
+    "title": "Nobuo Uematsu",
+    "url": "/public/Music/Nobuo%20Uematsu/",
+    "path": "Music/Nobuo Uematsu.md",
+    "excerpt": "A huge part of why Final Fantasy \u0026 Square music sticks with me. I especially love his classic SNES-PS1 Square-era work."
+  },
+  {
+    "title": "Phish",
+    "url": "/public/Music/Phish/",
+    "path": "Music/Phish.md",
+    "excerpt": "Phish - The jam band of my youth. The next generation's grateful dead?"
+  },
+  {
+    "title": "Pink Floyd",
+    "url": "/public/Music/Pink%20Floyd/",
+    "path": "Music/Pink Floyd.md",
+    "excerpt": "One of my favorite bands. I've heard it described as Art Rock. My favorite song is Time."
+  },
+  {
+    "title": "PS1",
+    "url": "/public/Music/PS1/",
+    "path": "Music/PS1.md",
+    "excerpt": "PS1 here is shorthand for the PlayStation-era game music sound I still love. Those soundtracks had to do a lot with hardware constraints, and that gave them a distinct texture that still lands. For me this tag connects d...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Radiohead",
+    "url": "/public/Music/Radiohead/",
+    "path": "Music/Radiohead.md",
+    "excerpt": "Radiohead is one of the bands I file under Art Rock because they keep mutating without losing identity. The catalog moves from guitar-driven records into electronic and experimental territory without feeling like trend-c...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "String Cheese Incident",
+    "url": "/public/Music/String%20Cheese%20Incident/",
+    "path": "Music/String Cheese Incident.md",
+    "excerpt": "An old high school friend's uncle is in this band, which always made them feel a little more personal to me. My favorite song is Good Times Around the Bend."
+  },
+  {
+    "title": "Albert Einstein",
+    "url": "/public/People/Albert%20Einstein/",
+    "path": "People/Albert Einstein.md",
+    "excerpt": "Arguably one of the most brilliant, prolific and insightful humans to have ever lived. History remembers Einstein with giants the likes of Isaac Newton and Charles Darwin. Special Relativity and General Relativity Browni..."
+  },
+  {
+    "title": "An Appetite for Wonder - The Making of a Scientist",
+    "url": "/public/People/An%20Appetite%20for%20Wonder%20-%20The%20Making%20of%20a%20Scientist/",
+    "path": "People/An Appetite for Wonder - The Making of a Scientist.md",
+    "excerpt": "An Appetite for Wonder: The Making of a Scientist is Richard Dawkins' first memoir volume. It focuses on his early life, scientific training, and the path into his public writing career. I mostly think of it as context f...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Ann Druyan",
+    "url": "/public/People/Ann%20Druyan/",
+    "path": "People/Ann Druyan.md",
+    "excerpt": "Ann Druyan. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes Ann Druyan's thoughts on her husband's, Carl Sagan's, death Date: 2012-03-30 Source: Original post When my husband died, because he was so famous and known for...",
+    "headings": [
+      "Quotes from Quotes",
+      "Ann Druyan's thoughts on her husband's, Carl Sagan's, death"
+    ]
+  },
+  {
+    "title": "Bill Bryson",
+    "url": "/public/People/Bill%20Bryson/",
+    "path": "People/Bill Bryson.md",
+    "excerpt": "Bill Bryson. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes Bill Bryson on Isaac Newton's Principia from A Short History of Nearly Everything Date: 2012-05-05 Source: Original post Once in a great while, a few times in...",
+    "headings": [
+      "Quotes from Quotes",
+      "Bill Bryson on Isaac Newton's Principia from A Short History of Nearly Everything"
+    ]
+  },
+  {
+    "title": "Brownian Motion",
+    "url": "/public/People/Brownian%20Motion/",
+    "path": "People/Brownian Motion.md",
+    "excerpt": "Brownian Motion is the random jittering motion of particles suspended in fluid. Albert Einstein gave a theoretical treatment that linked the effect to molecular motion, which became major evidence for atoms being physica...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Carl Sagan",
+    "url": "/public/People/Carl%20Sagan/",
+    "path": "People/Carl Sagan.md",
+    "excerpt": "Wrote fantastic books on science and culture including The Demon Haunted World and starred in a the show Cosmos about the Cosmos. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes Carl Sagan on Books Date: 2012-03-30 Sourc...",
+    "headings": [
+      "Quotes from Quotes",
+      "Carl Sagan on Books",
+      "Carl Sagan on the Pale Blue Dot",
+      "Carl Sagan on our self-consciousness"
+    ]
+  },
+  {
+    "title": "Charles Darwin",
+    "url": "/public/People/Charles%20Darwin/",
+    "path": "People/Charles Darwin.md",
+    "excerpt": "\"The man who killed God\" - various Wrote On the Origin of Species finally giving mankind insight on how all manner of plants and animals came into existence via Evolution, mutation, genetic diversity and natural selectio...",
+    "headings": [
+      "Quotes from Quotes",
+      "Charles Darwin: On the Origin of Species - The entangled bank passage"
+    ]
+  },
+  {
+    "title": "Christopher Hitchens",
+    "url": "/public/People/Christopher%20Hitchens/",
+    "path": "People/Christopher Hitchens.md",
+    "excerpt": "Christopher Hitchens. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes Christopher Hitchens on the Vatican Date: 2012-04-02 Source: Original post Christopher Hitchens Would you care to see my video of the advice given by...",
+    "headings": [
+      "Quotes from Quotes",
+      "Christopher Hitchens on the Vatican",
+      "Christopher Hitches on his Code of Ethics"
+    ]
+  },
+  {
+    "title": "Dalai Lama",
+    "url": "/public/People/Dalai%20Lama/",
+    "path": "People/Dalai Lama.md",
+    "excerpt": "Dalai Lama. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes The Dalai Lama on Reason \u0026 Evidence from The Universe in a Single Atom Date: 2013-04-03 Source: Original post There is a dictum in Buddhist philosophy that to u...",
+    "headings": [
+      "Quotes from Quotes",
+      "The Dalai Lama on Reason \u0026 Evidence from The Universe in a Single Atom"
+    ]
+  },
+  {
+    "title": "Deno",
+    "url": "/public/People/Deno/",
+    "path": "People/Deno.md",
+    "excerpt": "Deno is a modern JavaScript/TypeScript runtime created by Ryan Dahl after his experience building Node.js. Core ideas I like: secure by default permissions model, first-class TypeScript support, batteries-included toolin...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "dogmaticCURE",
+    "url": "/public/People/dogmaticCURE/",
+    "path": "People/dogmaticCURE.md",
+    "excerpt": "dogmaticCURE. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes We Got Scared by dogmaticCURE Date: 2012-04-03 Source: Original post We were born through ingenuity and violence in a world where a brute struggle was encoded...",
+    "headings": [
+      "Quotes from Quotes",
+      "We Got Scared by dogmaticCURE"
+    ]
+  },
+  {
+    "title": "Galileo Galilei",
+    "url": "/public/People/Galileo%20Galilei/",
+    "path": "People/Galileo Galilei.md",
+    "excerpt": "One of the OG's of modern science and arguably one of the most influential people of all time. Galileo Galilei (1564-1642) was an Italian scientist, mathematician, and astronomer who made significant contributions to the..."
+  },
+  {
+    "title": "General Relativity",
+    "url": "/public/People/General%20Relativity/",
+    "path": "People/General Relativity.md",
+    "excerpt": "General Relativity is Albert Einstein's theory of gravity as curvature of spacetime. Matter and energy tell spacetime how to curve; curved spacetime tells matter how to move. It replaces Newtonian gravity in regimes with...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Georg Wilhelm Friedrich Hegel",
+    "url": "/public/People/Georg%20Wilhelm%20Friedrich%20Hegel/",
+    "path": "People/Georg Wilhelm Friedrich Hegel.md",
+    "excerpt": "Georg Wilhelm Friedrich Hegel. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes Georg Wilhelm on Passion Date: 2014-04-03 Source: Original post Nothing great in the world has been accomplished without passion \u003c!-- QUOTES-...",
+    "headings": [
+      "Quotes from Quotes",
+      "Georg Wilhelm on Passion"
+    ]
+  },
+  {
+    "title": "George Bernard Shaw",
+    "url": "/public/People/George%20Bernard%20Shaw/",
+    "path": "People/George Bernard Shaw.md",
+    "excerpt": "George Bernard Shaw. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes George Bernard Shaw from Man and Superman on The Unreasonable Man. Date: 2018-04-29 Source: Original post The reasonable man adapts himself to the worl...",
+    "headings": [
+      "Quotes from Quotes",
+      "George Bernard Shaw from Man and Superman on The Unreasonable Man."
+    ]
+  },
+  {
+    "title": "internet",
+    "url": "/public/People/internet/",
+    "path": "People/internet.md",
+    "excerpt": "The internet is a global network of networks built on shared protocol layers and routing standards. For developers, it is the substrate under everything from APIs to static sites to realtime systems. A lot of modern tool...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Isaac Asimov",
+    "url": "/public/People/Isaac%20Asimov/",
+    "path": "People/Isaac Asimov.md",
+    "excerpt": "Isaac Asimov. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes Isaac Asimov on violence from his novel Foundation Date: 2012-06-08 Source: Original post Violence is the last refuge of the incompetent. \u003c!-- QUOTES-IMPORT:E...",
+    "headings": [
+      "Quotes from Quotes",
+      "Isaac Asimov on violence from his novel Foundation"
+    ]
+  },
+  {
+    "title": "Isaac Newton",
+    "url": "/public/People/Isaac%20Newton/",
+    "path": "People/Isaac Newton.md",
+    "excerpt": "A renowned physicist and mathematician who laid the foundation for calculus, classical mechanics and the theory of universal gravitation. His groundbreaking work, including his laws of motion and the Principia Mathematic..."
+  },
+  {
+    "title": "Jacob Bronowski",
+    "url": "/public/People/Jacob%20Bronowski/",
+    "path": "People/Jacob Bronowski.md",
+    "excerpt": "1908 - 1974 Mathematician and philosopher. Write of many works. A renaissance man. Dream or nightmare, we have to live our experience as it is, and we have to live it awake. We live in a world which is penetrated through...",
+    "headings": [
+      "The Ascent of Man",
+      "Science \u0026 Human Values",
+      "Quotes from Quotes",
+      "Jacob Bronowski on Conformity",
+      "Jacob Bronowski on Reality",
+      "Jacob Bronowski on Science \u0026 Magic",
+      "Jacob Bronowski on Civilization from The Ascent of Man"
+    ]
+  },
+  {
+    "title": "Karen Armstrong",
+    "url": "/public/People/Karen%20Armstrong/",
+    "path": "People/Karen Armstrong.md",
+    "excerpt": "Author of The History of God, a book detailing the historical records of the creation of the bible and other forms of Religions \u0026 Mythology. Karen Armstrong is a renowned British author and commentator known for her book..."
+  },
+  {
+    "title": "Lawrence M. Krauss",
+    "url": "/public/People/Lawrence%20M.%20Krauss/",
+    "path": "People/Lawrence M. Krauss.md",
+    "excerpt": "A leading physicist and popular science author. Wrote A Universe from Nothing laying out man's current understanding of the universe \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes Lawrence Krauss on Joshua 10:9-14 from...",
+    "headings": [
+      "Quotes from Quotes",
+      "Lawrence Krauss on Joshua 10:9-14 from A Universe from Nothing"
+    ]
+  },
+  {
+    "title": "Letter to a Christian Nation",
+    "url": "/public/People/Letter%20to%20a%20Christian%20Nation/",
+    "path": "People/Letter to a Christian Nation.md",
+    "excerpt": "Letter to a Christian Nation is a short, direct polemic by Sam Harris aimed at American Christian literalism and religious dogma. The writing style is intentionally confrontational. Whether people agree or not, it is har...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Linus Torvalds",
+    "url": "/public/People/Linus%20Torvalds/",
+    "path": "People/Linus Torvalds.md",
+    "excerpt": "The firecracker creator of Linux and git. Famously said \"NVIDIA, Fuck you\" to a camera after giving a talk at a university after disparaging their poor driver support in the Linux ecosystem despite selling countless smar..."
+  },
+  {
+    "title": "Michael Jordan",
+    "url": "/public/People/Michael%20Jordan/",
+    "path": "People/Michael Jordan.md",
+    "excerpt": "Michael Jordan. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes Michael Jordan on Teamwork Date: 2014-04-03 Source: Original post Talent wins games, but teamwork wins Championships. \u003c!-- QUOTES-IMPORT:END --\u003e",
+    "headings": [
+      "Quotes from Quotes",
+      "Michael Jordan on Teamwork"
+    ]
+  },
+  {
+    "title": "Neil deGrasse Tyson",
+    "url": "/public/People/Neil%20deGrasse%20Tyson/",
+    "path": "People/Neil deGrasse Tyson.md",
+    "excerpt": "Neil deGrasse Tyson is an American scientist and science communicator. He has written many interesting books, given many great talks, participated in debates, starred in two seasons of Cosmos, made numerous cameos and ha..."
+  },
+  {
+    "title": "Principia Mathematica",
+    "url": "/public/People/Principia%20Mathematica/",
+    "path": "People/Principia Mathematica.md",
+    "excerpt": "In this note, Principia Mathematica refers to Newton's Philosophiae Naturalis Principia Mathematica (1687), a foundational work in classical mechanics. This is where Newton formalized laws of motion and universal gravita...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Quantum Electrodynamics",
+    "url": "/public/People/Quantum%20Electrodynamics/",
+    "path": "People/Quantum Electrodynamics.md",
+    "excerpt": "Quantum Electrodynamics (QED) is the quantum field theory of electromagnetic interactions. In practice: it describes how charged particles and photons interact, and it has produced some of the most precise predictions in...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Richard Dawkins",
+    "url": "/public/People/Richard%20Dawkins/",
+    "path": "People/Richard Dawkins.md",
+    "excerpt": "A zoologist and writer who I had the pleasure to meet in person twice. He coined the term \"Meme\" in his book The Selfish Gene. Books I've finished quite a Richard's books. Here are some of those: The Selfish Gene - The b...",
+    "headings": [
+      "Books",
+      "Meeting Richard Dawkins",
+      "Quotes from Quotes",
+      "Richard Dawkins on Roger Sperry's frog from The Greatest Show on Earth",
+      "Richard Dawkins on Noah's Ark in The Greatest Show on Earth",
+      "Richard Dawkins on Death",
+      "Richard Dawkins on Evolution by Natural Selection from The Greatest Show on Earth"
+    ]
+  },
+  {
+    "title": "Richard Feynman",
+    "url": "/public/People/Richard%20Feynman/",
+    "path": "People/Richard Feynman.md",
+    "excerpt": "I think Feynman may be the most brilliant, insightful and influential scientist since Albert Einstein. Unified several forces of nature into a single theory - Quantum Electrodynamics. The book Quantum Man by Lawrence M....",
+    "headings": [
+      "Quotes from Quotes",
+      "Richard Feynman on God"
+    ]
+  },
+  {
+    "title": "Robert A. Heinlein",
+    "url": "/public/People/Robert%20A.%20Heinlein/",
+    "path": "People/Robert A. Heinlein.md",
+    "excerpt": "Robert A. Heinlein. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes The Progress of Lazy Men -Robert A. Heinlein Date: 2021-02-05 Source: Original post Progress isn't made by early risers. It's made by lazy men trying to...",
+    "headings": [
+      "Quotes from Quotes",
+      "The Progress of Lazy Men -Robert A. Heinlein"
+    ]
+  },
+  {
+    "title": "Ryan Dahl",
+    "url": "/public/People/Ryan%20Dahl/",
+    "path": "People/Ryan Dahl.md",
+    "excerpt": "The creator of Node.js and Deno. They have had a tremendous impact on the internet."
+  },
+  {
+    "title": "Sam Harris",
+    "url": "/public/People/Sam%20Harris/",
+    "path": "People/Sam Harris.md",
+    "excerpt": "A scientist, author, podcaster and proponent of Atheism. Has written several exceptional books including Letter to a Christian Nation and The Moral Landscape. We have barely emerged from centuries of barbarism. It's not...",
+    "headings": [
+      "Quotes from Quotes",
+      "Sam Harris on Abstinence \u0026 HPV  from Letter to a Christian Nation",
+      "Sam Harris on Christian Literalism from Letter to a Christian Nation",
+      "Sam Harris on Jainism and Martin Luther King, Jr. from Letter to a Christian Nation",
+      "The end of the Note to the Reader by Sam Harris from Letter to a Christian Nation",
+      "Sam Harris on Dogma from Letter to a Christian Nation",
+      "Sam Harris on Conceptual Revolutions from The End of Faith",
+      "Sam Harris on the Difficulty of Progress"
+    ]
+  },
+  {
+    "title": "Special Relativity",
+    "url": "/public/People/Special%20Relativity/",
+    "path": "People/Special Relativity.md",
+    "excerpt": "Special Relativity is Albert Einstein's theory for physics in inertial frames with constant light speed. Big consequences include time dilation, length contraction, and mass-energy equivalence. It does not include gravit...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Stephen Jay Gould",
+    "url": "/public/People/Stephen%20Jay%20Gould/",
+    "path": "People/Stephen Jay Gould.md",
+    "excerpt": "Stephen Jay Gould. \u003c!-- QUOTES-IMPORT:START --\u003e Quotes from Quotes Stephen Jay Gould from The Panda's Thumb: More Reflections in Natural History Date: 2016-08-17 Source: Original post I am, somehow, less interested in th...",
+    "headings": [
+      "Quotes from Quotes",
+      "Stephen Jay Gould from The Panda's Thumb: More Reflections in Natural History"
+    ]
+  },
+  {
+    "title": "The Demon Haunted World",
+    "url": "/public/People/The%20Demon%20Haunted%20World/",
+    "path": "People/The Demon Haunted World.md",
+    "excerpt": "The Demon Haunted World is Carl Sagan's case for skepticism, scientific literacy, and intellectual self-defense against nonsense. The \"baloney detection kit\" framing is probably the part people remember most. If I had to...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "The God Delusion",
+    "url": "/public/People/The%20God%20Delusion/",
+    "path": "People/The God Delusion.md",
+    "excerpt": "The God Delusion is Richard Dawkins' popular-level argument against theistic belief and in favor of a naturalistic worldview. The book became a major reference point in the \"new atheist\" era and kicked off a lot of publi...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "The Greatest Show on Earth",
+    "url": "/public/People/The%20Greatest%20Show%20on%20Earth/",
+    "path": "People/The Greatest Show on Earth.md",
+    "excerpt": "The Greatest Show on Earth is Richard Dawkins' evidence-focused defense of Evolution by Natural Selection. Unlike his religion-focused books, this one is mainly a tour of the data: fossils, genetics, biogeography, and ob...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "The Photoelectric Effect",
+    "url": "/public/People/The%20Photoelectric%20Effect/",
+    "path": "People/The Photoelectric Effect.md",
+    "excerpt": "The Photoelectric Effect is the emission of electrons from a material when light of sufficient frequency hits it. Albert Einstein explained it using quantized light (photons), which was a major pillar of early quantum th...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "The Selfish Gene",
+    "url": "/public/People/The%20Selfish%20Gene/",
+    "path": "People/The Selfish Gene.md",
+    "excerpt": "The Selfish Gene is Richard Dawkins' gene-centered framing of evolution. The \"selfish\" label is about selection dynamics, not moral advice. Genes that replicate more effectively tend to spread. The book also introduced t...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Active Projects",
+    "url": "/public/Projects/",
+    "path": "Projects.md",
+    "excerpt": "Here are some personal and professional projects I've worked on in my lifetime that are worth mentioning. Active Projects jwd.me This site is a project I working on from time to time. tools.jwd.me A small set of useful t...",
+    "headings": [
+      "Active Projects",
+      "jwd.me",
+      "tools.jwd.me",
+      "The Hunt for Roy Carnassus",
+      "Multicart",
+      "KefVoiced",
+      "Older Projects",
+      "Flagtronics",
+      "2019 and prior",
+      "osCommerce",
+      "2019 and prior",
+      "PCS",
+      "2006 and prior",
+      "Log Viewer",
+      "TCU",
+      "D200",
+      "XFC",
+      "Teenager Hijinks",
+      "Script Kiddie Associated",
+      "1999-2000",
+      "Final Fantasy Zero",
+      "1999",
+      "Rage",
+      "1998-1999",
+      "Nightmare",
+      "1996ish"
+    ]
+  },
+  {
+    "title": "Quotes",
+    "url": "/public/Quotes/",
+    "path": "Quotes.md",
+    "excerpt": "Quotes Imported from Jared's Quote List on 2026-02-17. Total imported posts: 33 This archive is split by thinker. Ann Druyan (1 quote) Bill Bryson (1 quote) Carl Sagan (3 quotes) Charles Darwin (1 quote) Christopher Hitc...",
+    "headings": [
+      "Quotes"
+    ]
+  },
+  {
+    "title": "Command Line Interface",
+    "url": "/public/Technology/CLI/",
+    "path": "Technology/CLI.md",
+    "excerpt": "Command Line Interface Typically referring to your terminal, shell, command prompt, etc or programs that run interactively within said interface. Tools like ping or your favorite languages REPL are run in your CLI.",
+    "headings": [
+      "Command Line Interface"
+    ]
+  },
+  {
+    "title": "database",
+    "url": "/public/Technology/database/",
+    "path": "Technology/database.md",
+    "excerpt": "A database is a system for storing, querying, and managing structured or semi-structured data. In most app stacks it is where long-lived truth lives, while application code handles workflow and presentation. Picking the...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "CSS",
+    "url": "/public/Technology/File%20and%20Document%20Formats/CSS/",
+    "path": "Technology/File and Document Formats/CSS.md",
+    "excerpt": "Cascading Style Sheets CSS or Cascading Style Sheets are styles that you can apply to HTML elements. CSS Selectors You can specify a type of HTML element directly by naming a style after that HTML element. css div { colo...",
+    "headings": [
+      "Cascading Style Sheets",
+      "CSS Selectors",
+      "Classes",
+      "IDs"
+    ],
+    "tags": [
+      "youwin"
+    ]
+  },
+  {
+    "title": "HTML",
+    "url": "/public/Technology/File%20and%20Document%20Formats/HTML/",
+    "path": "Technology/File and Document Formats/HTML.md",
+    "excerpt": "Hyper-Text Markup Language or HTML is a document format that specifies the layout of a webpage. HTML5 is the latest spec approved in 2008. Hello World html \u003c!DOCTYPE html\u003e \u003chtml lang=\"en\"\u003e \u003chead\u003e \u003cmeta charset=\"UTF-8\"\u003e \u003c...",
+    "headings": [
+      "Hello World"
+    ]
+  },
+  {
+    "title": "LaTeX",
+    "url": "/public/Technology/File%20and%20Document%20Formats/LaTeX/",
+    "path": "Technology/File and Document Formats/LaTeX.md",
+    "excerpt": "A document format for engineers, mathematicians, programmers, etc comprised of plain text and directives to generate beautiful output."
+  },
+  {
+    "title": "Markdown",
+    "url": "/public/Technology/File%20and%20Document%20Formats/Markdown/",
+    "path": "Technology/File and Document Formats/Markdown.md",
+    "excerpt": "A formatting and styling language using simple plain text. Popularized on reddit and github. markdown here's how to do a link the text And here we have a link to example.com using the above: the text"
+  },
+  {
+    "title": "reddit",
+    "url": "/public/Technology/File%20and%20Document%20Formats/reddit/",
+    "path": "Technology/File and Document Formats/reddit.md",
+    "excerpt": "reddit is a large discussion/link aggregation platform organized into topic-specific subreddits. From a writing/format angle, it matters because many posts/comments use lightweight Markdown syntax (with platform-specific...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Tailwind",
+    "url": "/public/Technology/File%20and%20Document%20Formats/Tailwind/",
+    "path": "Technology/File and Document Formats/Tailwind.md",
+    "excerpt": "Tailwind is a utility-first CSS framework. Instead of naming lots of custom CSS classes, you compose styles directly in markup using small utilities. It can speed up shipping UIs, but class-heavy templates can get noisy...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "FPGA",
+    "url": "/public/Technology/FPGA/",
+    "path": "Technology/FPGA.md",
+    "excerpt": "An FPGA (field-programmable gate array) is a reconfigurable chip where you define digital hardware behavior after manufacturing. Instead of writing software instructions for a CPU, you describe logic and timing directly...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "git",
+    "url": "/public/Technology/git/",
+    "path": "Technology/git.md",
+    "excerpt": "git is a distributed version control system created by Linus Torvalds (also creator of Linux). I think of it as \"save points with history + branching\" for code. Core workflow: git add to stage changes git commit to captu..."
+  },
+  {
+    "title": "github",
+    "url": "/public/Technology/github/",
+    "path": "Technology/github.md",
+    "excerpt": "GitHub is probably the biggest public home for git repositories across pretty much every programming language ecosystem. The key thing: git and GitHub are not the same. git = version control tool GitHub = hosted collabor..."
+  },
+  {
+    "title": "Verilog",
+    "url": "/public/Technology/Hardware%20Description%20Languages/Verilog/",
+    "path": "Technology/Hardware Description Languages/Verilog.md",
+    "excerpt": "A hardware descriptor language, similar to VHDL. The game Turing Complete allows you to export your projects to this format for use in FPGAs."
+  },
+  {
+    "title": "VHDL",
+    "url": "/public/Technology/Hardware%20Description%20Languages/VHDL/",
+    "path": "Technology/Hardware Description Languages/VHDL.md",
+    "excerpt": "A hardware description language similar to Verilog."
+  },
+  {
+    "title": "Kernel",
+    "url": "/public/Technology/Kernel/",
+    "path": "Technology/Kernel.md",
+    "excerpt": "The fundamental process that runs an operating system. For example, the Linux kernel."
+  },
+  {
+    "title": "Linux",
+    "url": "/public/Technology/Linux/",
+    "path": "Technology/Linux.md",
+    "excerpt": "A general purpose UNIX / POSIX operating system that runs on countless devices of all shapes and sizes from embedded to the top supercomputers in the world as seen in Top500 supercomputer rankings. Created by Linus Torva..."
+  },
+  {
+    "title": "MathJax",
+    "url": "/public/Technology/MathJax/",
+    "path": "Technology/MathJax.md",
+    "excerpt": "Obsidian uses MathJax to embed LaTeX like formulas into it's markdown. A quick reference can be found here: https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference I have used MathJa..."
+  },
+  {
+    "title": "Common Ports \u0026 Protocols",
+    "url": "/public/Technology/Networking/Common%20Ports%20\u0026%20Protocols/",
+    "path": "Technology/Networking/Common Ports \u0026 Protocols.md",
+    "excerpt": "A quick cheat sheet I use a lot: FTP: 21/TCP SSH: port 22/TCP HTTP: port 80/TCP HTTPS: port 443/TCP Postgres: 5432/TCP Notes: Most of these are conventions, not hard requirements. Services can run on non-standard ports...."
+  },
+  {
+    "title": "FTP",
+    "url": "/public/Technology/Networking/FTP/",
+    "path": "Technology/Networking/FTP.md",
+    "excerpt": "The File Transfer Protocol. Used to send files in text or binary modes. A pretty old tech that's been supplanted by SFTP, VPNs and cloud technologies these days."
+  },
+  {
+    "title": "HTTP",
+    "url": "/public/Technology/Networking/HTTP/",
+    "path": "Technology/Networking/HTTP.md",
+    "excerpt": "HTTP (\"HyperText Transfer Protocol\") is the protocol the web runs on. At a high level it's request/response: client sends a method (GET, POST, etc.) server sends back a status code, headers, and optionally a body Classic..."
+  },
+  {
+    "title": "HTTPS",
+    "url": "/public/Technology/Networking/HTTPS/",
+    "path": "Technology/Networking/HTTPS.md",
+    "excerpt": "HTTPS is \"HTTP Secure\" (HTTP over TLS encryption). In plain terms it gives you: confidentiality (people in the middle can't read traffic) integrity (traffic can't be silently modified) server identity via certificates Mo..."
+  },
+  {
+    "title": "IP",
+    "url": "/public/Technology/Networking/IP/",
+    "path": "Technology/Networking/IP.md",
+    "excerpt": "IP (Internet Protocol) handles addressing and routing packets across networks. At a high level: IP gets packets from source to destination, while protocols like TCP or UDP define transport behavior. Modern networking dep...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "port 22",
+    "url": "/public/Technology/Networking/port%2022/",
+    "path": "Technology/Networking/port 22.md",
+    "excerpt": "the standard port for SSH though people commonly move it to another port or require a knock of some type (i.e., send a UDP packet to port 34234 then allowing new SSH connections for some amount of time) before allowing n..."
+  },
+  {
+    "title": "port 443",
+    "url": "/public/Technology/Networking/port%20443/",
+    "path": "Technology/Networking/port 443.md",
+    "excerpt": "The standard port of HTTPS in TCP/IP networking."
+  },
+  {
+    "title": "port 80",
+    "url": "/public/Technology/Networking/port%2080/",
+    "path": "Technology/Networking/port 80.md",
+    "excerpt": "The port in TCP/IP networking that the HTTP operates on."
+  },
+  {
+    "title": "SSH",
+    "url": "/public/Technology/Networking/SSH/",
+    "path": "Technology/Networking/SSH.md",
+    "excerpt": "SSH (Secure Shell) is the standard way to securely log into and manage remote machines from the CLI. Typical uses: remote shell access running commands on servers copying files (scp / sftp) port forwarding / tunneling It..."
+  },
+  {
+    "title": "TCP",
+    "url": "/public/Technology/Networking/TCP/",
+    "path": "Technology/Networking/TCP.md",
+    "excerpt": "TCP, short for Transmission Control Protocol, is an IP based protocol is like a reliable delivery service for your internet data. It makes sure all the information you send or receive on the internet gets to the right pl..."
+  },
+  {
+    "title": "UDP",
+    "url": "/public/Technology/Networking/UDP/",
+    "path": "Technology/Networking/UDP.md",
+    "excerpt": "UDP, or User Datagram Protocol, is another way to send data over the internet, but unlike TCP, it doesn't double-check if everything got delivered correctly. It's like sending a letter without tracking — faster because..."
+  },
+  {
+    "title": "NVIDIA",
+    "url": "/public/Technology/NVIDIA/",
+    "path": "Technology/NVIDIA.md",
+    "excerpt": "Makers of GPU and AI acceleration hardware as well as various mobile, embedded and enterprise CPUs."
+  },
+  {
+    "title": "node version manger",
+    "url": "/public/Technology/nvm/",
+    "path": "Technology/nvm.md",
+    "excerpt": "node version manger Windows install is of course more of a nightmare than every linux disto or mac so follow along here: https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows It will make...",
+    "headings": [
+      "node version manger"
+    ]
+  },
+  {
+    "title": "ping",
+    "url": "/public/Technology/ping/",
+    "path": "Technology/ping.md",
+    "excerpt": "ping is a basic network diagnostic command that sends ICMP echo requests and measures round-trip responses. I use it as the first \"is there any path at all?\" test before debugging higher-level protocols. A successful pin...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Postgres",
+    "url": "/public/Technology/Postgres/",
+    "path": "Technology/Postgres.md",
+    "excerpt": "Postgres (PostgreSQL) is a relational database and one of the most common choices for web apps. It's SQL-first and very good at \"boring but critical\" things like transactions, constraints, and keeping data consistent whe..."
+  },
+  {
+    "title": "C Sharp",
+    "url": "/public/Technology/Programming/Languages/C%20Sharp/",
+    "path": "Technology/Programming/Languages/C Sharp.md",
+    "excerpt": "A language Microsoft created that launched with their .NET series of languages after Visual Studio 6.0. This is my preferred language for creating windows desktop applications; however, I rarely work on those anymore. C#..."
+  },
+  {
+    "title": "C++",
+    "url": "/public/Technology/Programming/Languages/C++/",
+    "path": "Technology/Programming/Languages/C++.md",
+    "excerpt": "Think C with classes. Probably the most used object-oriented language and the first to reach widespread use. Major software projects, including games engines such as Unreal, are written in C++."
+  },
+  {
+    "title": "C",
+    "url": "/public/Technology/Programming/Languages/C/",
+    "path": "Technology/Programming/Languages/C.md",
+    "excerpt": "A performant low level programming language that allows inline assembly and is what the majority of the Linux Kernel is written in. The definitive text on C is by Kerrigan and Ritchie."
+  },
+  {
+    "title": "Godot GDScript",
+    "url": "/public/Technology/Programming/Languages/Godot%20GDScript/",
+    "path": "Technology/Programming/Languages/Godot GDScript.md",
+    "excerpt": "A scripting language for the game engine Godot. GDScript looks very similar to Python."
+  },
+  {
+    "title": "Java",
+    "url": "/public/Technology/Programming/Languages/Java/",
+    "path": "Technology/Programming/Languages/Java.md",
+    "excerpt": "A programming language that compiles to a platform independent byte code also called Java Beans. Java programs execute inside a Java Virtual Machine (JVM). This allows a developer to, in theory at least, compile once and..."
+  },
+  {
+    "title": "JavaScript",
+    "url": "/public/Technology/Programming/Languages/JavaScript/",
+    "path": "Technology/Programming/Languages/JavaScript.md",
+    "excerpt": "Probably more accurately called ECMAScript the defacto programming language of the web and broader internet, supported by all major web browsers. Ryan Dahl created Node.js becoming the defacto way to run javascript outsi..."
+  },
+  {
+    "title": "Node.js",
+    "url": "/public/Technology/Programming/Languages/Node.js/",
+    "path": "Technology/Programming/Languages/Node.js.md",
+    "excerpt": "A JavaScript runtime created by Ryan Dahl that runs outside of the browser. This opened the floodgates of having javascript everywhere and birthed a suite of new tools and paradigms. Managing node.js versions can be a pa..."
+  },
+  {
+    "title": "PHP",
+    "url": "/public/Technology/Programming/Languages/PHP/",
+    "path": "Technology/Programming/Languages/PHP.md",
+    "excerpt": "I started writing this in highschool? I remember my first big personal project in PHP being a website for the MMO game Motor City Online my clan Detroit Lubricators. We stored car setups here for people in our clan to re..."
+  },
+  {
+    "title": "Programming Languages",
+    "url": "/public/Technology/Programming/Languages/Programming%20Languages/",
+    "path": "Technology/Programming/Languages/Programming Languages.md",
+    "excerpt": "Some of my favorite programming language, and document formats, I've used over the course of my life BASIC / QBASIC / Visual Basic C / C++ / C Sharp HTML Java Python / Mojo PHP JavaScript / Node.js / Deno Godot GDScript"
+  },
+  {
+    "title": "Python",
+    "url": "/public/Technology/Programming/Languages/Python/",
+    "path": "Technology/Programming/Languages/Python.md",
+    "excerpt": "A fantastic and easy to use language that has become the standard in AI / Machine Learning. It has a wonderful ecosystem of packages that simplify most programming chores into simple concepts where the heavy lifting is t..."
+  },
+  {
+    "title": "web browser",
+    "url": "/public/Technology/Programming/Languages/web%20browser/",
+    "path": "Technology/Programming/Languages/web browser.md",
+    "excerpt": "A web browser is the client runtime for the web: it loads documents, runs scripts, applies styles, and manages security boundaries. For frontend dev, the browser is the real platform and JavaScript is the native scriptin...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "AI",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/AI/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/AI.md",
+    "excerpt": "Artificial Intelligence / Machine Learning A field that is becoming dominated by the language Python. The current leader in this field would appear to be OpenAI on the software side though Google has been a fierce champi..."
+  },
+  {
+    "title": "Django",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/Django/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/Django.md",
+    "excerpt": "Django The de facto full stack Python web framework. In addition to libraries Django comes with CLI tools to manage your projects. The getting started docs for Django can be found here: https://www.djangoproject.com/star...",
+    "headings": [
+      "Django",
+      "Django Project Organization",
+      "Common Django CLI commands",
+      "Commonly modified in settings.py",
+      "Django Databases \u0026 ORM",
+      "Django Field Name Restrictions",
+      "Updating your models in 3-5 steps",
+      "Django Database Relationships",
+      "Building models from an existing database",
+      "Querying Django Collections with the ORM",
+      "Sample models.py",
+      "Django Shortcuts",
+      "render",
+      "get_object_or_404",
+      "Django Namespaces \u0026 Templates",
+      "Namespacing your URLs",
+      "Proper linking"
+    ]
+  },
+  {
+    "title": "2D",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/Godot%204/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/Godot 4.md",
+    "excerpt": "Godot games are composed of trees of nodes. Nodes can have sub nodes and sub nodes can have their own sub nodes, on and on. Godot uses it's own Godot GDScript as it's programming language. Godot GDScript is similar to Py...",
+    "headings": [
+      "2D",
+      "2D Nodes",
+      "3D",
+      "3D Materials",
+      "3D Nodes"
+    ]
+  },
+  {
+    "title": "Google",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/Google/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/Google.md",
+    "excerpt": "Google is a core internet platform company spanning search, ads, cloud, and major AI research. In software/web terms, Google has shaped defaults for browsers, web performance expectations, and developer tooling ecosystem...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Nuxt 3",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/Nuxt%203/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/Nuxt 3.md",
+    "excerpt": "Nuxt is a full stack JavaScript framework that builds opon Vue. It offers Server Side Rendering. Create a Nuxt 3 App You can run the following command in your terminal shell npx nuxi@latest init \u003cproject-name\u003e Nuxt 3 Rou...",
+    "headings": [
+      "Create a Nuxt 3 App",
+      "Nuxt 3  Routing",
+      "Nuxt 3 Layout (Theme/Templating)",
+      "Primary layout",
+      "Error page layout"
+    ]
+  },
+  {
+    "title": "OpenAI",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/OpenAI/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/OpenAI.md",
+    "excerpt": "OpenAI is a major AI research and product company focused on foundation models and developer APIs. From a builder perspective, it is useful because strong language/multimodal capabilities are packaged behind practical in...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "PyGame",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/PyGame/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/PyGame.md",
+    "excerpt": "A Python library targeting game development. In 2023 PyGame forked and many developers left and started pygame-ce or pygame community edition. Community edition seems to be where the focused development is headed going f..."
+  },
+  {
+    "title": "Getting Started",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/React/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/React.md",
+    "excerpt": "Getting Started Create react app... npx create-react-app my-app This will launch the create project in directory my-app. This creates a basic folder structure. path|description | /node_modules|holds our dependancies inde...",
+    "headings": [
+      "Getting Started",
+      "index.js",
+      "Creating Components",
+      "Styling Components with CSS"
+    ]
+  },
+  {
+    "title": "Server Side Rendering",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/Server%20Side%20Rendering/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/Server Side Rendering.md",
+    "excerpt": "Server Side Rendering (SSR) means generating HTML on the server for each request (or at build/cache boundaries) instead of relying only on client-side rendering. Benefits: faster first paint/content for many pages, bette...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Vue",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/Vue/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/Vue.md",
+    "excerpt": "Vue is a front-end JavaScript framework created by Evan Yu. Vue is intuitive and easy to use. Vue Routing To make vue-router reload the page when navigating to a page with the same base route we need to set the key to $r...",
+    "headings": [
+      "Vue Routing"
+    ]
+  },
+  {
+    "title": "WordPress",
+    "url": "/public/Technology/Programming/Libraries%20\u0026%20Frameworks/WordPress/",
+    "path": "Technology/Programming/Libraries \u0026 Frameworks/WordPress.md",
+    "excerpt": "The de facto PHP web framework. Something like 40% of the top sites on the net use WordPress. This number was still going up last I looked."
+  },
+  {
+    "title": "The Read-Eval-Print-Loop aka REPL",
+    "url": "/public/Technology/REPL/",
+    "path": "Technology/REPL.md",
+    "excerpt": "The Read-Eval-Print-Loop aka REPL A feature of modern programming languages that allows you to work with them interactively through your shell. For example, running Python or Node.js in interactive mode by simply running...",
+    "headings": [
+      "The Read-Eval-Print-Loop aka REPL"
+    ]
+  },
+  {
+    "title": "RISC-V",
+    "url": "/public/Technology/RISC-V/",
+    "path": "Technology/RISC-V.md",
+    "excerpt": "RISC-V is an open instruction set architecture (ISA). The open spec makes it attractive for education, research, and custom silicon without proprietary ISA licensing constraints. I mostly think of it as a big \"hardware i...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Supabase",
+    "url": "/public/Technology/Supabase/",
+    "path": "Technology/Supabase.md",
+    "excerpt": "Supabase offers a managed back end as a service, handing auth, a Postgres database and Deno edge functions."
+  },
+  {
+    "title": "Top500",
+    "url": "/public/Technology/Top500/",
+    "path": "Technology/Top500.md",
+    "excerpt": "The website, top500, ranks the top 500 supercomputers by performance in the world twice a year."
+  },
+  {
+    "title": "Tutorials and Courses",
+    "url": "/public/Technology/Tutorials%20and%20Courses/",
+    "path": "Technology/Tutorials and Courses.md",
+    "excerpt": "I love learning through tutorials. Here are some that I've found useful. The Net Ninja - Nuxt 3 (YouTube) (Nuxt 3) Turing Complete (Official Site, Steam) - Design not one, but two 8 bit CPUs. Export your designs to an FP..."
+  },
+  {
+    "title": "Unreal",
+    "url": "/public/Technology/Unreal/",
+    "path": "Technology/Unreal.md",
+    "excerpt": "A state of the art game engine written in C++."
+  },
+  {
+    "title": "The World Wide Web",
+    "url": "/public/Technology/web/",
+    "path": "Technology/web.md",
+    "excerpt": "The World Wide Web The \"web\", or \"world wide web\" is one of the public facing portions of the internet. Typically it is accessed over a TCP/IP connection on port 80 for insecure HTTP access or port 443 for secure HTTPS a...",
+    "headings": [
+      "The World Wide Web"
+    ]
+  }
+]

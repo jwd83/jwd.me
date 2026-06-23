@@ -1,0 +1,112 @@
+package main
+
+import (
+	"bytes"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+)
+
+func TestBuildRendersHomepageWikilinksAndBacklinks(t *testing.T) {
+	root := t.TempDir()
+	writeTestFile(t, root, "onyx.ini", "site_title = Test Notes\nsource = docs\nbase_url = /\n")
+	writeTestFile(t, root, "docs/index.md", "---\ntitle: Home\n---\nWelcome to [[Foo|the foo note]].\n")
+	writeTestFile(t, root, "docs/Foo.md", "# Foo\n\nBack home: [[index|Home]].\n")
+
+	var stdout, stderr bytes.Buffer
+	if code := run([]string{root}, &stdout, &stderr); code != 0 {
+		t.Fatalf("run failed with code %d\nstdout:\n%s\nstderr:\n%s", code, stdout.String(), stderr.String())
+	}
+
+	index := readTestFile(t, root, "index.html")
+	if !strings.Contains(index, `href="/public/Foo/"`) {
+		t.Fatalf("homepage did not link to Foo:\n%s", index)
+	}
+
+	foo := readTestFile(t, root, "public/Foo/index.html")
+	if !strings.Contains(foo, "Linked From") || !strings.Contains(foo, "Home") {
+		t.Fatalf("Foo page did not include backlink to Home:\n%s", foo)
+	}
+}
+
+func TestBuildResolvesSlashWikilinksRelativeToCurrentFolder(t *testing.T) {
+	root := t.TempDir()
+	writeTestFile(t, root, "onyx.ini", "site_title = Test Notes\nsource = docs\nbase_url = /\n")
+	writeTestFile(t, root, "docs/index.md", "# Home\n\n[[Games/Baldur's Gate]]\n")
+	writeTestFile(t, root, "docs/Games/Baldur's Gate.md", "# Baldur's Gate\n\n[[Baldur's Gate 3/Astarion Build]]\n")
+	writeTestFile(t, root, "docs/Games/Baldur's Gate 3/Astarion Build.md", "# Astarion Build\n")
+
+	var stdout, stderr bytes.Buffer
+	if code := run([]string{root}, &stdout, &stderr); code != 0 {
+		t.Fatalf("run failed with code %d\nstdout:\n%s\nstderr:\n%s", code, stdout.String(), stderr.String())
+	}
+	if strings.Contains(stderr.String(), "unresolved wikilink") {
+		t.Fatalf("relative slash wikilink was not resolved:\n%s", stderr.String())
+	}
+
+	page := readTestFile(t, root, "public/Games/Baldur's Gate/index.html")
+	if !strings.Contains(page, `/public/Games/Baldur%27s%20Gate%203/Astarion%20Build/`) {
+		t.Fatalf("relative slash wikilink href missing:\n%s", page)
+	}
+}
+
+func TestBuildExcludesDraftAndPublishFalse(t *testing.T) {
+	root := t.TempDir()
+	writeTestFile(t, root, "onyx.ini", "site_title = Test Notes\nsource = docs\nbase_url = /\n")
+	writeTestFile(t, root, "docs/index.md", "# Home\n\n[[Draft]] [[Private]] [[Public]]\n")
+	writeTestFile(t, root, "docs/Draft.md", "---\ndraft: true\n---\n# Draft\n")
+	writeTestFile(t, root, "docs/Private.md", "---\npublish: false\n---\n# Private\n")
+	writeTestFile(t, root, "docs/Public.md", "# Public\n")
+
+	var stdout, stderr bytes.Buffer
+	if code := run([]string{root}, &stdout, &stderr); code != 0 {
+		t.Fatalf("run failed with code %d\nstdout:\n%s\nstderr:\n%s", code, stdout.String(), stderr.String())
+	}
+
+	if _, err := os.Stat(filepath.Join(root, "public", "Draft", "index.html")); !os.IsNotExist(err) {
+		t.Fatalf("draft page was generated, err=%v", err)
+	}
+	if _, err := os.Stat(filepath.Join(root, "public", "Private", "index.html")); !os.IsNotExist(err) {
+		t.Fatalf("private page was generated, err=%v", err)
+	}
+	search := readTestFile(t, root, "public/search-index.json")
+	if strings.Contains(search, `"path": "Draft.md"`) || strings.Contains(search, `"path": "Private.md"`) {
+		t.Fatalf("excluded notes leaked into search index:\n%s", search)
+	}
+}
+
+func TestBuildRefusesUnmarkedPublicDirectory(t *testing.T) {
+	root := t.TempDir()
+	writeTestFile(t, root, "onyx.ini", "site_title = Test Notes\nsource = docs\nbase_url = /\n")
+	writeTestFile(t, root, "docs/index.md", "# Home\n")
+	writeTestFile(t, root, "public/handmade.txt", "do not delete me\n")
+
+	var stdout, stderr bytes.Buffer
+	if code := run([]string{root}, &stdout, &stderr); code == 0 {
+		t.Fatalf("run succeeded unexpectedly\nstdout:\n%s\nstderr:\n%s", stdout.String(), stderr.String())
+	}
+	if !strings.Contains(stderr.String(), "missing .onyx-generated") {
+		t.Fatalf("unexpected error:\n%s", stderr.String())
+	}
+}
+
+func writeTestFile(t *testing.T, root, rel, content string) {
+	t.Helper()
+	filename := filepath.Join(root, filepath.FromSlash(rel))
+	if err := os.MkdirAll(filepath.Dir(filename), 0o755); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(filename, []byte(content), 0o644); err != nil {
+		t.Fatal(err)
+	}
+}
+
+func readTestFile(t *testing.T, root, rel string) string {
+	t.Helper()
+	data, err := os.ReadFile(filepath.Join(root, filepath.FromSlash(rel)))
+	if err != nil {
+		t.Fatal(err)
+	}
+	return string(data)
+}
