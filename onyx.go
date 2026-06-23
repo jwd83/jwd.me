@@ -885,6 +885,7 @@ func writeSearchIndex(vault *Vault) error {
 
 type NavNode struct {
 	Name     string
+	Path     string
 	Page     *Page
 	Children map[string]*NavNode
 }
@@ -915,14 +916,20 @@ func renderNav(vault *Vault, current *Page) string {
 func insertNav(root *NavNode, page *Page) {
 	segments := strings.Split(page.PageRel, "/")
 	node := root
+	prefix := ""
 	for _, segment := range segments {
 		key := strings.ToLower(segment)
+		if prefix == "" {
+			prefix = key
+		} else {
+			prefix += "/" + key
+		}
 		if node.Children == nil {
 			node.Children = map[string]*NavNode{}
 		}
 		child := node.Children[key]
 		if child == nil {
-			child = &NavNode{Name: segment, Children: map[string]*NavNode{}}
+			child = &NavNode{Name: segment, Path: prefix, Children: map[string]*NavNode{}}
 			node.Children[key] = child
 		}
 		node = child
@@ -945,10 +952,16 @@ func writeNavChildren(b *strings.Builder, node *NavNode, current *Page) {
 		return strings.ToLower(children[i].Name) < strings.ToLower(children[j].Name)
 	})
 
+	currentPath := strings.ToLower(current.PageRel)
 	for _, child := range children {
 		b.WriteString("<li>")
 		if len(child.Children) > 0 {
-			b.WriteString("<details open><summary>")
+			onPath := currentPath == child.Path || strings.HasPrefix(currentPath, child.Path+"/")
+			b.WriteString("<details")
+			if onPath {
+				b.WriteString(" open")
+			}
+			b.WriteString("><summary>")
 			writeNavLabel(b, child, current)
 			b.WriteString("</summary><ul>")
 			writeNavChildren(b, child, current)
@@ -1944,15 +1957,24 @@ const defaultPageTemplate = `{{.Generated}}
 const defaultCSS = `:root {
   color-scheme: light;
   --bg: #f7f5ef;
-  --panel: #eeece4;
+  --panel: #efece3;
   --text: #20201d;
   --muted: #6d6a60;
-  --line: #d8d3c6;
+  --line: #ddd7ca;
   --accent: #2f6f73;
   --accent-2: #8a5a35;
   --code: #ece5d8;
   --warn: #9a3412;
+  --hover: #fdf6e7;
+  --active: #f4ead3;
+  --ring: rgb(47 111 115 / 22%);
+  --radius: 8px;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 * { box-sizing: border-box; }
@@ -2011,12 +2033,18 @@ a:hover { color: var(--accent-2); }
 .onyx-search input {
   width: 100%;
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: 7px;
   background: #fffdfa;
   color: var(--text);
   font: inherit;
   line-height: 1.2;
   padding: .55rem .65rem;
+  transition: border-color .12s ease, box-shadow .12s ease;
+}
+.onyx-search input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--ring);
 }
 .onyx-search-results {
   position: absolute;
@@ -2053,22 +2081,74 @@ a:hover { color: var(--accent-2); }
   margin: 0;
   padding-left: 0;
 }
-.nav-tree ul { padding-left: .85rem; }
-.nav-tree li { margin: .08rem 0; }
-.nav-tree a, .nav-tree span, .nav-tree summary {
-  color: var(--muted);
-  display: block;
-  font-size: .92rem;
-  line-height: 1.25;
-  padding: .25rem .35rem;
-  text-decoration: none;
-  border-radius: 6px;
+.nav-tree ul {
+  margin-left: .55rem;
+  padding-left: .55rem;
+  border-left: 1px solid var(--line);
 }
-.nav-tree a:hover { background: #fff8eb; color: var(--text); }
-.nav-tree a[aria-current="page"] { background: #fff8eb; color: var(--accent-2); font-weight: 700; }
-.nav-tree details { margin: .08rem 0; }
-.nav-tree summary { cursor: pointer; list-style-position: outside; }
-.nav-tree summary a { display: inline; padding: 0; }
+.nav-tree li { margin: .05rem 0; }
+.nav-tree a, .nav-tree span, .nav-tree summary {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.3;
+  padding: .28rem .45rem;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: background .12s ease, color .12s ease;
+}
+.nav-tree a:hover, .nav-tree summary:hover { background: var(--hover); color: var(--text); }
+.nav-tree a[aria-current="page"] {
+  background: var(--active);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Folder rows: a caret that rotates open, with a folder-toned label. */
+.nav-tree details { margin: .05rem 0; }
+.nav-tree summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+  color: var(--text);
+}
+.nav-tree summary::-webkit-details-marker { display: none; }
+.nav-tree summary::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 5px solid currentColor;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  opacity: .5;
+  transition: transform .15s ease;
+}
+.nav-tree details[open] > summary::before { transform: rotate(90deg); }
+.nav-tree summary a, .nav-tree summary span {
+  display: inline;
+  gap: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+}
+.nav-tree summary a:hover { background: none; color: inherit; }
+
+/* File rows: a small square dot, filled when it's the current page. */
+.nav-tree li > a::before {
+  content: "";
+  flex: 0 0 auto;
+  width: .4rem;
+  height: .4rem;
+  margin: 0 .05rem;
+  border-radius: 2px;
+  background: currentColor;
+  opacity: .35;
+}
+.nav-tree li > a:hover::before { opacity: .6; }
+.nav-tree li > a[aria-current="page"]::before { opacity: 1; }
 
 .onyx-main {
   width: min(100%, 78rem);
