@@ -1,1 +1,0 @@
-A [[Python]] library targeting game development. In 2023 PyGame forked and many developers left and started pygame-ce or pygame community edition. Community edition seems to be where the focused development is headed going forward.

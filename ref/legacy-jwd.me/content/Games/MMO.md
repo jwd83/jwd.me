@@ -1,1 +1,0 @@
-A massively multiplayer online game. Most MMOs were [[RPG]]'s in their early days, though more and more genres seem to fit into the MMO category as time goes on.

@@ -1,1 +1,0 @@
-The start of our [[Cosmos|universe]]. When all space and matter was exploded out from a single point. Evidenced by the motion of galaxies as observed by redshift, the cosmic microwave background [[Electromagnetic Radiation|radiation]], etc.

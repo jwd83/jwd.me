@@ -1,1 +1,0 @@
-Composer behind `Baba Yetu` and `Dream of Flight`, both of which are favorites of mine. Baba Yetu was the first game song to win a grammy I believe.

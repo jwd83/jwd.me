@@ -28,6 +28,9 @@ func TestBuildRendersHomepageWikilinksAndBacklinks(t *testing.T) {
 	if !strings.Contains(foo, "Linked From") || !strings.Contains(foo, "Home") {
 		t.Fatalf("Foo page did not include backlink to Home:\n%s", foo)
 	}
+	if _, err := os.Stat(filepath.Join(root, ".nojekyll")); err != nil {
+		t.Fatalf(".nojekyll was not created: %v", err)
+	}
 }
 
 func TestBuildResolvesSlashWikilinksRelativeToCurrentFolder(t *testing.T) {

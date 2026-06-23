@@ -1,1 +1,0 @@
-The File Transfer Protocol. Used to send files in text or binary modes. A pretty old  tech that's been supplanted by SFTP, VPNs and cloud technologies these days.

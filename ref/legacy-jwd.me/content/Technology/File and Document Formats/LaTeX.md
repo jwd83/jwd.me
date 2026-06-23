@@ -1,1 +1,0 @@
-A document format for engineers, mathematicians, programmers, etc comprised of plain text and directives to generate beautiful output.

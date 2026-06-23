@@ -1,1 +1,0 @@
-Protons are at the center of an [[Atom|atom]] and thought to be positively charged. They are made of of smaller fundamental particles such as quarks popping in out of existence  as well as a boiling, bubbling brew of [[empty space]]. A video of the simulation of the inside of a proton was shown at the [[Nobel Prize]] ceremony in the early 2000s.

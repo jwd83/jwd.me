@@ -1,1 +1,0 @@
-Neil deGrasse Tyson is an American [[Science|scientist]] and science communicator. He has written many interesting books, given many great talks, participated in debates, starred in two seasons of [[Cosmos]], made numerous cameos and has a podcast called StarTalk.

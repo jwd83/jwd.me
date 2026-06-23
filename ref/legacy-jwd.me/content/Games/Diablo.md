@@ -1,1 +1,0 @@
-A series of games by Blizzard Entertainment. The earlier entries have reached legendary status in the gaming world while the later entries have been less well received.

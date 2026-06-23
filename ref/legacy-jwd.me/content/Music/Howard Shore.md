@@ -1,1 +1,0 @@
-Howard Shore's Lord of the Rings scores are some of my favorite film music ever. 

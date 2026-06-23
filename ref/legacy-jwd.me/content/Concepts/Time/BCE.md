@@ -1,1 +1,0 @@
-Stands for Before Common Era and is used in tandem with [[CE]]. BCE analogous to [[BC]]. 
