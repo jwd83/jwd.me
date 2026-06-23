@@ -75,6 +75,15 @@
     ]
   },
   {
+    "title": "consciousness",
+    "url": "public/Concepts/consciousness/",
+    "path": "Concepts/consciousness.md",
+    "excerpt": "consciousness is one of the core themes that keeps pulling me back to Ghost in the Shell. The question is not only \"what is a mind?\" but also \"how much continuity do you need before identity breaks?\" Cyberpunk stories ar...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
     "title": "Cosmic Microwave Background Radiation",
     "url": "public/Concepts/Cosmic%20Microwave%20Background%20Radiation/",
     "path": "Concepts/Cosmic Microwave Background Radiation.md",
@@ -153,6 +162,16 @@
     "excerpt": "expansion of the universe means that, on large scales, space itself is stretching over time. That expansion shifts light to longer wavelengths (redshift), which is one key observation in cosmology. It also explains why a...",
     "headings": [
       "See also"
+    ]
+  },
+  {
+    "title": "Major \u0026 Minor F1 Rule “Resets” (by season)",
+    "url": "public/Concepts/F1/",
+    "path": "Concepts/F1.md",
+    "excerpt": "Back to: Motorsports This is a working note for tracking the big F1 rules changes that actually reset the field vs the smaller changes that mostly reshape strategy, setup, or weekend flow. The goal is to have a quick tim...",
+    "headings": [
+      "Major \u0026 Minor F1 Rule “Resets” (by season)",
+      "Table of rule resets"
     ]
   },
   {
@@ -243,6 +262,15 @@
     "url": "public/Concepts/Meme/",
     "path": "Concepts/Meme.md",
     "excerpt": "Coined by Richard Dawkins in his book The Selfish Gene. A meme is the idea that knowledges spreads in much the same way a gene does. A good meme will flourish and a bad one will flounder. The internet gave new rise to id..."
+  },
+  {
+    "title": "Motorsports",
+    "url": "public/Concepts/Motorsports/",
+    "path": "Concepts/Motorsports.md",
+    "excerpt": "Motorsports Notes on racing series, rules changes, and stuff I find interesting from the engineering / strategy side. Right now this is mostly a place for regulation-era timelines and quick reference notes. I have starte...",
+    "headings": [
+      "Motorsports"
+    ]
   },
   {
     "title": "God",
@@ -462,6 +490,16 @@
     "excerpt": "WiFi is a family of wireless LAN standards used for local networking over radio. It is the default way devices connect to home/office networks without cables. Compared to Bluetooth, WiFi usually targets higher throughput...",
     "headings": [
       "See also"
+    ]
+  },
+  {
+    "title": "Major \u0026 Minor WRC Rule \"Resets\" (by season)",
+    "url": "public/Concepts/WRC/",
+    "path": "Concepts/WRC.md",
+    "excerpt": "Back to: Motorsports This is a working note for tracking the big WRC rules changes that actually reset the field vs the smaller changes that mostly reshape event format, setup, or strategy. The goal is to have a quick ti...",
+    "headings": [
+      "Major \u0026 Minor WRC Rule \"Resets\" (by season)",
+      "Table of rule resets"
     ]
   },
   {
@@ -824,44 +862,6 @@
     "excerpt": "CTRL K to search A collection of my thoughts and notes as life long computer programmer and naturalist. Some of my favorite writers include Jacob Bronowski, Sam Harris, Lawrence M. Krauss, Richard Dawkins \u0026 Carl Sagan. S...",
     "headings": [
       "CTRL K  to search"
-    ]
-  },
-  {
-    "title": "Motorsports",
-    "url": "public/Motorsports/",
-    "path": "Motorsports.md",
-    "excerpt": "Motorsports Notes on racing series, rules changes, and stuff I find interesting from the engineering / strategy side. Right now this is mostly a place for regulation-era timelines and quick reference notes. I have starte...",
-    "headings": [
-      "Motorsports"
-    ]
-  },
-  {
-    "title": "Major \u0026 Minor F1 Rule “Resets” (by season)",
-    "url": "public/Motorsports/F1/",
-    "path": "Motorsports/F1.md",
-    "excerpt": "Back to: Motorsports This is a working note for tracking the big F1 rules changes that actually reset the field vs the smaller changes that mostly reshape strategy, setup, or weekend flow. The goal is to have a quick tim...",
-    "headings": [
-      "Major \u0026 Minor F1 Rule “Resets” (by season)",
-      "Table of rule resets"
-    ]
-  },
-  {
-    "title": "Major \u0026 Minor WRC Rule \"Resets\" (by season)",
-    "url": "public/Motorsports/WRC/",
-    "path": "Motorsports/WRC.md",
-    "excerpt": "Back to: Motorsports This is a working note for tracking the big WRC rules changes that actually reset the field vs the smaller changes that mostly reshape event format, setup, or strategy. The goal is to have a quick ti...",
-    "headings": [
-      "Major \u0026 Minor WRC Rule \"Resets\" (by season)",
-      "Table of rule resets"
-    ]
-  },
-  {
-    "title": "consciousness",
-    "url": "public/Movies/consciousness/",
-    "path": "Movies/consciousness.md",
-    "excerpt": "consciousness is one of the core themes that keeps pulling me back to Ghost in the Shell. The question is not only \"what is a mind?\" but also \"how much continuity do you need before identity breaks?\" Cyberpunk stories ar...",
-    "headings": [
-      "See also"
     ]
   },
   {
