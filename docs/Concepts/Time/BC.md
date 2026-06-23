@@ -1,0 +1,1 @@
+BC stands for “before Christ" and is analogous to [[BCE]]

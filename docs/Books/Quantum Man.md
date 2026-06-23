@@ -1,0 +1,1 @@
+A book about the life of [[Richard Feynman]] a brilliant scientist of the 20th century. written by [[Lawrence M. Krauss]] another brilliant scientist of the 20th and 21st centuries.

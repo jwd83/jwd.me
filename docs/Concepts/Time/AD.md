@@ -1,0 +1,1 @@
+AD stands for Anno Domini, Latin for “in the year of the Lord” and is analogous to [[CE]]. Used in tandem with [[BC]]

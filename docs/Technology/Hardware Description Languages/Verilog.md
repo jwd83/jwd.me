@@ -1,0 +1,1 @@
+A hardware descriptor language, similar to [[VHDL]]. The game [[Turing Complete]] allows you to export your projects to this format for use in FPGAs.

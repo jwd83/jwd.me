@@ -1,0 +1,5 @@
+Author of [[The History of God]], a book detailing the historical records of the creation of the bible and other forms of [[Religions & Mythology]].
+
+Karen Armstrong is a renowned British author and commentator known for her books on comparative religion. A former Roman Catholic nun, she has written more than 20 books on faith and the major religions, including Christianity, Islam, and Buddhism, emphasizing the commonalities, such as compassion and peaceful coexistence.
+
+Karen Armstrong does not identify as an [[Atheism|atheist]] but rather as a "freelance monotheist." While she had a difficult experience in her early life as a Roman Catholic nun, leading her to leave the convent, she still maintains a deep interest and respect for religious traditions and the concept of God. Armstrong argues for a more compassionate and inclusive understanding of religion, emphasizing spirituality and practice over strict adherence to dogma. She advocates for a reading of religious texts that goes beyond literal interpretations, looking instead at the metaphorical and transformative power of these texts.

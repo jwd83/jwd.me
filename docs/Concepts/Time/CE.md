@@ -1,0 +1,1 @@
+Stand for the Common Era and is used in tandem with [[BCE]]. CE is analogous to [[AD]]. 

@@ -1,0 +1,2 @@
+# Command Line Interface
+Typically referring to your terminal, shell, command prompt, etc or programs that run interactively within said interface. Tools like [[ping]] or your favorite languages [[REPL]] are run in your CLI.

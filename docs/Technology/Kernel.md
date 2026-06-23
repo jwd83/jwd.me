@@ -1,0 +1,1 @@
+The fundamental process that runs an operating system. For example, the [[Linux]] kernel.

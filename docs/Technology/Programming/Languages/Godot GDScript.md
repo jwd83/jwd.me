@@ -1,0 +1,1 @@
+A scripting language for the game engine Godot. GDScript looks very similar to [[Python]].

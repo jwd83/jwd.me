@@ -1,0 +1,1 @@
+the standard port for [[SSH]] though people commonly move it to another port or require a knock of some type (i.e., send a UDP packet to port 34234 then allowing new SSH connections for some amount of time) before allowing new connections briefly.
