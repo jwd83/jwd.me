@@ -4,7 +4,7 @@ This is a working note for tracking the big WRC rules changes that actually rese
 
 The goal is to have a quick timeline for "new era" seasons, and a place to collect references when I want to compare how disruptive different rally regulation cycles really were.
 
-Related: [[Motorsports/F1|F1]]
+Related: [[F1|F1]]
 
 # Major & Minor WRC Rule "Resets" (by season)
 

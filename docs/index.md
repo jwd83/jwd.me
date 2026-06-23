@@ -10,7 +10,7 @@ Some of my favorite musicians are collected here: [[Favorite Musicians]].
 
 I imported my old quote archive here too: [[Quotes]].
 
-I also started a small [[Motorsports]] section for notes on [[Motorsports/F1|F1]] and [[Motorsports/WRC|WRC]].
+I also started a small [[Motorsports]] section for notes on [[F1|F1]] and [[WRC|WRC]].
 
 Recently I have been learning about [[Godot 4]] and experimenting with [[Python]]'s [[PyGame]].
 
