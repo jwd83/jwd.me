@@ -20,13 +20,25 @@ func TestBuildRendersHomepageWikilinksAndBacklinks(t *testing.T) {
 	}
 
 	index := readTestFile(t, root, "index.html")
-	if !strings.Contains(index, `href="/public/Foo/"`) {
+	if strings.Contains(index, `href="/public/`) || strings.Contains(index, `src="/public/`) {
+		t.Fatalf("homepage contains root-relative public path:\n%s", index)
+	}
+	if !strings.Contains(index, `href="public/Foo/"`) {
 		t.Fatalf("homepage did not link to Foo:\n%s", index)
+	}
+	if !strings.Contains(index, `href="public/onyx.css"`) || !strings.Contains(index, `src="public/onyx.js"`) {
+		t.Fatalf("homepage did not use relative assets:\n%s", index)
 	}
 
 	foo := readTestFile(t, root, "public/Foo/index.html")
 	if !strings.Contains(foo, "Linked From") || !strings.Contains(foo, "Home") {
 		t.Fatalf("Foo page did not include backlink to Home:\n%s", foo)
+	}
+	if !strings.Contains(foo, `href="../../public/onyx.css"`) || !strings.Contains(foo, `src="../../public/onyx.js"`) {
+		t.Fatalf("nested page did not use relative assets:\n%s", foo)
+	}
+	if !strings.Contains(foo, `href="../../"`) {
+		t.Fatalf("nested page did not link home relatively:\n%s", foo)
 	}
 	if _, err := os.Stat(filepath.Join(root, ".nojekyll")); err != nil {
 		t.Fatalf(".nojekyll was not created: %v", err)
@@ -49,7 +61,7 @@ func TestBuildResolvesSlashWikilinksRelativeToCurrentFolder(t *testing.T) {
 	}
 
 	page := readTestFile(t, root, "public/Games/Baldur's Gate/index.html")
-	if !strings.Contains(page, `/public/Games/Baldur%27s%20Gate%203/Astarion%20Build/`) {
+	if !strings.Contains(page, `../../../public/Games/Baldur%27s%20Gate%203/Astarion%20Build/`) {
 		t.Fatalf("relative slash wikilink href missing:\n%s", page)
 	}
 }

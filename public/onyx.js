@@ -3,10 +3,10 @@
   const results = document.getElementById("onyx-search-results");
   if (!input || !results) return;
 
-  const base = (window.ONYX_BASE_URL || "/").replace(/\/?$/, "/");
+  const root = window.ONYX_ROOT || "";
   let index = [];
 
-  fetch(base + "public/search-index.json")
+  fetch(root + "public/search-index.json")
     .then((response) => response.ok ? response.json() : [])
     .then((items) => { index = Array.isArray(items) ? items : []; })
     .catch(() => { index = []; });
@@ -38,6 +38,10 @@
     return total;
   }
 
+  function withRoot(url) {
+    return root + (url || "./");
+  }
+
   function render() {
     const terms = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
     if (!terms.length) {
@@ -52,7 +56,7 @@
       .slice(0, 12);
 
     results.innerHTML = matches.length
-      ? matches.map(({ item }) => '<a href="' + escapeHTML(item.url) + '"><strong>' + escapeHTML(item.title) + '</strong><span>' + escapeHTML(item.excerpt || item.path || "") + '</span></a>').join("")
+      ? matches.map(({ item }) => '<a href="' + escapeHTML(withRoot(item.url)) + '"><strong>' + escapeHTML(item.title) + '</strong><span>' + escapeHTML(item.excerpt || item.path || "") + '</span></a>').join("")
       : '<a href="#"><strong>No matches</strong><span>Try a different phrase.</span></a>';
     results.hidden = false;
   }

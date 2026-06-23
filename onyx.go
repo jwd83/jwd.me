@@ -82,14 +82,17 @@ type SearchItem struct {
 }
 
 type TemplateData struct {
-	Site          SiteView
-	Page          *Page
-	Nav           template.HTML
-	Backlinks     []LinkView
-	Search        bool
-	ShowSource    bool
-	Generated     template.HTML
-	BaseURLScript template.JS
+	Site       SiteView
+	Page       *Page
+	Nav        template.HTML
+	Backlinks  []LinkView
+	Search     bool
+	ShowSource bool
+	Generated  template.HTML
+	RootScript template.JS
+	HomeURL    string
+	CSSURL     string
+	JSURL      string
 }
 
 type SiteView struct {
@@ -493,12 +496,12 @@ func loadVault(cfg Config) (*Vault, []string, error) {
 
 	for _, note := range vault.Notes {
 		if note.IsHome {
-			note.URL = cfg.BaseURL
+			note.URL = ""
 		} else {
-			note.URL = joinURL(cfg.BaseURL, "public/"+escapeURLPath(note.PageRel)+"/")
+			note.URL = "public/" + escapeURLPath(note.PageRel) + "/"
 		}
 		if note.SourceRel != "" {
-			note.SourceURL = joinURL(cfg.BaseURL, escapeURLPath(path.Join(cfg.Source, note.SourceRel)))
+			note.SourceURL = escapeURLPath(path.Join(cfg.Source, note.SourceRel))
 		}
 	}
 	if vault.Home.Generated {
@@ -638,7 +641,7 @@ func updateGeneratedHome(vault *Vault) {
 			continue
 		}
 		b.WriteString(`<li><a href="`)
-		b.WriteString(html.EscapeString(note.URL))
+		b.WriteString(html.EscapeString(relativeURL(vault.Home, note.URL)))
 		b.WriteString(`">`)
 		b.WriteString(html.EscapeString(note.Title))
 		b.WriteString("</a></li>\n")
@@ -762,11 +765,11 @@ func copyDir(source, dest string) error {
 }
 
 func writePages(vault *Vault) error {
-	pageTemplate, err := loadTemplate(vault, "page.html", defaultPageTemplate)
+	pageTemplate, err := loadTemplateSource(vault, "page.html", defaultPageTemplate)
 	if err != nil {
 		return err
 	}
-	homeTemplate, err := loadTemplate(vault, "home.html", defaultPageTemplate)
+	homeTemplate, err := loadTemplateSource(vault, "home.html", defaultPageTemplate)
 	if err != nil {
 		return err
 	}
@@ -783,36 +786,56 @@ func writePages(vault *Vault) error {
 	return nil
 }
 
-func loadTemplate(vault *Vault, name, fallback string) (*template.Template, error) {
+type templateSource struct {
+	name   string
+	source string
+}
+
+func loadTemplateSource(vault *Vault, name, fallback string) (templateSource, error) {
 	themePath := filepath.Join(vault.Config.Root, filepath.FromSlash(vault.Config.Theme), name)
 	source := fallback
 	if data, err := os.ReadFile(themePath); err == nil {
 		source = string(data)
 	} else if !os.IsNotExist(err) {
-		return nil, err
+		return templateSource{}, err
 	}
-
-	funcs := template.FuncMap{
-		"asset": func(name string) string {
-			return joinURL(vault.Config.BaseURL, "public/"+escapeURLPath(name))
-		},
-	}
-	return template.New(name).Funcs(funcs).Parse(source)
+	return templateSource{name: name, source: source}, nil
 }
 
-func writePage(vault *Vault, page *Page, tpl *template.Template) error {
+func parseTemplateForPage(vault *Vault, page *Page, source templateSource) (*template.Template, error) {
+	funcs := template.FuncMap{
+		"asset": func(name string) string {
+			return relativeURL(page, "public/"+escapeURLPath(name))
+		},
+	}
+	return template.New(source.name).Funcs(funcs).Parse(source.source)
+}
+
+func writePage(vault *Vault, page *Page, source templateSource) error {
+	tpl, err := parseTemplateForPage(vault, page, source)
+	if err != nil {
+		return err
+	}
+	pageView := *page
+	pageView.URL = relativeURL(page, page.URL)
+	if page.SourceURL != "" {
+		pageView.SourceURL = relativeURL(page, page.SourceURL)
+	}
 	data := TemplateData{
 		Site: SiteView{
 			Title:   vault.Config.SiteTitle,
 			BaseURL: vault.Config.BaseURL,
 		},
-		Page:          page,
-		Nav:           template.HTML(renderNav(vault, page)),
-		Backlinks:     page.Backlinks,
-		Search:        vault.Config.Search,
-		ShowSource:    vault.Config.ShowSource && page.SourceURL != "",
-		Generated:     template.HTML(generatedMarker),
-		BaseURLScript: template.JS(strconv.Quote(vault.Config.BaseURL)),
+		Page:       &pageView,
+		Nav:        template.HTML(renderNav(vault, page)),
+		Backlinks:  relativeLinkViews(page, page.Backlinks),
+		Search:     vault.Config.Search,
+		ShowSource: vault.Config.ShowSource && page.SourceURL != "",
+		Generated:  template.HTML(generatedMarker),
+		RootScript: template.JS(strconv.Quote(relativeRoot(page))),
+		HomeURL:    relativeURL(page, ""),
+		CSSURL:     relativeURL(page, "public/onyx.css"),
+		JSURL:      relativeURL(page, "public/onyx.js"),
 	}
 
 	var out bytes.Buffer
@@ -829,6 +852,15 @@ func writePage(vault *Vault, page *Page, tpl *template.Template) error {
 		return err
 	}
 	return os.WriteFile(dest, out.Bytes(), 0o644)
+}
+
+func relativeLinkViews(from *Page, links []LinkView) []LinkView {
+	out := make([]LinkView, 0, len(links))
+	for _, link := range links {
+		link.URL = relativeURL(from, link.URL)
+		out = append(out, link)
+	}
+	return out
 }
 
 func writeSearchIndex(vault *Vault) error {
@@ -873,7 +905,7 @@ func renderNav(vault *Vault, current *Page) string {
 		b.WriteString(` aria-current="page"`)
 	}
 	b.WriteString(` href="`)
-	b.WriteString(html.EscapeString(vault.Config.BaseURL))
+	b.WriteString(html.EscapeString(relativeURL(current, "")))
 	b.WriteString(`">Home</a></li>`)
 	writeNavChildren(&b, root, current)
 	b.WriteString(`</ul>`)
@@ -940,7 +972,7 @@ func writeNavLabel(b *strings.Builder, node *NavNode, current *Page) {
 		b.WriteString(` aria-current="page"`)
 	}
 	b.WriteString(` href="`)
-	b.WriteString(html.EscapeString(node.Page.URL))
+	b.WriteString(html.EscapeString(relativeURL(current, node.Page.URL)))
 	b.WriteString(`">`)
 	b.WriteString(html.EscapeString(node.Name))
 	b.WriteString(`</a>`)
@@ -1490,7 +1522,7 @@ func (r *MarkdownRenderer) renderWiki(raw string, embed bool) string {
 
 	if embed || looksLikeAsset(target) {
 		if asset, ok := r.resolveAsset(target); ok {
-			href := joinURL(r.vault.Config.BaseURL, escapeURLPath(path.Join(r.vault.Config.Source, asset)))
+			href := relativeURL(r.current, escapeURLPath(path.Join(r.vault.Config.Source, asset)))
 			if isImage(asset) && embed {
 				return `<img src="` + html.EscapeString(href) + `" alt="` + html.EscapeString(display) + `">`
 			}
@@ -1499,14 +1531,14 @@ func (r *MarkdownRenderer) renderWiki(raw string, embed bool) string {
 		if embed {
 			if page := r.resolveNote(target); page != nil {
 				r.outgoing[page.PageRel] = true
-				return `<a class="embed-note" href="` + html.EscapeString(page.URL) + `">` + html.EscapeString(display) + `</a>`
+				return `<a class="embed-note" href="` + html.EscapeString(relativeURL(r.current, page.URL)) + `">` + html.EscapeString(display) + `</a>`
 			}
 		}
 	}
 
 	if page := r.resolveNote(target); page != nil {
 		r.outgoing[page.PageRel] = true
-		href := page.URL
+		href := relativeURL(r.current, page.URL)
 		if heading != "" {
 			href += "#" + url.PathEscape(slugify(heading))
 		}
@@ -1681,7 +1713,7 @@ func (r *MarkdownRenderer) resolveMarkdownHref(dest string) string {
 		candidates = append(candidates, strings.TrimPrefix(target, "/"))
 		for _, candidate := range candidates {
 			if page := r.vault.ByPath[strings.ToLower(path.Clean(candidate))]; page != nil {
-				href := page.URL
+				href := relativeURL(r.current, page.URL)
 				if anchor != "" {
 					href += "#" + url.PathEscape(slugify(anchor))
 				}
@@ -1704,7 +1736,7 @@ func (r *MarkdownRenderer) resolveMarkdownAsset(dest string) string {
 		cleanDest = path.Join(path.Dir(r.current.SourceRel), cleanDest)
 	}
 	cleanDest = strings.TrimPrefix(path.Clean(cleanDest), "/")
-	href := joinURL(r.vault.Config.BaseURL, escapeURLPath(path.Join(r.vault.Config.Source, cleanDest)))
+	href := relativeURL(r.current, escapeURLPath(path.Join(r.vault.Config.Source, cleanDest)))
 	if anchor != "" {
 		href += "#" + url.PathEscape(anchor)
 	}
@@ -1834,15 +1866,28 @@ func escapeURLPath(rel string) string {
 	return strings.Join(parts, "/")
 }
 
-func joinURL(base, rel string) string {
-	if base == "" {
-		base = "/"
+func relativeRoot(from *Page) string {
+	if from == nil || from.IsHome || from.URL == "" {
+		return ""
 	}
-	if !strings.HasSuffix(base, "/") {
-		base += "/"
+	trimmed := strings.Trim(strings.TrimSuffix(from.URL, "/"), "/")
+	if trimmed == "" {
+		return ""
 	}
-	rel = strings.TrimPrefix(rel, "/")
-	return base + rel
+	levels := len(strings.Split(trimmed, "/"))
+	return strings.Repeat("../", levels)
+}
+
+func relativeURL(from *Page, target string) string {
+	target = strings.TrimPrefix(target, "/")
+	root := relativeRoot(from)
+	if target == "" {
+		if root == "" {
+			return "./"
+		}
+		return root
+	}
+	return root + target
 }
 
 const defaultPageTemplate = `{{.Generated}}
@@ -1852,15 +1897,15 @@ const defaultPageTemplate = `{{.Generated}}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{if .Page.IsHome}}{{.Site.Title}}{{else}}{{.Page.Title}} - {{.Site.Title}}{{end}}</title>
-  <link rel="stylesheet" href="{{asset "onyx.css"}}">
-  <script>window.ONYX_BASE_URL = {{.BaseURLScript}};</script>
-  {{if .Search}}<script defer src="{{asset "onyx.js"}}"></script>{{end}}
+  <link rel="stylesheet" href="{{.CSSURL}}">
+  <script>window.ONYX_ROOT = {{.RootScript}};</script>
+  {{if .Search}}<script defer src="{{.JSURL}}"></script>{{end}}
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
   <div class="onyx-shell">
     <aside class="onyx-sidebar">
-      <a class="onyx-brand" href="{{.Site.BaseURL}}">{{.Site.Title}}</a>
+      <a class="onyx-brand" href="{{.HomeURL}}">{{.Site.Title}}</a>
       {{if .Search}}
       <div class="onyx-search">
         <input id="onyx-search" type="search" autocomplete="off" placeholder="Search notes">
@@ -2168,10 +2213,10 @@ const defaultJS = `(function () {
   const results = document.getElementById("onyx-search-results");
   if (!input || !results) return;
 
-  const base = (window.ONYX_BASE_URL || "/").replace(/\/?$/, "/");
+  const root = window.ONYX_ROOT || "";
   let index = [];
 
-  fetch(base + "public/search-index.json")
+  fetch(root + "public/search-index.json")
     .then((response) => response.ok ? response.json() : [])
     .then((items) => { index = Array.isArray(items) ? items : []; })
     .catch(() => { index = []; });
@@ -2203,6 +2248,10 @@ const defaultJS = `(function () {
     return total;
   }
 
+  function withRoot(url) {
+    return root + (url || "./");
+  }
+
   function render() {
     const terms = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
     if (!terms.length) {
@@ -2217,7 +2266,7 @@ const defaultJS = `(function () {
       .slice(0, 12);
 
     results.innerHTML = matches.length
-      ? matches.map(({ item }) => '<a href="' + escapeHTML(item.url) + '"><strong>' + escapeHTML(item.title) + '</strong><span>' + escapeHTML(item.excerpt || item.path || "") + '</span></a>').join("")
+      ? matches.map(({ item }) => '<a href="' + escapeHTML(withRoot(item.url)) + '"><strong>' + escapeHTML(item.title) + '</strong><span>' + escapeHTML(item.excerpt || item.path || "") + '</span></a>').join("")
       : '<a href="#"><strong>No matches</strong><span>Try a different phrase.</span></a>';
     results.hidden = false;
   }

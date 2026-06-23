@@ -14,4 +14,6 @@ The build reads `onyx.ini`, renders the vault in `docs/`, writes the homepage to
 
 `docs/` remains the source of truth.
 
+Generated links are relative, so the site works from a GitHub Pages project URL such as `/jwd.me/` without hardcoded root paths like `/public/onyx.js`.
+
 The root `.nojekyll` file tells GitHub Pages to serve the generated static files directly instead of running Jekyll over the repo.
