@@ -1,0 +1,1 @@
+A programming language that compiles to a platform independent byte code also called Java Beans. Java programs execute inside a Java Virtual Machine (JVM). This allows a developer to, in theory at least, compile once and run anywhere.

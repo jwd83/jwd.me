@@ -1,0 +1,1 @@
+As discovered by [[Charles Darwin]] Evolution is the process by which all life known to exist on earth came to exist from a single initial organism through the process of variation, mutation and [[Natural Selection]]  and huge amounts of [[Time]]. 

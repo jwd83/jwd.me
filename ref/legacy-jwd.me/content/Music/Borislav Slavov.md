@@ -1,0 +1,1 @@
+I love the music Borislav Slavov did for DOS2 and BG3. It fits the world and mood perfectly. Rivellon's bass hit around 1:03ish is one of my favorite tracks to test bass response in new speakers/headphones.

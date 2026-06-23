@@ -1,0 +1,3 @@
+UDP, or User Datagram Protocol, is another way to send data over the internet, but unlike [[TCP]], it doesn't double-check if everything got delivered correctly. It's like sending a letter without tracking — faster because it doesn't wait for confirmations, but there's no guarantee everything reached its destination intact and in the order it was sent.
+
+It's commonly used in games where sending a client the freshest information possible is paramount.

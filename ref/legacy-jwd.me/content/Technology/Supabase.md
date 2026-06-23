@@ -1,0 +1,1 @@
+Supabase offers a managed back end as a service, handing auth, a [[Postgres]] [[database]] and [[Deno]] edge functions.

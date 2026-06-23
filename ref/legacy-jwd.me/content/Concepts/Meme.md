@@ -1,0 +1,1 @@
+Coined by [[Richard Dawkins]] in his book [[The Selfish Gene]]. A meme is the idea that knowledges spreads in much the same way a gene does. A good meme will flourish and a bad one will flounder. The internet gave new rise to idea of memes and the word has taken on a new life. People joke about being Meme lords.

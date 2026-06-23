@@ -1,0 +1,2 @@
+# The World Wide Web
+The "web", or "world wide web" is one of the public facing portions of the internet. Typically it is accessed over a [[TCP]]/[[IP]] connection on [[port 80]] for insecure [[HTTP]] access or [[port 443]] for secure [[HTTPS]] access.

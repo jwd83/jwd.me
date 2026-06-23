@@ -1,0 +1,1 @@
+Positrons seems to appear when an electron jumps energy levels and emits a [[Photon|photon]]. In the moment of the electron jumping there appears to be three particles, two electrons and a positron, the positron starts where the electrons new position ends up and annihilates the [[Electron]] as it's initial/prior location
