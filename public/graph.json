@@ -1,0 +1,3800 @@
+{
+  "nodes": [
+    {
+      "id": "Books/A Universe from Nothing",
+      "title": "A Universe from Nothing",
+      "url": "public/Books/A%20Universe%20from%20Nothing/",
+      "degree": 5
+    },
+    {
+      "id": "Books/On the Origin of Species",
+      "title": "On the Origin of Species",
+      "url": "public/Books/On%20the%20Origin%20of%20Species/",
+      "degree": 3
+    },
+    {
+      "id": "Books/Quantum Man",
+      "title": "Quantum Man",
+      "url": "public/Books/Quantum%20Man/",
+      "degree": 3
+    },
+    {
+      "id": "Books/The Ascent of Man",
+      "title": "The Ascent of Man",
+      "url": "public/Books/The%20Ascent%20of%20Man/",
+      "degree": 3
+    },
+    {
+      "id": "Books/The History of God",
+      "title": "The History of God",
+      "url": "public/Books/The%20History%20of%20God/",
+      "degree": 7
+    },
+    {
+      "id": "Books/The Moral Landscape",
+      "title": "The Moral Landscape",
+      "url": "public/Books/The%20Moral%20Landscape/",
+      "degree": 4
+    },
+    {
+      "id": "Concepts/AM",
+      "title": "AM",
+      "url": "public/Concepts/AM/",
+      "degree": 9
+    },
+    {
+      "id": "Concepts/Atheism",
+      "title": "Atheism",
+      "url": "public/Concepts/Atheism/",
+      "degree": 9
+    },
+    {
+      "id": "Concepts/Atom",
+      "title": "Atom",
+      "url": "public/Concepts/Atom/",
+      "degree": 8
+    },
+    {
+      "id": "Concepts/Black Hole",
+      "title": "Black Hole",
+      "url": "public/Concepts/Black%20Hole/",
+      "degree": 10
+    },
+    {
+      "id": "Concepts/Bluetooth",
+      "title": "Bluetooth",
+      "url": "public/Concepts/Bluetooth/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/consciousness",
+      "title": "consciousness",
+      "url": "public/Concepts/consciousness/",
+      "degree": 2
+    },
+    {
+      "id": "Concepts/Cosmic Microwave Background Radiation",
+      "title": "Cosmic Microwave Background Radiation",
+      "url": "public/Concepts/Cosmic%20Microwave%20Background%20Radiation/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/Cosmos",
+      "title": "Cosmos",
+      "url": "public/Concepts/Cosmos/",
+      "degree": 14
+    },
+    {
+      "id": "Concepts/D Layer",
+      "title": "D Layer",
+      "url": "public/Concepts/D%20Layer/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/Electromagnetic Radiation",
+      "title": "Electromagnetic Radiation",
+      "url": "public/Concepts/Electromagnetic%20Radiation/",
+      "degree": 18
+    },
+    {
+      "id": "Concepts/Electromagnetic Spectrum",
+      "title": "Electromagnetic Spectrum",
+      "url": "public/Concepts/Electromagnetic%20Spectrum/",
+      "degree": 20
+    },
+    {
+      "id": "Concepts/Electron",
+      "title": "Electron",
+      "url": "public/Concepts/Electron/",
+      "degree": 16
+    },
+    {
+      "id": "Concepts/empty space",
+      "title": "empty space",
+      "url": "public/Concepts/empty%20space/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/Evolution",
+      "title": "Evolution",
+      "url": "public/Concepts/Evolution/",
+      "degree": 8
+    },
+    {
+      "id": "Concepts/expansion of the universe",
+      "title": "expansion of the universe",
+      "url": "public/Concepts/expansion%20of%20the%20universe/",
+      "degree": 6
+    },
+    {
+      "id": "Concepts/F1",
+      "title": "Major \u0026 Minor F1 Rule “Resets” (by season)",
+      "url": "public/Concepts/F1/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/FM",
+      "title": "FM",
+      "url": "public/Concepts/FM/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/Galaxy",
+      "title": "Galaxy",
+      "url": "public/Concepts/Galaxy/",
+      "degree": 9
+    },
+    {
+      "id": "Concepts/Gravity",
+      "title": "Gravity",
+      "url": "public/Concepts/Gravity/",
+      "degree": 2
+    },
+    {
+      "id": "Concepts/Health/BMI",
+      "title": "BMI",
+      "url": "public/Concepts/Health/BMI/",
+      "degree": 1
+    },
+    {
+      "id": "Concepts/Health/BMR",
+      "title": "BMR",
+      "url": "public/Concepts/Health/BMR/",
+      "degree": 3
+    },
+    {
+      "id": "Concepts/Health/TDEE",
+      "title": "TDEE",
+      "url": "public/Concepts/Health/TDEE/",
+      "degree": 2
+    },
+    {
+      "id": "Concepts/human vision",
+      "title": "human vision",
+      "url": "public/Concepts/human%20vision/",
+      "degree": 4
+    },
+    {
+      "id": "Concepts/Humans",
+      "title": "Humans",
+      "url": "public/Concepts/Humans/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/Ionosphere",
+      "title": "Ionosphere",
+      "url": "public/Concepts/Ionosphere/",
+      "degree": 12
+    },
+    {
+      "id": "Concepts/Leptons",
+      "title": "Leptons",
+      "url": "public/Concepts/Leptons/",
+      "degree": 4
+    },
+    {
+      "id": "Concepts/Light",
+      "title": "Light",
+      "url": "public/Concepts/Light/",
+      "degree": 9
+    },
+    {
+      "id": "Concepts/Meme",
+      "title": "Meme",
+      "url": "public/Concepts/Meme/",
+      "degree": 4
+    },
+    {
+      "id": "Concepts/Motorsports",
+      "title": "Motorsports",
+      "url": "public/Concepts/Motorsports/",
+      "degree": 6
+    },
+    {
+      "id": "Concepts/Mythology/God",
+      "title": "God",
+      "url": "public/Concepts/Mythology/God/",
+      "degree": 8
+    },
+    {
+      "id": "Concepts/Mythology/Monotheism",
+      "title": "Monotheism",
+      "url": "public/Concepts/Mythology/Monotheism/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/Mythology/Polytheism",
+      "title": "Polytheism",
+      "url": "public/Concepts/Mythology/Polytheism/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/Mythology/Religions \u0026 Mythology",
+      "title": "Religions \u0026 Mythology",
+      "url": "public/Concepts/Mythology/Religions%20\u0026%20Mythology/",
+      "degree": 8
+    },
+    {
+      "id": "Concepts/Natural Selection",
+      "title": "Natural Selection",
+      "url": "public/Concepts/Natural%20Selection/",
+      "degree": 6
+    },
+    {
+      "id": "Concepts/Naturalism",
+      "title": "Naturalism",
+      "url": "public/Concepts/Naturalism/",
+      "degree": 7
+    },
+    {
+      "id": "Concepts/Neutrinos",
+      "title": "Neutrinos",
+      "url": "public/Concepts/Neutrinos/",
+      "degree": 13
+    },
+    {
+      "id": "Concepts/Neutron Star",
+      "title": "Neutron Star",
+      "url": "public/Concepts/Neutron%20Star/",
+      "degree": 7
+    },
+    {
+      "id": "Concepts/Neutrons",
+      "title": "Neutrons",
+      "url": "public/Concepts/Neutrons/",
+      "degree": 6
+    },
+    {
+      "id": "Concepts/Nobel Prize",
+      "title": "Nobel Prize",
+      "url": "public/Concepts/Nobel%20Prize/",
+      "degree": 3
+    },
+    {
+      "id": "Concepts/Photon",
+      "title": "Photon",
+      "url": "public/Concepts/Photon/",
+      "degree": 10
+    },
+    {
+      "id": "Concepts/Positron",
+      "title": "Positron",
+      "url": "public/Concepts/Positron/",
+      "degree": 3
+    },
+    {
+      "id": "Concepts/Protons",
+      "title": "Protons",
+      "url": "public/Concepts/Protons/",
+      "degree": 8
+    },
+    {
+      "id": "Concepts/Satellite",
+      "title": "Satellite",
+      "url": "public/Concepts/Satellite/",
+      "degree": 7
+    },
+    {
+      "id": "Concepts/Science",
+      "title": "Science",
+      "url": "public/Concepts/Science/",
+      "degree": 6
+    },
+    {
+      "id": "Concepts/Star",
+      "title": "Star",
+      "url": "public/Concepts/Star/",
+      "degree": 11
+    },
+    {
+      "id": "Concepts/Sun",
+      "title": "Sun",
+      "url": "public/Concepts/Sun/",
+      "degree": 9
+    },
+    {
+      "id": "Concepts/Supernova",
+      "title": "Supernova",
+      "url": "public/Concepts/Supernova/",
+      "degree": 12
+    },
+    {
+      "id": "Concepts/The Big Bang",
+      "title": "The Big Bang",
+      "url": "public/Concepts/The%20Big%20Bang/",
+      "degree": 11
+    },
+    {
+      "id": "Concepts/The Universe is Flat",
+      "title": "The Universe is Flat",
+      "url": "public/Concepts/The%20Universe%20is%20Flat/",
+      "degree": 2
+    },
+    {
+      "id": "Concepts/Time/AD",
+      "title": "AD",
+      "url": "public/Concepts/Time/AD/",
+      "degree": 3
+    },
+    {
+      "id": "Concepts/Time/BC",
+      "title": "BC",
+      "url": "public/Concepts/Time/BC/",
+      "degree": 3
+    },
+    {
+      "id": "Concepts/Time/BCE",
+      "title": "BCE",
+      "url": "public/Concepts/Time/BCE/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/Time/CE",
+      "title": "CE",
+      "url": "public/Concepts/Time/CE/",
+      "degree": 4
+    },
+    {
+      "id": "Concepts/Time/Time",
+      "title": "Time",
+      "url": "public/Concepts/Time/Time/",
+      "degree": 12
+    },
+    {
+      "id": "Concepts/Time/UNIX",
+      "title": "UNIX",
+      "url": "public/Concepts/Time/UNIX/",
+      "degree": 4
+    },
+    {
+      "id": "Concepts/TV",
+      "title": "TV",
+      "url": "public/Concepts/TV/",
+      "degree": 5
+    },
+    {
+      "id": "Concepts/Visible Light",
+      "title": "Visible Light",
+      "url": "public/Concepts/Visible%20Light/",
+      "degree": 8
+    },
+    {
+      "id": "Concepts/WiFi",
+      "title": "WiFi",
+      "url": "public/Concepts/WiFi/",
+      "degree": 6
+    },
+    {
+      "id": "Concepts/WRC",
+      "title": "Major \u0026 Minor WRC Rule \"Resets\" (by season)",
+      "url": "public/Concepts/WRC/",
+      "degree": 5
+    },
+    {
+      "id": "Games/Baldur's Gate 3/Astarion Build",
+      "title": "Gear",
+      "url": "public/Games/Baldur%27s%20Gate%203/Astarion%20Build/",
+      "degree": 1
+    },
+    {
+      "id": "Games/Baldur's Gate 3/Loot Catalog",
+      "title": "Loot Catalog",
+      "url": "public/Games/Baldur%27s%20Gate%203/Loot%20Catalog/",
+      "degree": 1
+    },
+    {
+      "id": "Games/Baldur's Gate",
+      "title": "Baldur's Gate",
+      "url": "public/Games/Baldur%27s%20Gate/",
+      "degree": 3
+    },
+    {
+      "id": "Games/Consoles I've Owned",
+      "title": "Consoles I've Owned",
+      "url": "public/Games/Consoles%20I%27ve%20Owned/",
+      "degree": 40
+    },
+    {
+      "id": "Games/Consoles/Atari 2600",
+      "title": "Atari 2600",
+      "url": "public/Games/Consoles/Atari%202600/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Game Boy Advance SP",
+      "title": "Game Boy Advance SP",
+      "url": "public/Games/Consoles/Game%20Boy%20Advance%20SP/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Game Boy Advance",
+      "title": "Game Boy Advance",
+      "url": "public/Games/Consoles/Game%20Boy%20Advance/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Game Boy",
+      "title": "Game Boy",
+      "url": "public/Games/Consoles/Game%20Boy/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/NES",
+      "title": "NES",
+      "url": "public/Games/Consoles/NES/",
+      "degree": 4
+    },
+    {
+      "id": "Games/Consoles/Nintendo 64",
+      "title": "Nintendo 64",
+      "url": "public/Games/Consoles/Nintendo%2064/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Nintendo DSi",
+      "title": "Nintendo DSi",
+      "url": "public/Games/Consoles/Nintendo%20DSi/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Nintendo Switch",
+      "title": "Nintendo Switch",
+      "url": "public/Games/Consoles/Nintendo%20Switch/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Nintendo Wii",
+      "title": "Nintendo Wii",
+      "url": "public/Games/Consoles/Nintendo%20Wii/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/PlayStation 1",
+      "title": "PlayStation 1",
+      "url": "public/Games/Consoles/PlayStation%201/",
+      "degree": 3
+    },
+    {
+      "id": "Games/Consoles/PlayStation 2",
+      "title": "PlayStation 2",
+      "url": "public/Games/Consoles/PlayStation%202/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/PlayStation 3",
+      "title": "PlayStation 3",
+      "url": "public/Games/Consoles/PlayStation%203/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/PlayStation 4",
+      "title": "PlayStation 4",
+      "url": "public/Games/Consoles/PlayStation%204/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/PlayStation 5",
+      "title": "PlayStation 5",
+      "url": "public/Games/Consoles/PlayStation%205/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Sega Dreamcast",
+      "title": "Sega Dreamcast",
+      "url": "public/Games/Consoles/Sega%20Dreamcast/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Sega Genesis",
+      "title": "Sega Genesis",
+      "url": "public/Games/Consoles/Sega%20Genesis/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/SNES",
+      "title": "SNES",
+      "url": "public/Games/Consoles/SNES/",
+      "degree": 4
+    },
+    {
+      "id": "Games/Consoles/Virtual Boy",
+      "title": "Virtual Boy",
+      "url": "public/Games/Consoles/Virtual%20Boy/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Xbox 360",
+      "title": "Xbox 360",
+      "url": "public/Games/Consoles/Xbox%20360/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Consoles/Xbox",
+      "title": "Xbox",
+      "url": "public/Games/Consoles/Xbox/",
+      "degree": 2
+    },
+    {
+      "id": "Games/CPU",
+      "title": "CPU",
+      "url": "public/Games/CPU/",
+      "degree": 6
+    },
+    {
+      "id": "Games/Dark Souls",
+      "title": "Dark Souls",
+      "url": "public/Games/Dark%20Souls/",
+      "degree": 3
+    },
+    {
+      "id": "Games/Diablo",
+      "title": "Diablo",
+      "url": "public/Games/Diablo/",
+      "degree": 1
+    },
+    {
+      "id": "Games/Dragon Quest",
+      "title": "Dragon Quest",
+      "url": "public/Games/Dragon%20Quest/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Elden Ring",
+      "title": "Elden Ring",
+      "url": "public/Games/Elden%20Ring/",
+      "degree": 3
+    },
+    {
+      "id": "Games/Expedition 33",
+      "title": "Expedition 33",
+      "url": "public/Games/Expedition%2033/",
+      "degree": 5
+    },
+    {
+      "id": "Games/Final Fantasy",
+      "title": "Final Fantasy",
+      "url": "public/Games/Final%20Fantasy/",
+      "degree": 7
+    },
+    {
+      "id": "Games/MMO",
+      "title": "MMO",
+      "url": "public/Games/MMO/",
+      "degree": 3
+    },
+    {
+      "id": "Games/Motor City Online",
+      "title": "Motor City Online",
+      "url": "public/Games/Motor%20City%20Online/",
+      "degree": 4
+    },
+    {
+      "id": "Games/MTG/Cloud Starter Deck",
+      "title": "Piloting the Cloud Strife Boros starter deck",
+      "url": "public/Games/MTG/Cloud%20Starter%20Deck/",
+      "degree": 3
+    },
+    {
+      "id": "Games/MTG/Sephiroth Starter Deck",
+      "title": "Mastering the Sephiroth starter deck in MTG × Final Fantasy",
+      "url": "public/Games/MTG/Sephiroth%20Starter%20Deck/",
+      "degree": 3
+    },
+    {
+      "id": "Games/opcodes",
+      "title": "opcodes",
+      "url": "public/Games/opcodes/",
+      "degree": 4
+    },
+    {
+      "id": "Games/RPG",
+      "title": "RPG",
+      "url": "public/Games/RPG/",
+      "degree": 17
+    },
+    {
+      "id": "Games/The Detroit Lubricators",
+      "title": "The Detroit Lubricators",
+      "url": "public/Games/The%20Detroit%20Lubricators/",
+      "degree": 2
+    },
+    {
+      "id": "Games/The Game Awards",
+      "title": "The Game Awards",
+      "url": "public/Games/The%20Game%20Awards/",
+      "degree": 2
+    },
+    {
+      "id": "Games/Turing Complete",
+      "title": "Chapter 1 - The simplest 8 bit CPU",
+      "url": "public/Games/Turing%20Complete/",
+      "degree": 6
+    },
+    {
+      "id": "Games/World of Warcraft",
+      "title": "World of Warcraft",
+      "url": "public/Games/World%20of%20Warcraft/",
+      "degree": 3
+    },
+    {
+      "id": "index",
+      "title": "Welcome to The Maze",
+      "url": "",
+      "degree": 13
+    },
+    {
+      "id": "Movies/Ghost in the Shell",
+      "title": "Ghost in the Shell",
+      "url": "public/Movies/Ghost%20in%20the%20Shell/",
+      "degree": 3
+    },
+    {
+      "id": "Movies/Terminator 2",
+      "title": "Terminator 2",
+      "url": "public/Movies/Terminator%202/",
+      "degree": 1
+    },
+    {
+      "id": "Music/Art Rock",
+      "title": "Art Rock",
+      "url": "public/Music/Art%20Rock/",
+      "degree": 4
+    },
+    {
+      "id": "Music/Borislav Slavov",
+      "title": "Borislav Slavov",
+      "url": "public/Music/Borislav%20Slavov/",
+      "degree": 1
+    },
+    {
+      "id": "Music/Christopher Larkin",
+      "title": "Christopher Larkin",
+      "url": "public/Music/Christopher%20Larkin/",
+      "degree": 1
+    },
+    {
+      "id": "Music/Christopher Tin",
+      "title": "Christopher Tin",
+      "url": "public/Music/Christopher%20Tin/",
+      "degree": 1
+    },
+    {
+      "id": "Music/Daft Punk",
+      "title": "Daft Punk",
+      "url": "public/Music/Daft%20Punk/",
+      "degree": 1
+    },
+    {
+      "id": "Music/Evan Call",
+      "title": "Evan Call",
+      "url": "public/Music/Evan%20Call/",
+      "degree": 1
+    },
+    {
+      "id": "Music/Favorite Musicians",
+      "title": "Favorite Musicians",
+      "url": "public/Music/Favorite%20Musicians/",
+      "degree": 15
+    },
+    {
+      "id": "Music/Good Times Around the Bend",
+      "title": "Good Times Around the Bend",
+      "url": "public/Music/Good%20Times%20Around%20the%20Bend/",
+      "degree": 3
+    },
+    {
+      "id": "Music/Howard Shore",
+      "title": "Howard Shore",
+      "url": "public/Music/Howard%20Shore/",
+      "degree": 1
+    },
+    {
+      "id": "Music/John Williams",
+      "title": "John Williams",
+      "url": "public/Music/John%20Williams/",
+      "degree": 1
+    },
+    {
+      "id": "Music/Lorien Testard",
+      "title": "Lorien Testard",
+      "url": "public/Music/Lorien%20Testard/",
+      "degree": 2
+    },
+    {
+      "id": "Music/Nobuo Uematsu",
+      "title": "Nobuo Uematsu",
+      "url": "public/Music/Nobuo%20Uematsu/",
+      "degree": 5
+    },
+    {
+      "id": "Music/Phish",
+      "title": "Phish",
+      "url": "public/Music/Phish/",
+      "degree": 1
+    },
+    {
+      "id": "Music/Pink Floyd",
+      "title": "Pink Floyd",
+      "url": "public/Music/Pink%20Floyd/",
+      "degree": 5
+    },
+    {
+      "id": "Music/PS1",
+      "title": "PS1",
+      "url": "public/Music/PS1/",
+      "degree": 3
+    },
+    {
+      "id": "Music/Radiohead",
+      "title": "Radiohead",
+      "url": "public/Music/Radiohead/",
+      "degree": 2
+    },
+    {
+      "id": "Music/String Cheese Incident",
+      "title": "String Cheese Incident",
+      "url": "public/Music/String%20Cheese%20Incident/",
+      "degree": 2
+    },
+    {
+      "id": "People/Albert Einstein",
+      "title": "Albert Einstein",
+      "url": "public/People/Albert%20Einstein/",
+      "degree": 11
+    },
+    {
+      "id": "People/An Appetite for Wonder - The Making of a Scientist",
+      "title": "An Appetite for Wonder - The Making of a Scientist",
+      "url": "public/People/An%20Appetite%20for%20Wonder%20-%20The%20Making%20of%20a%20Scientist/",
+      "degree": 3
+    },
+    {
+      "id": "People/Ann Druyan",
+      "title": "Ann Druyan",
+      "url": "public/People/Ann%20Druyan/",
+      "degree": 2
+    },
+    {
+      "id": "People/Bill Bryson",
+      "title": "Bill Bryson",
+      "url": "public/People/Bill%20Bryson/",
+      "degree": 2
+    },
+    {
+      "id": "People/Brownian Motion",
+      "title": "Brownian Motion",
+      "url": "public/People/Brownian%20Motion/",
+      "degree": 4
+    },
+    {
+      "id": "People/Carl Sagan",
+      "title": "Carl Sagan",
+      "url": "public/People/Carl%20Sagan/",
+      "degree": 7
+    },
+    {
+      "id": "People/Charles Darwin",
+      "title": "Charles Darwin",
+      "url": "public/People/Charles%20Darwin/",
+      "degree": 11
+    },
+    {
+      "id": "People/Christopher Hitchens",
+      "title": "Christopher Hitchens",
+      "url": "public/People/Christopher%20Hitchens/",
+      "degree": 2
+    },
+    {
+      "id": "People/Dalai Lama",
+      "title": "Dalai Lama",
+      "url": "public/People/Dalai%20Lama/",
+      "degree": 2
+    },
+    {
+      "id": "People/Deno",
+      "title": "Deno",
+      "url": "public/People/Deno/",
+      "degree": 7
+    },
+    {
+      "id": "People/dogmaticCURE",
+      "title": "dogmaticCURE",
+      "url": "public/People/dogmaticCURE/",
+      "degree": 2
+    },
+    {
+      "id": "People/Galileo Galilei",
+      "title": "Galileo Galilei",
+      "url": "public/People/Galileo%20Galilei/",
+      "degree": 1
+    },
+    {
+      "id": "People/General Relativity",
+      "title": "General Relativity",
+      "url": "public/People/General%20Relativity/",
+      "degree": 7
+    },
+    {
+      "id": "People/Georg Wilhelm Friedrich Hegel",
+      "title": "Georg Wilhelm Friedrich Hegel",
+      "url": "public/People/Georg%20Wilhelm%20Friedrich%20Hegel/",
+      "degree": 2
+    },
+    {
+      "id": "People/George Bernard Shaw",
+      "title": "George Bernard Shaw",
+      "url": "public/People/George%20Bernard%20Shaw/",
+      "degree": 2
+    },
+    {
+      "id": "People/internet",
+      "title": "internet",
+      "url": "public/People/internet/",
+      "degree": 14
+    },
+    {
+      "id": "People/Isaac Asimov",
+      "title": "Isaac Asimov",
+      "url": "public/People/Isaac%20Asimov/",
+      "degree": 2
+    },
+    {
+      "id": "People/Isaac Newton",
+      "title": "Isaac Newton",
+      "url": "public/People/Isaac%20Newton/",
+      "degree": 4
+    },
+    {
+      "id": "People/Jacob Bronowski",
+      "title": "Jacob Bronowski",
+      "url": "public/People/Jacob%20Bronowski/",
+      "degree": 6
+    },
+    {
+      "id": "People/Karen Armstrong",
+      "title": "Karen Armstrong",
+      "url": "public/People/Karen%20Armstrong/",
+      "degree": 5
+    },
+    {
+      "id": "People/Lawrence M. Krauss",
+      "title": "Lawrence M. Krauss",
+      "url": "public/People/Lawrence%20M.%20Krauss/",
+      "degree": 7
+    },
+    {
+      "id": "People/Letter to a Christian Nation",
+      "title": "Letter to a Christian Nation",
+      "url": "public/People/Letter%20to%20a%20Christian%20Nation/",
+      "degree": 4
+    },
+    {
+      "id": "People/Linus Torvalds",
+      "title": "Linus Torvalds",
+      "url": "public/People/Linus%20Torvalds/",
+      "degree": 5
+    },
+    {
+      "id": "People/Michael Jordan",
+      "title": "Michael Jordan",
+      "url": "public/People/Michael%20Jordan/",
+      "degree": 2
+    },
+    {
+      "id": "People/Neil deGrasse Tyson",
+      "title": "Neil deGrasse Tyson",
+      "url": "public/People/Neil%20deGrasse%20Tyson/",
+      "degree": 2
+    },
+    {
+      "id": "People/Principia Mathematica",
+      "title": "Principia Mathematica",
+      "url": "public/People/Principia%20Mathematica/",
+      "degree": 4
+    },
+    {
+      "id": "People/Quantum Electrodynamics",
+      "title": "Quantum Electrodynamics",
+      "url": "public/People/Quantum%20Electrodynamics/",
+      "degree": 4
+    },
+    {
+      "id": "People/Richard Dawkins",
+      "title": "Richard Dawkins",
+      "url": "public/People/Richard%20Dawkins/",
+      "degree": 12
+    },
+    {
+      "id": "People/Richard Feynman",
+      "title": "Richard Feynman",
+      "url": "public/People/Richard%20Feynman/",
+      "degree": 9
+    },
+    {
+      "id": "People/Robert A. Heinlein",
+      "title": "Robert A. Heinlein",
+      "url": "public/People/Robert%20A.%20Heinlein/",
+      "degree": 2
+    },
+    {
+      "id": "People/Ryan Dahl",
+      "title": "Ryan Dahl",
+      "url": "public/People/Ryan%20Dahl/",
+      "degree": 6
+    },
+    {
+      "id": "People/Sam Harris",
+      "title": "Sam Harris",
+      "url": "public/People/Sam%20Harris/",
+      "degree": 7
+    },
+    {
+      "id": "People/Special Relativity",
+      "title": "Special Relativity",
+      "url": "public/People/Special%20Relativity/",
+      "degree": 6
+    },
+    {
+      "id": "People/Stephen Jay Gould",
+      "title": "Stephen Jay Gould",
+      "url": "public/People/Stephen%20Jay%20Gould/",
+      "degree": 2
+    },
+    {
+      "id": "People/The Demon Haunted World",
+      "title": "The Demon Haunted World",
+      "url": "public/People/The%20Demon%20Haunted%20World/",
+      "degree": 4
+    },
+    {
+      "id": "People/The God Delusion",
+      "title": "The God Delusion",
+      "url": "public/People/The%20God%20Delusion/",
+      "degree": 4
+    },
+    {
+      "id": "People/The Greatest Show on Earth",
+      "title": "The Greatest Show on Earth",
+      "url": "public/People/The%20Greatest%20Show%20on%20Earth/",
+      "degree": 5
+    },
+    {
+      "id": "People/The Photoelectric Effect",
+      "title": "The Photoelectric Effect",
+      "url": "public/People/The%20Photoelectric%20Effect/",
+      "degree": 9
+    },
+    {
+      "id": "People/The Selfish Gene",
+      "title": "The Selfish Gene",
+      "url": "public/People/The%20Selfish%20Gene/",
+      "degree": 7
+    },
+    {
+      "id": "Projects",
+      "title": "Active Projects",
+      "url": "public/Projects/",
+      "degree": 8
+    },
+    {
+      "id": "Quotes",
+      "title": "Quotes",
+      "url": "public/Quotes/",
+      "degree": 37
+    },
+    {
+      "id": "Technology/CLI",
+      "title": "Command Line Interface",
+      "url": "public/Technology/CLI/",
+      "degree": 6
+    },
+    {
+      "id": "Technology/database",
+      "title": "database",
+      "url": "public/Technology/database/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/File and Document Formats/CSS",
+      "title": "CSS",
+      "url": "public/Technology/File%20and%20Document%20Formats/CSS/",
+      "degree": 5
+    },
+    {
+      "id": "Technology/File and Document Formats/HTML",
+      "title": "HTML",
+      "url": "public/Technology/File%20and%20Document%20Formats/HTML/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/File and Document Formats/LaTeX",
+      "title": "LaTeX",
+      "url": "public/Technology/File%20and%20Document%20Formats/LaTeX/",
+      "degree": 1
+    },
+    {
+      "id": "Technology/File and Document Formats/Markdown",
+      "title": "Markdown",
+      "url": "public/Technology/File%20and%20Document%20Formats/Markdown/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/File and Document Formats/reddit",
+      "title": "reddit",
+      "url": "public/Technology/File%20and%20Document%20Formats/reddit/",
+      "degree": 3
+    },
+    {
+      "id": "Technology/File and Document Formats/Tailwind",
+      "title": "Tailwind",
+      "url": "public/Technology/File%20and%20Document%20Formats/Tailwind/",
+      "degree": 3
+    },
+    {
+      "id": "Technology/FPGA",
+      "title": "FPGA",
+      "url": "public/Technology/FPGA/",
+      "degree": 7
+    },
+    {
+      "id": "Technology/git",
+      "title": "git",
+      "url": "public/Technology/git/",
+      "degree": 5
+    },
+    {
+      "id": "Technology/github",
+      "title": "github",
+      "url": "public/Technology/github/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/Hardware Description Languages/Verilog",
+      "title": "Verilog",
+      "url": "public/Technology/Hardware%20Description%20Languages/Verilog/",
+      "degree": 5
+    },
+    {
+      "id": "Technology/Hardware Description Languages/VHDL",
+      "title": "VHDL",
+      "url": "public/Technology/Hardware%20Description%20Languages/VHDL/",
+      "degree": 3
+    },
+    {
+      "id": "Technology/Kernel",
+      "title": "Kernel",
+      "url": "public/Technology/Kernel/",
+      "degree": 2
+    },
+    {
+      "id": "Technology/Linux",
+      "title": "Linux",
+      "url": "public/Technology/Linux/",
+      "degree": 8
+    },
+    {
+      "id": "Technology/MathJax",
+      "title": "MathJax",
+      "url": "public/Technology/MathJax/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/Networking/Common Ports \u0026 Protocols",
+      "title": "Common Ports \u0026 Protocols",
+      "url": "public/Technology/Networking/Common%20Ports%20\u0026%20Protocols/",
+      "degree": 10
+    },
+    {
+      "id": "Technology/Networking/FTP",
+      "title": "FTP",
+      "url": "public/Technology/Networking/FTP/",
+      "degree": 1
+    },
+    {
+      "id": "Technology/Networking/HTTP",
+      "title": "HTTP",
+      "url": "public/Technology/Networking/HTTP/",
+      "degree": 8
+    },
+    {
+      "id": "Technology/Networking/HTTPS",
+      "title": "HTTPS",
+      "url": "public/Technology/Networking/HTTPS/",
+      "degree": 7
+    },
+    {
+      "id": "Technology/Networking/IP",
+      "title": "IP",
+      "url": "public/Technology/Networking/IP/",
+      "degree": 10
+    },
+    {
+      "id": "Technology/Networking/port 22",
+      "title": "port 22",
+      "url": "public/Technology/Networking/port%2022/",
+      "degree": 3
+    },
+    {
+      "id": "Technology/Networking/port 443",
+      "title": "port 443",
+      "url": "public/Technology/Networking/port%20443/",
+      "degree": 7
+    },
+    {
+      "id": "Technology/Networking/port 80",
+      "title": "port 80",
+      "url": "public/Technology/Networking/port%2080/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/Networking/SSH",
+      "title": "SSH",
+      "url": "public/Technology/Networking/SSH/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/Networking/TCP",
+      "title": "TCP",
+      "url": "public/Technology/Networking/TCP/",
+      "degree": 10
+    },
+    {
+      "id": "Technology/Networking/UDP",
+      "title": "UDP",
+      "url": "public/Technology/Networking/UDP/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/NVIDIA",
+      "title": "NVIDIA",
+      "url": "public/Technology/NVIDIA/",
+      "degree": 2
+    },
+    {
+      "id": "Technology/nvm",
+      "title": "node version manger",
+      "url": "public/Technology/nvm/",
+      "degree": 1
+    },
+    {
+      "id": "Technology/ping",
+      "title": "ping",
+      "url": "public/Technology/ping/",
+      "degree": 7
+    },
+    {
+      "id": "Technology/Postgres",
+      "title": "Postgres",
+      "url": "public/Technology/Postgres/",
+      "degree": 6
+    },
+    {
+      "id": "Technology/Programming/Languages/C Sharp",
+      "title": "C Sharp",
+      "url": "public/Technology/Programming/Languages/C%20Sharp/",
+      "degree": 2
+    },
+    {
+      "id": "Technology/Programming/Languages/C++",
+      "title": "C++",
+      "url": "public/Technology/Programming/Languages/C++/",
+      "degree": 3
+    },
+    {
+      "id": "Technology/Programming/Languages/C",
+      "title": "C",
+      "url": "public/Technology/Programming/Languages/C/",
+      "degree": 3
+    },
+    {
+      "id": "Technology/Programming/Languages/Godot GDScript",
+      "title": "Godot GDScript",
+      "url": "public/Technology/Programming/Languages/Godot%20GDScript/",
+      "degree": 3
+    },
+    {
+      "id": "Technology/Programming/Languages/Java",
+      "title": "Java",
+      "url": "public/Technology/Programming/Languages/Java/",
+      "degree": 2
+    },
+    {
+      "id": "Technology/Programming/Languages/JavaScript",
+      "title": "JavaScript",
+      "url": "public/Technology/Programming/Languages/JavaScript/",
+      "degree": 15
+    },
+    {
+      "id": "Technology/Programming/Languages/Node.js",
+      "title": "Node.js",
+      "url": "public/Technology/Programming/Languages/Node.js/",
+      "degree": 9
+    },
+    {
+      "id": "Technology/Programming/Languages/PHP",
+      "title": "PHP",
+      "url": "public/Technology/Programming/Languages/PHP/",
+      "degree": 3
+    },
+    {
+      "id": "Technology/Programming/Languages/Programming Languages",
+      "title": "Programming Languages",
+      "url": "public/Technology/Programming/Languages/Programming%20Languages/",
+      "degree": 14
+    },
+    {
+      "id": "Technology/Programming/Languages/Python",
+      "title": "Python",
+      "url": "public/Technology/Programming/Languages/Python/",
+      "degree": 12
+    },
+    {
+      "id": "Technology/Programming/Languages/web browser",
+      "title": "web browser",
+      "url": "public/Technology/Programming/Languages/web%20browser/",
+      "degree": 8
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/AI",
+      "title": "AI",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/AI/",
+      "degree": 9
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/Django",
+      "title": "Django",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/Django/",
+      "degree": 7
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/Godot 4",
+      "title": "2D",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/Godot%204/",
+      "degree": 3
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/Google",
+      "title": "Google",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/Google/",
+      "degree": 5
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/Nuxt 3",
+      "title": "Nuxt 3",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/Nuxt%203/",
+      "degree": 5
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/OpenAI",
+      "title": "OpenAI",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/OpenAI/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/PyGame",
+      "title": "PyGame",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/PyGame/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/React",
+      "title": "Getting Started",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/React/",
+      "degree": 1
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/Server Side Rendering",
+      "title": "Server Side Rendering",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/Server%20Side%20Rendering/",
+      "degree": 4
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/Vue",
+      "title": "Vue",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/Vue/",
+      "degree": 2
+    },
+    {
+      "id": "Technology/Programming/Libraries \u0026 Frameworks/WordPress",
+      "title": "WordPress",
+      "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/WordPress/",
+      "degree": 2
+    },
+    {
+      "id": "Technology/REPL",
+      "title": "The Read-Eval-Print-Loop aka REPL",
+      "url": "public/Technology/REPL/",
+      "degree": 5
+    },
+    {
+      "id": "Technology/RISC-V",
+      "title": "RISC-V",
+      "url": "public/Technology/RISC-V/",
+      "degree": 5
+    },
+    {
+      "id": "Technology/Supabase",
+      "title": "Supabase",
+      "url": "public/Technology/Supabase/",
+      "degree": 5
+    },
+    {
+      "id": "Technology/Top500",
+      "title": "Top500",
+      "url": "public/Technology/Top500/",
+      "degree": 1
+    },
+    {
+      "id": "Technology/Tutorials and Courses",
+      "title": "Tutorials and Courses",
+      "url": "public/Technology/Tutorials%20and%20Courses/",
+      "degree": 7
+    },
+    {
+      "id": "Technology/Unreal",
+      "title": "Unreal",
+      "url": "public/Technology/Unreal/",
+      "degree": 2
+    },
+    {
+      "id": "Technology/web",
+      "title": "The World Wide Web",
+      "url": "public/Technology/web/",
+      "degree": 9
+    }
+  ],
+  "links": [
+    {
+      "source": "Books/A Universe from Nothing",
+      "target": "Concepts/The Big Bang"
+    },
+    {
+      "source": "Books/A Universe from Nothing",
+      "target": "Concepts/The Universe is Flat"
+    },
+    {
+      "source": "Books/A Universe from Nothing",
+      "target": "People/Lawrence M. Krauss"
+    },
+    {
+      "source": "Books/On the Origin of Species",
+      "target": "Concepts/Evolution"
+    },
+    {
+      "source": "Books/On the Origin of Species",
+      "target": "People/Charles Darwin"
+    },
+    {
+      "source": "Books/Quantum Man",
+      "target": "People/Lawrence M. Krauss"
+    },
+    {
+      "source": "Books/Quantum Man",
+      "target": "People/Richard Feynman"
+    },
+    {
+      "source": "Books/The Ascent of Man",
+      "target": "People/Jacob Bronowski"
+    },
+    {
+      "source": "Books/The History of God",
+      "target": "Concepts/Humans"
+    },
+    {
+      "source": "Books/The History of God",
+      "target": "Concepts/Mythology/God"
+    },
+    {
+      "source": "Books/The History of God",
+      "target": "Concepts/Mythology/Monotheism"
+    },
+    {
+      "source": "Books/The History of God",
+      "target": "Concepts/Mythology/Polytheism"
+    },
+    {
+      "source": "Books/The History of God",
+      "target": "People/Karen Armstrong"
+    },
+    {
+      "source": "Books/The Moral Landscape",
+      "target": "Concepts/Science"
+    },
+    {
+      "source": "Books/The Moral Landscape",
+      "target": "People/Sam Harris"
+    },
+    {
+      "source": "Concepts/AM",
+      "target": "Concepts/D Layer"
+    },
+    {
+      "source": "Concepts/AM",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/AM",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/AM",
+      "target": "Concepts/FM"
+    },
+    {
+      "source": "Concepts/AM",
+      "target": "Concepts/Ionosphere"
+    },
+    {
+      "source": "Concepts/Atheism",
+      "target": "Concepts/Mythology/God"
+    },
+    {
+      "source": "Concepts/Atheism",
+      "target": "Concepts/Naturalism"
+    },
+    {
+      "source": "Concepts/Atom",
+      "target": "Concepts/Electron"
+    },
+    {
+      "source": "Concepts/Atom",
+      "target": "Concepts/Neutrons"
+    },
+    {
+      "source": "Concepts/Atom",
+      "target": "Concepts/Protons"
+    },
+    {
+      "source": "Concepts/Black Hole",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "Concepts/Black Hole",
+      "target": "Concepts/Galaxy"
+    },
+    {
+      "source": "Concepts/Black Hole",
+      "target": "Concepts/Light"
+    },
+    {
+      "source": "Concepts/Black Hole",
+      "target": "Concepts/Star"
+    },
+    {
+      "source": "Concepts/Black Hole",
+      "target": "Concepts/Supernova"
+    },
+    {
+      "source": "Concepts/Bluetooth",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/Bluetooth",
+      "target": "Concepts/WiFi"
+    },
+    {
+      "source": "Concepts/consciousness",
+      "target": "Movies/Ghost in the Shell"
+    },
+    {
+      "source": "Concepts/Cosmic Microwave Background Radiation",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/Cosmic Microwave Background Radiation",
+      "target": "Concepts/The Big Bang"
+    },
+    {
+      "source": "Concepts/Cosmic Microwave Background Radiation",
+      "target": "Concepts/expansion of the universe"
+    },
+    {
+      "source": "Concepts/Cosmos",
+      "target": "Concepts/Galaxy"
+    },
+    {
+      "source": "Concepts/Cosmos",
+      "target": "Concepts/Star"
+    },
+    {
+      "source": "Concepts/Cosmos",
+      "target": "People/Carl Sagan"
+    },
+    {
+      "source": "Concepts/D Layer",
+      "target": "Concepts/AM"
+    },
+    {
+      "source": "Concepts/D Layer",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/D Layer",
+      "target": "Concepts/Ionosphere"
+    },
+    {
+      "source": "Concepts/Electromagnetic Radiation",
+      "target": "Concepts/Cosmic Microwave Background Radiation"
+    },
+    {
+      "source": "Concepts/Electromagnetic Radiation",
+      "target": "Concepts/Electron"
+    },
+    {
+      "source": "Concepts/Electromagnetic Radiation",
+      "target": "Concepts/Neutrinos"
+    },
+    {
+      "source": "Concepts/Electromagnetic Radiation",
+      "target": "Concepts/Photon"
+    },
+    {
+      "source": "Concepts/Electromagnetic Radiation",
+      "target": "Concepts/The Big Bang"
+    },
+    {
+      "source": "Concepts/Electromagnetic Radiation",
+      "target": "Concepts/expansion of the universe"
+    },
+    {
+      "source": "Concepts/Electromagnetic Spectrum",
+      "target": "Concepts/AM"
+    },
+    {
+      "source": "Concepts/Electromagnetic Spectrum",
+      "target": "Concepts/Bluetooth"
+    },
+    {
+      "source": "Concepts/Electromagnetic Spectrum",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/Electromagnetic Spectrum",
+      "target": "Concepts/FM"
+    },
+    {
+      "source": "Concepts/Electromagnetic Spectrum",
+      "target": "Concepts/Ionosphere"
+    },
+    {
+      "source": "Concepts/Electromagnetic Spectrum",
+      "target": "Concepts/Satellite"
+    },
+    {
+      "source": "Concepts/Electromagnetic Spectrum",
+      "target": "Concepts/TV"
+    },
+    {
+      "source": "Concepts/Electromagnetic Spectrum",
+      "target": "Concepts/WiFi"
+    },
+    {
+      "source": "Concepts/Electron",
+      "target": "Concepts/Atom"
+    },
+    {
+      "source": "Concepts/Electron",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/Electron",
+      "target": "Concepts/Leptons"
+    },
+    {
+      "source": "Concepts/Electron",
+      "target": "Concepts/Light"
+    },
+    {
+      "source": "Concepts/Electron",
+      "target": "Concepts/Neutrinos"
+    },
+    {
+      "source": "Concepts/Electron",
+      "target": "Concepts/Neutrons"
+    },
+    {
+      "source": "Concepts/Electron",
+      "target": "Concepts/Photon"
+    },
+    {
+      "source": "Concepts/Electron",
+      "target": "Concepts/Protons"
+    },
+    {
+      "source": "Concepts/empty space",
+      "target": "Concepts/Atom"
+    },
+    {
+      "source": "Concepts/empty space",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "Concepts/empty space",
+      "target": "Concepts/Protons"
+    },
+    {
+      "source": "Concepts/empty space",
+      "target": "Concepts/The Big Bang"
+    },
+    {
+      "source": "Concepts/Evolution",
+      "target": "Concepts/Natural Selection"
+    },
+    {
+      "source": "Concepts/Evolution",
+      "target": "Concepts/Time/Time"
+    },
+    {
+      "source": "Concepts/Evolution",
+      "target": "People/Charles Darwin"
+    },
+    {
+      "source": "Concepts/expansion of the universe",
+      "target": "Concepts/Cosmic Microwave Background Radiation"
+    },
+    {
+      "source": "Concepts/expansion of the universe",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "Concepts/expansion of the universe",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/expansion of the universe",
+      "target": "Concepts/The Big Bang"
+    },
+    {
+      "source": "Concepts/F1",
+      "target": "Concepts/Motorsports"
+    },
+    {
+      "source": "Concepts/F1",
+      "target": "Concepts/WRC"
+    },
+    {
+      "source": "Concepts/FM",
+      "target": "Concepts/AM"
+    },
+    {
+      "source": "Concepts/FM",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/Galaxy",
+      "target": "Concepts/Black Hole"
+    },
+    {
+      "source": "Concepts/Galaxy",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "Concepts/Galaxy",
+      "target": "Concepts/Star"
+    },
+    {
+      "source": "Concepts/Galaxy",
+      "target": "Concepts/Sun"
+    },
+    {
+      "source": "Concepts/Galaxy",
+      "target": "Concepts/Supernova"
+    },
+    {
+      "source": "Concepts/Health/BMR",
+      "target": "Concepts/Health/TDEE"
+    },
+    {
+      "source": "Concepts/Health/TDEE",
+      "target": "Concepts/Health/BMR"
+    },
+    {
+      "source": "Concepts/human vision",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/human vision",
+      "target": "Concepts/Light"
+    },
+    {
+      "source": "Concepts/human vision",
+      "target": "Concepts/Visible Light"
+    },
+    {
+      "source": "Concepts/Humans",
+      "target": "Concepts/Evolution"
+    },
+    {
+      "source": "Concepts/Humans",
+      "target": "Concepts/The Big Bang"
+    },
+    {
+      "source": "Concepts/Ionosphere",
+      "target": "Concepts/AM"
+    },
+    {
+      "source": "Concepts/Ionosphere",
+      "target": "Concepts/D Layer"
+    },
+    {
+      "source": "Concepts/Ionosphere",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/Ionosphere",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/Ionosphere",
+      "target": "Concepts/FM"
+    },
+    {
+      "source": "Concepts/Ionosphere",
+      "target": "Concepts/Satellite"
+    },
+    {
+      "source": "Concepts/Ionosphere",
+      "target": "Concepts/Sun"
+    },
+    {
+      "source": "Concepts/Leptons",
+      "target": "Concepts/Electron"
+    },
+    {
+      "source": "Concepts/Leptons",
+      "target": "Concepts/Neutrinos"
+    },
+    {
+      "source": "Concepts/Leptons",
+      "target": "Concepts/Photon"
+    },
+    {
+      "source": "Concepts/Light",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/Light",
+      "target": "Concepts/Humans"
+    },
+    {
+      "source": "Concepts/Light",
+      "target": "Concepts/Visible Light"
+    },
+    {
+      "source": "Concepts/Meme",
+      "target": "People/Richard Dawkins"
+    },
+    {
+      "source": "Concepts/Meme",
+      "target": "People/The Selfish Gene"
+    },
+    {
+      "source": "Concepts/Motorsports",
+      "target": "Concepts/F1"
+    },
+    {
+      "source": "Concepts/Motorsports",
+      "target": "Concepts/WRC"
+    },
+    {
+      "source": "Concepts/Mythology/God",
+      "target": "Concepts/Mythology/Monotheism"
+    },
+    {
+      "source": "Concepts/Mythology/God",
+      "target": "Concepts/Mythology/Polytheism"
+    },
+    {
+      "source": "Concepts/Mythology/God",
+      "target": "Concepts/Mythology/Religions \u0026 Mythology"
+    },
+    {
+      "source": "Concepts/Mythology/Monotheism",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "Concepts/Mythology/Monotheism",
+      "target": "Concepts/Mythology/God"
+    },
+    {
+      "source": "Concepts/Mythology/Polytheism",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "Concepts/Mythology/Polytheism",
+      "target": "Concepts/Mythology/God"
+    },
+    {
+      "source": "Concepts/Mythology/Religions \u0026 Mythology",
+      "target": "Books/The History of God"
+    },
+    {
+      "source": "Concepts/Mythology/Religions \u0026 Mythology",
+      "target": "Concepts/Atheism"
+    },
+    {
+      "source": "Concepts/Mythology/Religions \u0026 Mythology",
+      "target": "Concepts/Mythology/Monotheism"
+    },
+    {
+      "source": "Concepts/Mythology/Religions \u0026 Mythology",
+      "target": "Concepts/Mythology/Polytheism"
+    },
+    {
+      "source": "Concepts/Mythology/Religions \u0026 Mythology",
+      "target": "Concepts/Time/BCE"
+    },
+    {
+      "source": "Concepts/Mythology/Religions \u0026 Mythology",
+      "target": "People/Karen Armstrong"
+    },
+    {
+      "source": "Concepts/Natural Selection",
+      "target": "Concepts/Evolution"
+    },
+    {
+      "source": "Concepts/Natural Selection",
+      "target": "Concepts/Humans"
+    },
+    {
+      "source": "Concepts/Natural Selection",
+      "target": "People/The Greatest Show on Earth"
+    },
+    {
+      "source": "Concepts/Naturalism",
+      "target": "Books/The Ascent of Man"
+    },
+    {
+      "source": "Concepts/Naturalism",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "Concepts/Naturalism",
+      "target": "People/Jacob Bronowski"
+    },
+    {
+      "source": "Concepts/Naturalism",
+      "target": "People/Richard Feynman"
+    },
+    {
+      "source": "Concepts/Neutrinos",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/Neutrinos",
+      "target": "Concepts/Electron"
+    },
+    {
+      "source": "Concepts/Neutrinos",
+      "target": "Concepts/Gravity"
+    },
+    {
+      "source": "Concepts/Neutrinos",
+      "target": "Concepts/Light"
+    },
+    {
+      "source": "Concepts/Neutrinos",
+      "target": "Concepts/Protons"
+    },
+    {
+      "source": "Concepts/Neutrinos",
+      "target": "Concepts/Science"
+    },
+    {
+      "source": "Concepts/Neutrinos",
+      "target": "Concepts/Sun"
+    },
+    {
+      "source": "Concepts/Neutrinos",
+      "target": "Concepts/Supernova"
+    },
+    {
+      "source": "Concepts/Neutrinos",
+      "target": "Concepts/The Big Bang"
+    },
+    {
+      "source": "Concepts/Neutron Star",
+      "target": "Concepts/Black Hole"
+    },
+    {
+      "source": "Concepts/Neutron Star",
+      "target": "Concepts/Neutrons"
+    },
+    {
+      "source": "Concepts/Neutron Star",
+      "target": "Concepts/Star"
+    },
+    {
+      "source": "Concepts/Neutron Star",
+      "target": "Concepts/Sun"
+    },
+    {
+      "source": "Concepts/Neutron Star",
+      "target": "Concepts/Supernova"
+    },
+    {
+      "source": "Concepts/Neutrons",
+      "target": "Concepts/Atom"
+    },
+    {
+      "source": "Concepts/Neutrons",
+      "target": "Concepts/Electron"
+    },
+    {
+      "source": "Concepts/Neutrons",
+      "target": "Concepts/Protons"
+    },
+    {
+      "source": "Concepts/Nobel Prize",
+      "target": "Concepts/Science"
+    },
+    {
+      "source": "Concepts/Nobel Prize",
+      "target": "People/The Photoelectric Effect"
+    },
+    {
+      "source": "Concepts/Photon",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/Photon",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/Photon",
+      "target": "Concepts/Electron"
+    },
+    {
+      "source": "Concepts/Photon",
+      "target": "People/The Photoelectric Effect"
+    },
+    {
+      "source": "Concepts/Positron",
+      "target": "Concepts/Electron"
+    },
+    {
+      "source": "Concepts/Positron",
+      "target": "Concepts/Photon"
+    },
+    {
+      "source": "Concepts/Protons",
+      "target": "Concepts/Atom"
+    },
+    {
+      "source": "Concepts/Protons",
+      "target": "Concepts/Nobel Prize"
+    },
+    {
+      "source": "Concepts/Protons",
+      "target": "Concepts/empty space"
+    },
+    {
+      "source": "Concepts/Satellite",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/Satellite",
+      "target": "Concepts/Ionosphere"
+    },
+    {
+      "source": "Concepts/Satellite",
+      "target": "Concepts/TV"
+    },
+    {
+      "source": "Concepts/Satellite",
+      "target": "Concepts/WiFi"
+    },
+    {
+      "source": "Concepts/Star",
+      "target": "Concepts/Black Hole"
+    },
+    {
+      "source": "Concepts/Star",
+      "target": "Concepts/Galaxy"
+    },
+    {
+      "source": "Concepts/Star",
+      "target": "Concepts/Neutron Star"
+    },
+    {
+      "source": "Concepts/Star",
+      "target": "Concepts/Sun"
+    },
+    {
+      "source": "Concepts/Star",
+      "target": "Concepts/Supernova"
+    },
+    {
+      "source": "Concepts/Sun",
+      "target": "Concepts/Ionosphere"
+    },
+    {
+      "source": "Concepts/Sun",
+      "target": "Concepts/Neutrinos"
+    },
+    {
+      "source": "Concepts/Sun",
+      "target": "Concepts/Star"
+    },
+    {
+      "source": "Concepts/Sun",
+      "target": "Concepts/Visible Light"
+    },
+    {
+      "source": "Concepts/Supernova",
+      "target": "Concepts/Black Hole"
+    },
+    {
+      "source": "Concepts/Supernova",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "Concepts/Supernova",
+      "target": "Concepts/Galaxy"
+    },
+    {
+      "source": "Concepts/Supernova",
+      "target": "Concepts/Neutron Star"
+    },
+    {
+      "source": "Concepts/Supernova",
+      "target": "Concepts/Science"
+    },
+    {
+      "source": "Concepts/Supernova",
+      "target": "Concepts/Star"
+    },
+    {
+      "source": "Concepts/Supernova",
+      "target": "Concepts/The Big Bang"
+    },
+    {
+      "source": "Concepts/The Big Bang",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "Concepts/The Big Bang",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/The Universe is Flat",
+      "target": "Concepts/Light"
+    },
+    {
+      "source": "Concepts/Time/AD",
+      "target": "Concepts/Time/BC"
+    },
+    {
+      "source": "Concepts/Time/AD",
+      "target": "Concepts/Time/CE"
+    },
+    {
+      "source": "Concepts/Time/BC",
+      "target": "Concepts/Time/BCE"
+    },
+    {
+      "source": "Concepts/Time/BCE",
+      "target": "Concepts/Time/BC"
+    },
+    {
+      "source": "Concepts/Time/BCE",
+      "target": "Concepts/Time/CE"
+    },
+    {
+      "source": "Concepts/Time/CE",
+      "target": "Concepts/Time/AD"
+    },
+    {
+      "source": "Concepts/Time/CE",
+      "target": "Concepts/Time/BCE"
+    },
+    {
+      "source": "Concepts/Time/Time",
+      "target": "Books/A Universe from Nothing"
+    },
+    {
+      "source": "Concepts/Time/Time",
+      "target": "Concepts/Electron"
+    },
+    {
+      "source": "Concepts/Time/Time",
+      "target": "Concepts/Positron"
+    },
+    {
+      "source": "Concepts/Time/Time",
+      "target": "Concepts/The Big Bang"
+    },
+    {
+      "source": "Concepts/Time/Time",
+      "target": "Concepts/Time/UNIX"
+    },
+    {
+      "source": "Concepts/Time/Time",
+      "target": "Music/Pink Floyd"
+    },
+    {
+      "source": "Concepts/Time/Time",
+      "target": "People/Lawrence M. Krauss"
+    },
+    {
+      "source": "Concepts/Time/Time",
+      "target": "Technology/Programming/Languages/Programming Languages"
+    },
+    {
+      "source": "Concepts/Time/UNIX",
+      "target": "Concepts/Time/Time"
+    },
+    {
+      "source": "Concepts/Time/UNIX",
+      "target": "Technology/Linux"
+    },
+    {
+      "source": "Concepts/TV",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/TV",
+      "target": "Concepts/Satellite"
+    },
+    {
+      "source": "Concepts/TV",
+      "target": "People/internet"
+    },
+    {
+      "source": "Concepts/Visible Light",
+      "target": "Concepts/Bluetooth"
+    },
+    {
+      "source": "Concepts/Visible Light",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "Concepts/Visible Light",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/Visible Light",
+      "target": "Concepts/Light"
+    },
+    {
+      "source": "Concepts/Visible Light",
+      "target": "Concepts/human vision"
+    },
+    {
+      "source": "Concepts/WiFi",
+      "target": "Concepts/Bluetooth"
+    },
+    {
+      "source": "Concepts/WiFi",
+      "target": "Concepts/Electromagnetic Spectrum"
+    },
+    {
+      "source": "Concepts/WiFi",
+      "target": "People/internet"
+    },
+    {
+      "source": "Concepts/WRC",
+      "target": "Concepts/F1"
+    },
+    {
+      "source": "Concepts/WRC",
+      "target": "Concepts/Motorsports"
+    },
+    {
+      "source": "Games/Baldur's Gate",
+      "target": "Games/Baldur's Gate 3/Astarion Build"
+    },
+    {
+      "source": "Games/Baldur's Gate",
+      "target": "Games/Baldur's Gate 3/Loot Catalog"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Atari 2600"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Game Boy"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Game Boy Advance"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Game Boy Advance SP"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/NES"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Nintendo 64"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Nintendo DSi"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Nintendo Switch"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Nintendo Wii"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/PlayStation 1"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/PlayStation 2"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/PlayStation 3"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/PlayStation 4"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/PlayStation 5"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/SNES"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Sega Dreamcast"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Sega Genesis"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Virtual Boy"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Xbox"
+    },
+    {
+      "source": "Games/Consoles I've Owned",
+      "target": "Games/Consoles/Xbox 360"
+    },
+    {
+      "source": "Games/Consoles/Atari 2600",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Game Boy Advance SP",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Game Boy Advance",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Game Boy",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/NES",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Nintendo 64",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Nintendo DSi",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Nintendo Switch",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Nintendo Wii",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/PlayStation 1",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/PlayStation 2",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/PlayStation 3",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/PlayStation 4",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/PlayStation 5",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Sega Dreamcast",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Sega Genesis",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/SNES",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Virtual Boy",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Xbox 360",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/Consoles/Xbox",
+      "target": "Games/Consoles I've Owned"
+    },
+    {
+      "source": "Games/CPU",
+      "target": "Games/Turing Complete"
+    },
+    {
+      "source": "Games/CPU",
+      "target": "Games/opcodes"
+    },
+    {
+      "source": "Games/Dark Souls",
+      "target": "Games/RPG"
+    },
+    {
+      "source": "Games/Dragon Quest",
+      "target": "Games/RPG"
+    },
+    {
+      "source": "Games/Elden Ring",
+      "target": "Games/Dark Souls"
+    },
+    {
+      "source": "Games/Elden Ring",
+      "target": "Games/RPG"
+    },
+    {
+      "source": "Games/Expedition 33",
+      "target": "Games/RPG"
+    },
+    {
+      "source": "Games/Expedition 33",
+      "target": "Games/The Game Awards"
+    },
+    {
+      "source": "Games/Expedition 33",
+      "target": "Music/Lorien Testard"
+    },
+    {
+      "source": "Games/Final Fantasy",
+      "target": "Games/Consoles/NES"
+    },
+    {
+      "source": "Games/Final Fantasy",
+      "target": "Games/RPG"
+    },
+    {
+      "source": "Games/MMO",
+      "target": "Games/RPG"
+    },
+    {
+      "source": "Games/Motor City Online",
+      "target": "Games/MMO"
+    },
+    {
+      "source": "Games/Motor City Online",
+      "target": "Games/The Detroit Lubricators"
+    },
+    {
+      "source": "Games/MTG/Cloud Starter Deck",
+      "target": "Games/Final Fantasy"
+    },
+    {
+      "source": "Games/MTG/Cloud Starter Deck",
+      "target": "Games/MTG/Sephiroth Starter Deck"
+    },
+    {
+      "source": "Games/MTG/Sephiroth Starter Deck",
+      "target": "Games/Final Fantasy"
+    },
+    {
+      "source": "Games/MTG/Sephiroth Starter Deck",
+      "target": "Games/MTG/Cloud Starter Deck"
+    },
+    {
+      "source": "Games/opcodes",
+      "target": "Games/CPU"
+    },
+    {
+      "source": "Games/opcodes",
+      "target": "Games/Turing Complete"
+    },
+    {
+      "source": "Games/RPG",
+      "target": "Games/Baldur's Gate"
+    },
+    {
+      "source": "Games/RPG",
+      "target": "Games/Consoles/NES"
+    },
+    {
+      "source": "Games/RPG",
+      "target": "Games/Consoles/SNES"
+    },
+    {
+      "source": "Games/RPG",
+      "target": "Games/Dark Souls"
+    },
+    {
+      "source": "Games/RPG",
+      "target": "Games/Diablo"
+    },
+    {
+      "source": "Games/RPG",
+      "target": "Games/Dragon Quest"
+    },
+    {
+      "source": "Games/RPG",
+      "target": "Games/Elden Ring"
+    },
+    {
+      "source": "Games/RPG",
+      "target": "Games/Final Fantasy"
+    },
+    {
+      "source": "Games/RPG",
+      "target": "Games/World of Warcraft"
+    },
+    {
+      "source": "Games/The Detroit Lubricators",
+      "target": "Games/Motor City Online"
+    },
+    {
+      "source": "Games/The Game Awards",
+      "target": "Games/Expedition 33"
+    },
+    {
+      "source": "Games/Turing Complete",
+      "target": "Games/CPU"
+    },
+    {
+      "source": "Games/Turing Complete",
+      "target": "Games/opcodes"
+    },
+    {
+      "source": "Games/World of Warcraft",
+      "target": "Games/MMO"
+    },
+    {
+      "source": "Games/World of Warcraft",
+      "target": "Games/RPG"
+    },
+    {
+      "source": "index",
+      "target": "Concepts/F1"
+    },
+    {
+      "source": "index",
+      "target": "Concepts/Motorsports"
+    },
+    {
+      "source": "index",
+      "target": "Concepts/Naturalism"
+    },
+    {
+      "source": "index",
+      "target": "Concepts/WRC"
+    },
+    {
+      "source": "index",
+      "target": "Music/Favorite Musicians"
+    },
+    {
+      "source": "index",
+      "target": "People/Carl Sagan"
+    },
+    {
+      "source": "index",
+      "target": "People/Jacob Bronowski"
+    },
+    {
+      "source": "index",
+      "target": "Projects"
+    },
+    {
+      "source": "index",
+      "target": "Quotes"
+    },
+    {
+      "source": "index",
+      "target": "Technology/Programming/Languages/Programming Languages"
+    },
+    {
+      "source": "index",
+      "target": "Technology/Programming/Languages/Python"
+    },
+    {
+      "source": "index",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Godot 4"
+    },
+    {
+      "source": "index",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/PyGame"
+    },
+    {
+      "source": "Movies/Ghost in the Shell",
+      "target": "Concepts/consciousness"
+    },
+    {
+      "source": "Movies/Ghost in the Shell",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/AI"
+    },
+    {
+      "source": "Movies/Terminator 2",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/AI"
+    },
+    {
+      "source": "Music/Art Rock",
+      "target": "Music/Pink Floyd"
+    },
+    {
+      "source": "Music/Art Rock",
+      "target": "Music/Radiohead"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Concepts/Time/Time"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Games/Final Fantasy"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/Borislav Slavov"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/Christopher Larkin"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/Christopher Tin"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/Daft Punk"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/Evan Call"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/Good Times Around the Bend"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/Howard Shore"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/John Williams"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/Nobuo Uematsu"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/Pink Floyd"
+    },
+    {
+      "source": "Music/Favorite Musicians",
+      "target": "Music/String Cheese Incident"
+    },
+    {
+      "source": "Music/Good Times Around the Bend",
+      "target": "Music/Favorite Musicians"
+    },
+    {
+      "source": "Music/Good Times Around the Bend",
+      "target": "Music/String Cheese Incident"
+    },
+    {
+      "source": "Music/Lorien Testard",
+      "target": "Games/Expedition 33"
+    },
+    {
+      "source": "Music/Nobuo Uematsu",
+      "target": "Games/Consoles/SNES"
+    },
+    {
+      "source": "Music/Nobuo Uematsu",
+      "target": "Games/Final Fantasy"
+    },
+    {
+      "source": "Music/Nobuo Uematsu",
+      "target": "Music/PS1"
+    },
+    {
+      "source": "Music/Pink Floyd",
+      "target": "Concepts/Time/Time"
+    },
+    {
+      "source": "Music/Pink Floyd",
+      "target": "Music/Art Rock"
+    },
+    {
+      "source": "Music/PS1",
+      "target": "Games/Consoles/PlayStation 1"
+    },
+    {
+      "source": "Music/PS1",
+      "target": "Music/Nobuo Uematsu"
+    },
+    {
+      "source": "Music/Radiohead",
+      "target": "Music/Art Rock"
+    },
+    {
+      "source": "People/Albert Einstein",
+      "target": "People/Brownian Motion"
+    },
+    {
+      "source": "People/Albert Einstein",
+      "target": "People/Charles Darwin"
+    },
+    {
+      "source": "People/Albert Einstein",
+      "target": "People/General Relativity"
+    },
+    {
+      "source": "People/Albert Einstein",
+      "target": "People/Isaac Newton"
+    },
+    {
+      "source": "People/Albert Einstein",
+      "target": "People/Special Relativity"
+    },
+    {
+      "source": "People/Albert Einstein",
+      "target": "People/The Photoelectric Effect"
+    },
+    {
+      "source": "People/An Appetite for Wonder - The Making of a Scientist",
+      "target": "People/Richard Dawkins"
+    },
+    {
+      "source": "People/An Appetite for Wonder - The Making of a Scientist",
+      "target": "People/The Selfish Gene"
+    },
+    {
+      "source": "People/Ann Druyan",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Bill Bryson",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Brownian Motion",
+      "target": "Concepts/Atom"
+    },
+    {
+      "source": "People/Brownian Motion",
+      "target": "People/Albert Einstein"
+    },
+    {
+      "source": "People/Brownian Motion",
+      "target": "People/The Photoelectric Effect"
+    },
+    {
+      "source": "People/Carl Sagan",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "People/Carl Sagan",
+      "target": "People/The Demon Haunted World"
+    },
+    {
+      "source": "People/Carl Sagan",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Charles Darwin",
+      "target": "Books/On the Origin of Species"
+    },
+    {
+      "source": "People/Charles Darwin",
+      "target": "Concepts/Atheism"
+    },
+    {
+      "source": "People/Charles Darwin",
+      "target": "Concepts/Evolution"
+    },
+    {
+      "source": "People/Charles Darwin",
+      "target": "Concepts/Mythology/God"
+    },
+    {
+      "source": "People/Charles Darwin",
+      "target": "Concepts/Naturalism"
+    },
+    {
+      "source": "People/Charles Darwin",
+      "target": "People/Galileo Galilei"
+    },
+    {
+      "source": "People/Charles Darwin",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Christopher Hitchens",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Dalai Lama",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Deno",
+      "target": "People/Ryan Dahl"
+    },
+    {
+      "source": "People/Deno",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "People/Deno",
+      "target": "Technology/Programming/Languages/Node.js"
+    },
+    {
+      "source": "People/Deno",
+      "target": "Technology/Supabase"
+    },
+    {
+      "source": "People/dogmaticCURE",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/General Relativity",
+      "target": "Concepts/Black Hole"
+    },
+    {
+      "source": "People/General Relativity",
+      "target": "People/Albert Einstein"
+    },
+    {
+      "source": "People/General Relativity",
+      "target": "People/Special Relativity"
+    },
+    {
+      "source": "People/General Relativity",
+      "target": "People/The Photoelectric Effect"
+    },
+    {
+      "source": "People/Georg Wilhelm Friedrich Hegel",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/George Bernard Shaw",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/internet",
+      "target": "Technology/Networking/IP"
+    },
+    {
+      "source": "People/internet",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "People/internet",
+      "target": "Technology/Programming/Languages/Node.js"
+    },
+    {
+      "source": "People/internet",
+      "target": "Technology/Programming/Languages/web browser"
+    },
+    {
+      "source": "People/internet",
+      "target": "Technology/ping"
+    },
+    {
+      "source": "People/Isaac Asimov",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Isaac Newton",
+      "target": "Concepts/Gravity"
+    },
+    {
+      "source": "People/Isaac Newton",
+      "target": "People/Principia Mathematica"
+    },
+    {
+      "source": "People/Jacob Bronowski",
+      "target": "Books/The Ascent of Man"
+    },
+    {
+      "source": "People/Jacob Bronowski",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Karen Armstrong",
+      "target": "Books/The History of God"
+    },
+    {
+      "source": "People/Karen Armstrong",
+      "target": "Concepts/Atheism"
+    },
+    {
+      "source": "People/Karen Armstrong",
+      "target": "Concepts/Mythology/Religions \u0026 Mythology"
+    },
+    {
+      "source": "People/Lawrence M. Krauss",
+      "target": "Books/A Universe from Nothing"
+    },
+    {
+      "source": "People/Lawrence M. Krauss",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Letter to a Christian Nation",
+      "target": "Books/The Moral Landscape"
+    },
+    {
+      "source": "People/Letter to a Christian Nation",
+      "target": "Concepts/Atheism"
+    },
+    {
+      "source": "People/Letter to a Christian Nation",
+      "target": "People/Sam Harris"
+    },
+    {
+      "source": "People/Linus Torvalds",
+      "target": "Technology/Linux"
+    },
+    {
+      "source": "People/Linus Torvalds",
+      "target": "Technology/NVIDIA"
+    },
+    {
+      "source": "People/Linus Torvalds",
+      "target": "Technology/git"
+    },
+    {
+      "source": "People/Michael Jordan",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Neil deGrasse Tyson",
+      "target": "Concepts/Cosmos"
+    },
+    {
+      "source": "People/Neil deGrasse Tyson",
+      "target": "Concepts/Science"
+    },
+    {
+      "source": "People/Principia Mathematica",
+      "target": "People/General Relativity"
+    },
+    {
+      "source": "People/Principia Mathematica",
+      "target": "People/Isaac Newton"
+    },
+    {
+      "source": "People/Principia Mathematica",
+      "target": "People/Special Relativity"
+    },
+    {
+      "source": "People/Quantum Electrodynamics",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "People/Quantum Electrodynamics",
+      "target": "Concepts/Photon"
+    },
+    {
+      "source": "People/Quantum Electrodynamics",
+      "target": "People/Richard Feynman"
+    },
+    {
+      "source": "People/Richard Dawkins",
+      "target": "Concepts/Meme"
+    },
+    {
+      "source": "People/Richard Dawkins",
+      "target": "People/An Appetite for Wonder - The Making of a Scientist"
+    },
+    {
+      "source": "People/Richard Dawkins",
+      "target": "People/The God Delusion"
+    },
+    {
+      "source": "People/Richard Dawkins",
+      "target": "People/The Greatest Show on Earth"
+    },
+    {
+      "source": "People/Richard Dawkins",
+      "target": "People/The Selfish Gene"
+    },
+    {
+      "source": "People/Richard Dawkins",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Richard Feynman",
+      "target": "Books/Quantum Man"
+    },
+    {
+      "source": "People/Richard Feynman",
+      "target": "People/Albert Einstein"
+    },
+    {
+      "source": "People/Richard Feynman",
+      "target": "People/Lawrence M. Krauss"
+    },
+    {
+      "source": "People/Richard Feynman",
+      "target": "People/Quantum Electrodynamics"
+    },
+    {
+      "source": "People/Richard Feynman",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Robert A. Heinlein",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Ryan Dahl",
+      "target": "People/Deno"
+    },
+    {
+      "source": "People/Ryan Dahl",
+      "target": "People/internet"
+    },
+    {
+      "source": "People/Ryan Dahl",
+      "target": "Technology/Programming/Languages/Node.js"
+    },
+    {
+      "source": "People/Sam Harris",
+      "target": "Books/The Moral Landscape"
+    },
+    {
+      "source": "People/Sam Harris",
+      "target": "Concepts/Atheism"
+    },
+    {
+      "source": "People/Sam Harris",
+      "target": "People/Letter to a Christian Nation"
+    },
+    {
+      "source": "People/Sam Harris",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/Special Relativity",
+      "target": "People/Albert Einstein"
+    },
+    {
+      "source": "People/Special Relativity",
+      "target": "People/General Relativity"
+    },
+    {
+      "source": "People/Special Relativity",
+      "target": "People/The Photoelectric Effect"
+    },
+    {
+      "source": "People/Stephen Jay Gould",
+      "target": "Quotes"
+    },
+    {
+      "source": "People/The Demon Haunted World",
+      "target": "Concepts/Atheism"
+    },
+    {
+      "source": "People/The Demon Haunted World",
+      "target": "Concepts/Science"
+    },
+    {
+      "source": "People/The Demon Haunted World",
+      "target": "People/Carl Sagan"
+    },
+    {
+      "source": "People/The God Delusion",
+      "target": "Concepts/Atheism"
+    },
+    {
+      "source": "People/The God Delusion",
+      "target": "People/Richard Dawkins"
+    },
+    {
+      "source": "People/The God Delusion",
+      "target": "People/The Selfish Gene"
+    },
+    {
+      "source": "People/The Greatest Show on Earth",
+      "target": "Concepts/Evolution"
+    },
+    {
+      "source": "People/The Greatest Show on Earth",
+      "target": "Concepts/Natural Selection"
+    },
+    {
+      "source": "People/The Greatest Show on Earth",
+      "target": "People/Richard Dawkins"
+    },
+    {
+      "source": "People/The Photoelectric Effect",
+      "target": "Concepts/Electromagnetic Radiation"
+    },
+    {
+      "source": "People/The Photoelectric Effect",
+      "target": "Concepts/Photon"
+    },
+    {
+      "source": "People/The Photoelectric Effect",
+      "target": "People/Albert Einstein"
+    },
+    {
+      "source": "People/The Selfish Gene",
+      "target": "Concepts/Meme"
+    },
+    {
+      "source": "People/The Selfish Gene",
+      "target": "Concepts/Natural Selection"
+    },
+    {
+      "source": "People/The Selfish Gene",
+      "target": "People/Richard Dawkins"
+    },
+    {
+      "source": "Projects",
+      "target": "Concepts/Motorsports"
+    },
+    {
+      "source": "Projects",
+      "target": "Games/RPG"
+    },
+    {
+      "source": "Projects",
+      "target": "Music/Phish"
+    },
+    {
+      "source": "Projects",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "Projects",
+      "target": "Technology/Programming/Languages/Programming Languages"
+    },
+    {
+      "source": "Projects",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Django"
+    },
+    {
+      "source": "Projects",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/PyGame"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Ann Druyan"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Bill Bryson"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Carl Sagan"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Charles Darwin"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Christopher Hitchens"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Dalai Lama"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Georg Wilhelm Friedrich Hegel"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/George Bernard Shaw"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Isaac Asimov"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Jacob Bronowski"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Lawrence M. Krauss"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Michael Jordan"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Richard Dawkins"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Richard Feynman"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Robert A. Heinlein"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Sam Harris"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/Stephen Jay Gould"
+    },
+    {
+      "source": "Quotes",
+      "target": "People/dogmaticCURE"
+    },
+    {
+      "source": "Technology/CLI",
+      "target": "Technology/REPL"
+    },
+    {
+      "source": "Technology/CLI",
+      "target": "Technology/ping"
+    },
+    {
+      "source": "Technology/database",
+      "target": "Technology/CLI"
+    },
+    {
+      "source": "Technology/database",
+      "target": "Technology/Postgres"
+    },
+    {
+      "source": "Technology/File and Document Formats/CSS",
+      "target": "Technology/File and Document Formats/HTML"
+    },
+    {
+      "source": "Technology/File and Document Formats/CSS",
+      "target": "Technology/File and Document Formats/Tailwind"
+    },
+    {
+      "source": "Technology/File and Document Formats/Markdown",
+      "target": "Technology/File and Document Formats/reddit"
+    },
+    {
+      "source": "Technology/File and Document Formats/Markdown",
+      "target": "Technology/github"
+    },
+    {
+      "source": "Technology/File and Document Formats/reddit",
+      "target": "People/internet"
+    },
+    {
+      "source": "Technology/File and Document Formats/reddit",
+      "target": "Technology/File and Document Formats/Markdown"
+    },
+    {
+      "source": "Technology/File and Document Formats/Tailwind",
+      "target": "Technology/File and Document Formats/CSS"
+    },
+    {
+      "source": "Technology/File and Document Formats/Tailwind",
+      "target": "Technology/File and Document Formats/HTML"
+    },
+    {
+      "source": "Technology/FPGA",
+      "target": "Games/CPU"
+    },
+    {
+      "source": "Technology/FPGA",
+      "target": "Technology/Hardware Description Languages/VHDL"
+    },
+    {
+      "source": "Technology/FPGA",
+      "target": "Technology/Hardware Description Languages/Verilog"
+    },
+    {
+      "source": "Technology/FPGA",
+      "target": "Technology/RISC-V"
+    },
+    {
+      "source": "Technology/FPGA",
+      "target": "Technology/Tutorials and Courses"
+    },
+    {
+      "source": "Technology/git",
+      "target": "People/Linus Torvalds"
+    },
+    {
+      "source": "Technology/git",
+      "target": "Technology/Linux"
+    },
+    {
+      "source": "Technology/git",
+      "target": "Technology/github"
+    },
+    {
+      "source": "Technology/github",
+      "target": "Technology/Programming/Languages/Programming Languages"
+    },
+    {
+      "source": "Technology/github",
+      "target": "Technology/git"
+    },
+    {
+      "source": "Technology/Hardware Description Languages/Verilog",
+      "target": "Games/Turing Complete"
+    },
+    {
+      "source": "Technology/Hardware Description Languages/Verilog",
+      "target": "Technology/Hardware Description Languages/VHDL"
+    },
+    {
+      "source": "Technology/Hardware Description Languages/VHDL",
+      "target": "Technology/Hardware Description Languages/Verilog"
+    },
+    {
+      "source": "Technology/Kernel",
+      "target": "Technology/Linux"
+    },
+    {
+      "source": "Technology/Linux",
+      "target": "Concepts/Time/UNIX"
+    },
+    {
+      "source": "Technology/Linux",
+      "target": "People/Linus Torvalds"
+    },
+    {
+      "source": "Technology/Linux",
+      "target": "Technology/Top500"
+    },
+    {
+      "source": "Technology/MathJax",
+      "target": "Concepts/Health/BMI"
+    },
+    {
+      "source": "Technology/MathJax",
+      "target": "Concepts/Health/BMR"
+    },
+    {
+      "source": "Technology/MathJax",
+      "target": "Technology/File and Document Formats/LaTeX"
+    },
+    {
+      "source": "Technology/MathJax",
+      "target": "Technology/File and Document Formats/Markdown"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Networking/FTP"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Networking/HTTP"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Networking/HTTPS"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Networking/SSH"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Networking/TCP"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Networking/UDP"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Networking/port 22"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Networking/port 443"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Networking/port 80"
+    },
+    {
+      "source": "Technology/Networking/Common Ports \u0026 Protocols",
+      "target": "Technology/Postgres"
+    },
+    {
+      "source": "Technology/Networking/HTTP",
+      "target": "Technology/Networking/HTTPS"
+    },
+    {
+      "source": "Technology/Networking/HTTP",
+      "target": "Technology/Networking/TCP"
+    },
+    {
+      "source": "Technology/Networking/HTTP",
+      "target": "Technology/Networking/port 80"
+    },
+    {
+      "source": "Technology/Networking/HTTP",
+      "target": "Technology/web"
+    },
+    {
+      "source": "Technology/Networking/HTTPS",
+      "target": "Technology/Networking/HTTP"
+    },
+    {
+      "source": "Technology/Networking/HTTPS",
+      "target": "Technology/Networking/TCP"
+    },
+    {
+      "source": "Technology/Networking/HTTPS",
+      "target": "Technology/Networking/port 443"
+    },
+    {
+      "source": "Technology/Networking/IP",
+      "target": "People/internet"
+    },
+    {
+      "source": "Technology/Networking/IP",
+      "target": "Technology/Networking/TCP"
+    },
+    {
+      "source": "Technology/Networking/IP",
+      "target": "Technology/Networking/UDP"
+    },
+    {
+      "source": "Technology/Networking/IP",
+      "target": "Technology/Networking/port 443"
+    },
+    {
+      "source": "Technology/Networking/IP",
+      "target": "Technology/ping"
+    },
+    {
+      "source": "Technology/Networking/port 22",
+      "target": "Technology/Networking/SSH"
+    },
+    {
+      "source": "Technology/Networking/port 443",
+      "target": "Technology/Networking/HTTPS"
+    },
+    {
+      "source": "Technology/Networking/port 443",
+      "target": "Technology/Networking/IP"
+    },
+    {
+      "source": "Technology/Networking/port 443",
+      "target": "Technology/Networking/TCP"
+    },
+    {
+      "source": "Technology/Networking/port 80",
+      "target": "Technology/Networking/HTTP"
+    },
+    {
+      "source": "Technology/Networking/SSH",
+      "target": "Technology/CLI"
+    },
+    {
+      "source": "Technology/Networking/SSH",
+      "target": "Technology/Networking/port 22"
+    },
+    {
+      "source": "Technology/Networking/TCP",
+      "target": "Technology/Networking/IP"
+    },
+    {
+      "source": "Technology/Networking/TCP",
+      "target": "Technology/Networking/UDP"
+    },
+    {
+      "source": "Technology/Networking/UDP",
+      "target": "Technology/Networking/TCP"
+    },
+    {
+      "source": "Technology/NVIDIA",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/AI"
+    },
+    {
+      "source": "Technology/ping",
+      "target": "People/internet"
+    },
+    {
+      "source": "Technology/ping",
+      "target": "Technology/CLI"
+    },
+    {
+      "source": "Technology/ping",
+      "target": "Technology/Networking/IP"
+    },
+    {
+      "source": "Technology/ping",
+      "target": "Technology/Networking/TCP"
+    },
+    {
+      "source": "Technology/Postgres",
+      "target": "Technology/Supabase"
+    },
+    {
+      "source": "Technology/Postgres",
+      "target": "Technology/database"
+    },
+    {
+      "source": "Technology/Programming/Languages/C Sharp",
+      "target": "Technology/Programming/Languages/Java"
+    },
+    {
+      "source": "Technology/Programming/Languages/C++",
+      "target": "Technology/Unreal"
+    },
+    {
+      "source": "Technology/Programming/Languages/C",
+      "target": "Technology/Kernel"
+    },
+    {
+      "source": "Technology/Programming/Languages/C",
+      "target": "Technology/Linux"
+    },
+    {
+      "source": "Technology/Programming/Languages/Godot GDScript",
+      "target": "Technology/Programming/Languages/Python"
+    },
+    {
+      "source": "Technology/Programming/Languages/JavaScript",
+      "target": "People/Deno"
+    },
+    {
+      "source": "Technology/Programming/Languages/JavaScript",
+      "target": "People/Ryan Dahl"
+    },
+    {
+      "source": "Technology/Programming/Languages/JavaScript",
+      "target": "People/internet"
+    },
+    {
+      "source": "Technology/Programming/Languages/JavaScript",
+      "target": "Technology/Programming/Languages/Node.js"
+    },
+    {
+      "source": "Technology/Programming/Languages/JavaScript",
+      "target": "Technology/Programming/Languages/web browser"
+    },
+    {
+      "source": "Technology/Programming/Languages/JavaScript",
+      "target": "Technology/web"
+    },
+    {
+      "source": "Technology/Programming/Languages/Node.js",
+      "target": "People/Ryan Dahl"
+    },
+    {
+      "source": "Technology/Programming/Languages/Node.js",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "Technology/Programming/Languages/Node.js",
+      "target": "Technology/nvm"
+    },
+    {
+      "source": "Technology/Programming/Languages/PHP",
+      "target": "Games/Motor City Online"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/File and Document Formats/HTML"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/Programming/Languages/C"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/Programming/Languages/C Sharp"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/Programming/Languages/C++"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/Programming/Languages/Godot GDScript"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/Programming/Languages/Java"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/Programming/Languages/Node.js"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/Programming/Languages/PHP"
+    },
+    {
+      "source": "Technology/Programming/Languages/Programming Languages",
+      "target": "Technology/Programming/Languages/Python"
+    },
+    {
+      "source": "Technology/Programming/Languages/Python",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/AI"
+    },
+    {
+      "source": "Technology/Programming/Languages/Python",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Django"
+    },
+    {
+      "source": "Technology/Programming/Languages/Python",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/PyGame"
+    },
+    {
+      "source": "Technology/Programming/Languages/Python",
+      "target": "Technology/REPL"
+    },
+    {
+      "source": "Technology/Programming/Languages/web browser",
+      "target": "People/internet"
+    },
+    {
+      "source": "Technology/Programming/Languages/web browser",
+      "target": "Technology/File and Document Formats/CSS"
+    },
+    {
+      "source": "Technology/Programming/Languages/web browser",
+      "target": "Technology/File and Document Formats/HTML"
+    },
+    {
+      "source": "Technology/Programming/Languages/web browser",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "Technology/Programming/Languages/web browser",
+      "target": "Technology/web"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/AI",
+      "target": "Technology/Programming/Languages/Python"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/AI",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Google"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/AI",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/OpenAI"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Django",
+      "target": "Technology/CLI"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Django",
+      "target": "Technology/Postgres"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Django",
+      "target": "Technology/Programming/Languages/Python"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Django",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/WordPress"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Django",
+      "target": "Technology/REPL"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Godot 4",
+      "target": "Technology/Programming/Languages/Godot GDScript"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Godot 4",
+      "target": "Technology/Programming/Languages/Python"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Google",
+      "target": "People/internet"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Google",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/AI"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Google",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/OpenAI"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Nuxt 3",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Nuxt 3",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Server Side Rendering"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Nuxt 3",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Vue"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/OpenAI",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/AI"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/OpenAI",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Google"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/PyGame",
+      "target": "Technology/Programming/Languages/Python"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/React",
+      "target": "Technology/File and Document Formats/CSS"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Server Side Rendering",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Server Side Rendering",
+      "target": "Technology/Programming/Languages/web browser"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Server Side Rendering",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Nuxt 3"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/Vue",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "Technology/Programming/Libraries \u0026 Frameworks/WordPress",
+      "target": "Technology/Programming/Languages/PHP"
+    },
+    {
+      "source": "Technology/REPL",
+      "target": "Technology/Programming/Languages/Node.js"
+    },
+    {
+      "source": "Technology/REPL",
+      "target": "Technology/Programming/Languages/Python"
+    },
+    {
+      "source": "Technology/RISC-V",
+      "target": "Games/CPU"
+    },
+    {
+      "source": "Technology/RISC-V",
+      "target": "Technology/FPGA"
+    },
+    {
+      "source": "Technology/RISC-V",
+      "target": "Technology/Tutorials and Courses"
+    },
+    {
+      "source": "Technology/Supabase",
+      "target": "People/Deno"
+    },
+    {
+      "source": "Technology/Supabase",
+      "target": "Technology/Postgres"
+    },
+    {
+      "source": "Technology/Supabase",
+      "target": "Technology/database"
+    },
+    {
+      "source": "Technology/Tutorials and Courses",
+      "target": "Games/Turing Complete"
+    },
+    {
+      "source": "Technology/Tutorials and Courses",
+      "target": "Technology/FPGA"
+    },
+    {
+      "source": "Technology/Tutorials and Courses",
+      "target": "Technology/Hardware Description Languages/Verilog"
+    },
+    {
+      "source": "Technology/Tutorials and Courses",
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Nuxt 3"
+    },
+    {
+      "source": "Technology/Tutorials and Courses",
+      "target": "Technology/RISC-V"
+    },
+    {
+      "source": "Technology/Unreal",
+      "target": "Technology/Programming/Languages/C++"
+    },
+    {
+      "source": "Technology/web",
+      "target": "Technology/Networking/HTTP"
+    },
+    {
+      "source": "Technology/web",
+      "target": "Technology/Networking/HTTPS"
+    },
+    {
+      "source": "Technology/web",
+      "target": "Technology/Networking/IP"
+    },
+    {
+      "source": "Technology/web",
+      "target": "Technology/Networking/TCP"
+    },
+    {
+      "source": "Technology/web",
+      "target": "Technology/Networking/port 443"
+    },
+    {
+      "source": "Technology/web",
+      "target": "Technology/Networking/port 80"
+    }
+  ]
+}

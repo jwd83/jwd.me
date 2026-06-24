@@ -33,6 +33,7 @@ type Config struct {
 	Theme      string
 	Search     bool
 	Backlinks  bool
+	Graph      bool
 	ShowSource bool
 }
 
@@ -81,15 +82,34 @@ type SearchItem struct {
 	Tags     []string `json:"tags,omitempty"`
 }
 
+type GraphNode struct {
+	ID     string `json:"id"`
+	Title  string `json:"title"`
+	URL    string `json:"url"`
+	Degree int    `json:"degree"`
+}
+
+type GraphLink struct {
+	Source string `json:"source"`
+	Target string `json:"target"`
+}
+
+type GraphData struct {
+	Nodes []GraphNode `json:"nodes"`
+	Links []GraphLink `json:"links"`
+}
+
 type TemplateData struct {
 	Site       SiteView
 	Page       *Page
 	Nav        template.HTML
 	Backlinks  []LinkView
 	Search     bool
+	Graph      bool
 	ShowSource bool
 	Generated  template.HTML
 	RootScript template.JS
+	PageID     template.JS
 	HomeURL    string
 	CSSURL     string
 	JSURL      string
@@ -198,6 +218,7 @@ func readConfig(root, configPath string) (Config, error) {
 		Theme:      valueOr(values, "theme", "theme"),
 		Search:     boolOr(values, true, "search", "build.search"),
 		Backlinks:  boolOr(values, true, "backlinks", "build.backlinks"),
+		Graph:      boolOr(values, true, "graph", "build.graph"),
 		ShowSource: boolOr(values, true, "show_source", "publish_raw_markdown"),
 	}
 
@@ -340,6 +361,11 @@ func buildSite(cfg Config) ([]string, error) {
 	}
 	if cfg.Search {
 		if err := writeSearchIndex(vault); err != nil {
+			return warnings, err
+		}
+	}
+	if cfg.Graph {
+		if err := writeGraph(vault); err != nil {
 			return warnings, err
 		}
 	}
@@ -830,9 +856,11 @@ func writePage(vault *Vault, page *Page, source templateSource) error {
 		Nav:        template.HTML(renderNav(vault, page)),
 		Backlinks:  relativeLinkViews(page, page.Backlinks),
 		Search:     vault.Config.Search,
+		Graph:      vault.Config.Graph,
 		ShowSource: vault.Config.ShowSource && page.SourceURL != "",
 		Generated:  template.HTML(generatedMarker),
 		RootScript: template.JS(strconv.Quote(relativeRoot(page))),
+		PageID:     template.JS(strconv.Quote(page.PageRel)),
 		HomeURL:    relativeURL(page, ""),
 		CSSURL:     relativeURL(page, "public/onyx.css"),
 		JSURL:      relativeURL(page, "public/onyx.js"),
@@ -881,6 +909,59 @@ func writeSearchIndex(vault *Vault) error {
 	}
 	data = append(data, '\n')
 	return os.WriteFile(filepath.Join(vault.Config.Root, "public", "search-index.json"), data, 0o644)
+}
+
+// writeGraph emits public/graph.json: one node per published note and one link
+// per resolved outgoing wikilink, so the browser can draw the knowledge graph.
+func writeGraph(vault *Vault) error {
+	indexByRel := map[string]int{}
+	nodes := make([]GraphNode, 0, len(vault.Notes))
+	for _, page := range vault.Notes {
+		if page.Generated {
+			continue
+		}
+		indexByRel[page.PageRel] = len(nodes)
+		nodes = append(nodes, GraphNode{
+			ID:    page.PageRel,
+			Title: page.Title,
+			URL:   page.URL,
+		})
+	}
+
+	links := make([]GraphLink, 0)
+	seen := map[string]bool{}
+	for _, page := range vault.Notes {
+		srcIdx, ok := indexByRel[page.PageRel]
+		if !ok {
+			continue
+		}
+		targets := make([]string, 0, len(page.Outgoing))
+		for target := range page.Outgoing {
+			targets = append(targets, target)
+		}
+		sort.Strings(targets)
+		for _, target := range targets {
+			tgtIdx, ok := indexByRel[target]
+			if !ok || target == page.PageRel {
+				continue
+			}
+			key := page.PageRel + "\x00" + target
+			if seen[key] {
+				continue
+			}
+			seen[key] = true
+			links = append(links, GraphLink{Source: page.PageRel, Target: target})
+			nodes[srcIdx].Degree++
+			nodes[tgtIdx].Degree++
+		}
+	}
+
+	data, err := json.MarshalIndent(GraphData{Nodes: nodes, Links: links}, "", "  ")
+	if err != nil {
+		return err
+	}
+	data = append(data, '\n')
+	return os.WriteFile(filepath.Join(vault.Config.Root, "public", "graph.json"), data, 0o644)
 }
 
 type NavNode struct {
@@ -1911,8 +1992,8 @@ const defaultPageTemplate = `{{.Generated}}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{if .Page.IsHome}}{{.Site.Title}}{{else}}{{.Page.Title}} - {{.Site.Title}}{{end}}</title>
   <link rel="stylesheet" href="{{.CSSURL}}">
-  <script>window.ONYX_ROOT = {{.RootScript}};</script>
-  {{if .Search}}<script defer src="{{.JSURL}}"></script>{{end}}
+  <script>window.ONYX_ROOT = {{.RootScript}}; window.ONYX_PAGE = {{.PageID}};</script>
+  {{if or .Search .Graph}}<script defer src="{{.JSURL}}"></script>{{end}}
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -1924,6 +2005,19 @@ const defaultPageTemplate = `{{.Generated}}
         <input id="onyx-search" type="search" autocomplete="off" placeholder="Search notes">
         <div id="onyx-search-results" class="onyx-search-results" hidden></div>
       </div>
+      {{end}}
+      {{if .Graph}}
+      <button type="button" id="onyx-graph-open" class="onyx-graph-btn" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+          <circle cx="5" cy="6" r="2.2"></circle>
+          <circle cx="18" cy="7" r="2.2"></circle>
+          <circle cx="12" cy="17" r="2.2"></circle>
+          <line x1="6.8" y1="7.2" x2="10.4" y2="15.4"></line>
+          <line x1="16.4" y1="8.6" x2="13.3" y2="15.5"></line>
+          <line x1="7" y1="6.5" x2="16" y2="6.8"></line>
+        </svg>
+        Graph view
+      </button>
       {{end}}
       <nav aria-label="Notes">
         {{.Nav}}
@@ -1950,6 +2044,19 @@ const defaultPageTemplate = `{{.Generated}}
       </article>
     </main>
   </div>
+  {{if .Graph}}
+  <div id="onyx-graph-modal" class="onyx-graph-modal" hidden role="dialog" aria-modal="true" aria-label="Knowledge graph">
+    <div class="onyx-graph-backdrop" data-graph-close></div>
+    <div class="onyx-graph-panel">
+      <div class="onyx-graph-toolbar">
+        <span class="onyx-graph-title">Graph</span>
+        <span class="onyx-graph-hint">drag to pan &middot; scroll to zoom &middot; click a node to open</span>
+        <button type="button" class="onyx-graph-close" data-graph-close aria-label="Close graph">&times;</button>
+      </div>
+      <canvas id="onyx-graph-canvas"></canvas>
+    </div>
+  </div>
+  {{end}}
 </body>
 </html>
 `
@@ -1969,6 +2076,13 @@ const defaultCSS = `:root {
   --active: #f4ead3;
   --ring: rgb(47 111 115 / 22%);
   --radius: 8px;
+  --graph-node: #9a948733;
+  --graph-node-solid: #8c867a;
+  --graph-link: rgb(109 106 96 / 28%);
+  --graph-current: var(--accent);
+  --graph-focus: var(--accent-2);
+  --graph-label: #4a4740;
+  --graph-backdrop: rgb(24 23 20 / 55%);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -2274,6 +2388,87 @@ a:hover { color: var(--accent-2); }
   font-size: .85rem;
 }
 
+/* Graph view: a sidebar trigger that opens a full-screen force-directed map. */
+.onyx-graph-btn {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: .5rem .65rem;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fffdfa;
+  color: var(--text);
+  font: inherit;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background .12s ease, border-color .12s ease, color .12s ease;
+}
+.onyx-graph-btn:hover { background: var(--hover); border-color: var(--accent); color: var(--accent); }
+.onyx-graph-btn svg { width: 1.1em; height: 1.1em; flex: 0 0 auto; opacity: .85; }
+
+.onyx-graph-modal { position: fixed; inset: 0; z-index: 50; display: flex; }
+.onyx-graph-modal[hidden] { display: none; }
+.onyx-graph-backdrop {
+  position: absolute;
+  inset: 0;
+  background: var(--graph-backdrop);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.onyx-graph-panel {
+  position: relative;
+  margin: auto;
+  width: min(94vw, 1100px);
+  height: min(88vh, 780px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 24px 60px rgb(24 23 20 / 38%);
+  animation: onyx-graph-pop .16s ease;
+}
+@keyframes onyx-graph-pop {
+  from { opacity: 0; transform: translateY(8px) scale(.99); }
+  to { opacity: 1; transform: none; }
+}
+.onyx-graph-toolbar {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  padding: .55rem .9rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+}
+.onyx-graph-title { font-weight: 750; }
+.onyx-graph-hint { color: var(--muted); font-size: .8rem; margin-right: auto; }
+.onyx-graph-close {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 0 .25rem;
+  border-radius: 6px;
+}
+.onyx-graph-close:hover { color: var(--text); background: var(--hover); }
+#onyx-graph-canvas {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: var(--bg);
+  cursor: grab;
+  touch-action: none;
+}
+#onyx-graph-canvas.is-grabbing { cursor: grabbing; }
+#onyx-graph-canvas.is-pointing { cursor: pointer; }
+body.onyx-graph-lock { overflow: hidden; }
+
 @media (max-width: 820px) {
   .onyx-shell { display: block; }
   .onyx-sidebar {
@@ -2285,6 +2480,8 @@ a:hover { color: var(--accent-2); }
   }
   .onyx-main { padding: 1.2rem; }
   .onyx-note h1 { font-size: 2rem; }
+  .onyx-graph-panel { width: 96vw; height: 90vh; }
+  .onyx-graph-hint { display: none; }
 }
 `
 
@@ -2366,5 +2563,345 @@ const defaultJS = `(function () {
       results.hidden = true;
       input.blur();
     }
+  });
+})();
+
+(function () {
+  var modal = document.getElementById("onyx-graph-modal");
+  var canvas = document.getElementById("onyx-graph-canvas");
+  var openBtn = document.getElementById("onyx-graph-open");
+  if (!modal || !canvas) return;
+
+  var root = window.ONYX_ROOT || "";
+  var currentId = window.ONYX_PAGE || "";
+  var ctx = canvas.getContext("2d");
+
+  var nodes = [];
+  var links = [];
+  var nodeById = new Map();
+  var loaded = false;
+  var loading = false;
+
+  var timer = null;
+  var dirty = true;
+  var alpha = 0;
+  var alphaMin = 0.0015;
+
+  var scale = 1, offsetX = 0, offsetY = 0;
+  var dpr = 1;
+  var hoverNode = null, dragNode = null, panning = false;
+  var pressX = 0, pressY = 0, lastX = 0, lastY = 0, moved = false;
+  var colors = {};
+
+  function radiusOf(n) { return 3 + Math.sqrt(n.degree) * 1.7; }
+
+  function load() {
+    if (loaded || loading) return;
+    loading = true;
+    fetch(root + "public/graph.json")
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        build(data || { nodes: [], links: [] });
+        loaded = true;
+        loading = false;
+        layout();
+      })
+      .catch(function () { loading = false; });
+  }
+
+  function build(data) {
+    nodeById = new Map();
+    var w = canvas.clientWidth || 800;
+    var h = canvas.clientHeight || 600;
+    nodes = (data.nodes || []).map(function (n, i) {
+      var ang = i * 2.3999632;
+      var rad = 16 + Math.sqrt(i + 1) * 16;
+      var node = {
+        id: n.id,
+        title: n.title || n.id,
+        url: n.url || "",
+        degree: n.degree || 0,
+        x: w / 2 + Math.cos(ang) * rad,
+        y: h / 2 + Math.sin(ang) * rad,
+        vx: 0, vy: 0,
+        neighbors: new Set()
+      };
+      nodeById.set(n.id, node);
+      return node;
+    });
+    links = (data.links || []).map(function (l) {
+      return { source: nodeById.get(l.source), target: nodeById.get(l.target) };
+    }).filter(function (l) { return l.source && l.target; });
+    links.forEach(function (l) { l.source.neighbors.add(l.target); l.target.neighbors.add(l.source); });
+  }
+
+  function tick() {
+    alpha += (0 - alpha) * 0.0228;
+    var i, j, a, b, dx, dy, d2, dist, f, w;
+    var charge = -60;
+    for (i = 0; i < nodes.length; i++) {
+      a = nodes[i];
+      for (j = i + 1; j < nodes.length; j++) {
+        b = nodes[j];
+        dx = b.x - a.x; dy = b.y - a.y;
+        d2 = dx * dx + dy * dy;
+        // Floor the distance so two near-coincident nodes never produce a
+        // runaway impulse (without this the layout diverges to infinity).
+        if (d2 < 1) { dx = Math.random() - 0.5; dy = Math.random() - 0.5; d2 = dx * dx + dy * dy + 1; }
+        w = charge * alpha / d2;
+        a.vx += dx * w; a.vy += dy * w;
+        b.vx -= dx * w; b.vy -= dy * w;
+      }
+    }
+    var linkDist = 46, linkStr = 0.4;
+    for (i = 0; i < links.length; i++) {
+      a = links[i].source; b = links[i].target;
+      dx = b.x - a.x; dy = b.y - a.y;
+      dist = Math.sqrt(dx * dx + dy * dy) || 1;
+      f = (dist - linkDist) / dist * alpha * linkStr;
+      dx *= f; dy *= f;
+      b.vx -= dx; b.vy -= dy;
+      a.vx += dx; a.vy += dy;
+    }
+    var cx = canvas.clientWidth / 2, cy = canvas.clientHeight / 2, g = 0.05 * alpha;
+    var maxV = 50;
+    for (i = 0; i < nodes.length; i++) {
+      a = nodes[i];
+      a.vx += (cx - a.x) * g;
+      a.vy += (cy - a.y) * g;
+      if (a === dragNode) { a.vx = 0; a.vy = 0; continue; }
+      a.vx *= 0.6; a.vy *= 0.6;
+      var sp = a.vx * a.vx + a.vy * a.vy;
+      if (sp > maxV * maxV) { var s = maxV / Math.sqrt(sp); a.vx *= s; a.vy *= s; }
+      a.x += a.vx; a.y += a.vy;
+    }
+  }
+
+  function layout() {
+    alpha = 1;
+    for (var k = 0; k < 140; k++) tick();
+    fit();
+    dirty = true;
+  }
+
+  function fit() {
+    if (!nodes.length) return;
+    var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i];
+      if (n.x < minX) minX = n.x;
+      if (n.x > maxX) maxX = n.x;
+      if (n.y < minY) minY = n.y;
+      if (n.y > maxY) maxY = n.y;
+    }
+    var w = canvas.clientWidth || 800, h = canvas.clientHeight || 600;
+    var gw = (maxX - minX) || 1, gh = (maxY - minY) || 1;
+    var pad = 80;
+    scale = Math.min((w - pad) / gw, (h - pad) / gh);
+    if (!isFinite(scale) || scale <= 0) scale = 1;
+    scale = Math.max(0.15, Math.min(scale, 2.2));
+    offsetX = w / 2 - ((minX + maxX) / 2) * scale;
+    offsetY = h / 2 - ((minY + maxY) / 2) * scale;
+  }
+
+  function readColors() {
+    var s = getComputedStyle(document.documentElement);
+    function v(name, fallback) { var c = s.getPropertyValue(name).trim(); return c || fallback; }
+    colors.link = v("--graph-link", "rgba(120,118,108,0.3)");
+    colors.current = v("--graph-current", "#2f6f73");
+    colors.focus = v("--graph-focus", "#8a5a35");
+    colors.node = v("--graph-node-solid", "#8c867a");
+    colors.label = v("--graph-label", "#4a4740");
+  }
+
+  function draw() {
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.setTransform(dpr * scale, 0, 0, dpr * scale, dpr * offsetX, dpr * offsetY);
+
+    var focus = hoverNode;
+    var i, n;
+
+    ctx.lineWidth = 1 / scale;
+    for (i = 0; i < links.length; i++) {
+      var s = links[i].source, t = links[i].target;
+      var active = focus && (s === focus || t === focus);
+      ctx.strokeStyle = active ? colors.current : colors.link;
+      ctx.globalAlpha = focus ? (active ? 0.9 : 0.12) : 1;
+      ctx.beginPath();
+      ctx.moveTo(s.x, s.y);
+      ctx.lineTo(t.x, t.y);
+      ctx.stroke();
+    }
+
+    for (i = 0; i < nodes.length; i++) {
+      n = nodes[i];
+      var isCurrent = n.id === currentId;
+      var related = focus && (n === focus || focus.neighbors.has(n));
+      var r = radiusOf(n);
+      if (n === focus) r += 1.5 / scale + 1.5;
+      ctx.globalAlpha = focus ? (related ? 1 : 0.22) : 1;
+      ctx.fillStyle = isCurrent ? colors.current : (related ? colors.focus : colors.node);
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+      ctx.fill();
+      if (isCurrent) {
+        ctx.globalAlpha = focus ? (related ? 1 : 0.4) : 1;
+        ctx.lineWidth = 2 / scale;
+        ctx.strokeStyle = colors.current;
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, r + 4 / scale, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+    }
+    ctx.globalAlpha = 1;
+
+    var fontPx = 11 / scale;
+    ctx.font = fontPx + "px ui-sans-serif, system-ui, -apple-system, sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "top";
+    ctx.fillStyle = colors.label;
+    var showAll = scale > 1.25;
+    for (i = 0; i < nodes.length; i++) {
+      n = nodes[i];
+      var rel = focus && (n === focus || focus.neighbors.has(n));
+      var hub = n.degree >= 7;
+      var show = rel || n.id === currentId || (!focus && (hub || showAll));
+      if (!show) continue;
+      ctx.globalAlpha = focus ? (rel ? 1 : 0.18) : (n.id === currentId ? 1 : 0.8);
+      ctx.fillText(n.title, n.x, n.y + radiusOf(n) + 3 / scale);
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // A timer drives the loop rather than requestAnimationFrame so the first
+  // paint never depends on the tab being actively composited. While the layout
+  // is settling we tick + redraw; once settled we only redraw when something
+  // changed (hover, pan, zoom, drag), keeping an idle graph near-zero cost.
+  function step() {
+    if (alpha > alphaMin) { tick(); draw(); }
+    else if (dirty) { draw(); dirty = false; }
+  }
+  function start() { if (!timer) timer = setInterval(step, 1000 / 60); }
+  function stop() { if (timer) { clearInterval(timer); timer = null; } }
+  function reheat(a) { if (a > alpha) alpha = a; dirty = true; }
+
+  function resize() {
+    dpr = Math.max(1, window.devicePixelRatio || 1);
+    var w = canvas.clientWidth, h = canvas.clientHeight;
+    canvas.width = Math.round(w * dpr);
+    canvas.height = Math.round(h * dpr);
+  }
+
+  function isOpen() { return !modal.hidden; }
+
+  function open() {
+    modal.hidden = false;
+    document.body.classList.add("onyx-graph-lock");
+    readColors();
+    resize();
+    load();
+    if (loaded) { fit(); reheat(0.3); }
+    start();
+    dirty = true;
+    draw();
+  }
+
+  function close() {
+    modal.hidden = true;
+    document.body.classList.remove("onyx-graph-lock");
+    stop();
+    hoverNode = null;
+    dragNode = null;
+    panning = false;
+    canvas.classList.remove("is-grabbing", "is-pointing");
+  }
+
+  function toWorld(clientX, clientY) {
+    var rect = canvas.getBoundingClientRect();
+    return { x: (clientX - rect.left - offsetX) / scale, y: (clientY - rect.top - offsetY) / scale };
+  }
+
+  function pick(wx, wy) {
+    var best = null, bestD = Infinity;
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i];
+      var r = radiusOf(n) + 4 / scale;
+      var dx = n.x - wx, dy = n.y - wy, d = dx * dx + dy * dy;
+      if (d <= r * r && d < bestD) { bestD = d; best = n; }
+    }
+    return best;
+  }
+
+  function navigate(n) {
+    if (!n) return;
+    window.location.href = root + (n.url || "") || "./";
+  }
+
+  canvas.addEventListener("pointerdown", function (e) {
+    try { canvas.setPointerCapture(e.pointerId); } catch (err) {}
+    pressX = e.clientX; pressY = e.clientY;
+    lastX = e.clientX; lastY = e.clientY;
+    moved = false;
+    var p = toWorld(e.clientX, e.clientY);
+    var n = pick(p.x, p.y);
+    if (n) { dragNode = n; reheat(0.4); } else { panning = true; }
+    canvas.classList.add("is-grabbing");
+    dirty = true;
+  });
+
+  canvas.addEventListener("pointermove", function (e) {
+    if (Math.abs(e.clientX - pressX) + Math.abs(e.clientY - pressY) > 3) moved = true;
+    var mvx = e.movementX !== undefined ? e.movementX : e.clientX - lastX;
+    var mvy = e.movementY !== undefined ? e.movementY : e.clientY - lastY;
+    lastX = e.clientX; lastY = e.clientY;
+    if (dragNode) {
+      var p = toWorld(e.clientX, e.clientY);
+      dragNode.x = p.x; dragNode.y = p.y; dragNode.vx = 0; dragNode.vy = 0;
+      reheat(0.3);
+    } else if (panning) {
+      offsetX += mvx; offsetY += mvy;
+    } else {
+      var q = toWorld(e.clientX, e.clientY);
+      var hit = pick(q.x, q.y);
+      hoverNode = hit;
+      canvas.classList.toggle("is-pointing", !!hit);
+    }
+    dirty = true;
+  });
+
+  function endPointer(e) {
+    if (dragNode && !moved) navigate(dragNode);
+    dragNode = null;
+    panning = false;
+    canvas.classList.remove("is-grabbing");
+    try { canvas.releasePointerCapture(e.pointerId); } catch (err) {}
+  }
+  canvas.addEventListener("pointerup", endPointer);
+  canvas.addEventListener("pointercancel", endPointer);
+
+  canvas.addEventListener("wheel", function (e) {
+    e.preventDefault();
+    var rect = canvas.getBoundingClientRect();
+    var sx = e.clientX - rect.left, sy = e.clientY - rect.top;
+    var wx = (sx - offsetX) / scale, wy = (sy - offsetY) / scale;
+    var factor = Math.exp(-e.deltaY * 0.0012);
+    scale = Math.max(0.1, Math.min(scale * factor, 6));
+    offsetX = sx - wx * scale;
+    offsetY = sy - wy * scale;
+    dirty = true;
+  }, { passive: false });
+
+  if (openBtn) openBtn.addEventListener("click", open);
+  modal.addEventListener("click", function (e) {
+    if (e.target && e.target.hasAttribute && e.target.hasAttribute("data-graph-close")) close();
+  });
+  window.addEventListener("resize", function () { if (isOpen()) { resize(); dirty = true; } });
+  document.addEventListener("keydown", function (e) {
+    var el = document.activeElement;
+    var tag = (el && el.tagName) || "";
+    var typing = tag === "INPUT" || tag === "TEXTAREA" || (el && el.isContentEditable);
+    if (!isOpen() && !typing && (e.key === "g" || e.key === "G")) { e.preventDefault(); open(); }
+    else if (isOpen() && e.key === "Escape") { e.preventDefault(); close(); }
   });
 })();`
