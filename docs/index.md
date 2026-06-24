@@ -4,7 +4,7 @@ title: Welcome to The Maze
 # *CTRL K*  to search
 A collection of my thoughts and notes as life long [[Programming Languages|computer programmer]] and [[Naturalism|naturalist]].
 
-Some of my favorite writers include [[Jacob Bronowski]], [[Sam Harris]], [[Lawrence M. Krauss]], [[Richard Dawkins]] & [[Carl Sagan]].
+Some of my favorite writers include [[Jacob Bronowski]] & [[Carl Sagan]].
 
 Some of my favorite musicians are collected here: [[Favorite Musicians]].
 
