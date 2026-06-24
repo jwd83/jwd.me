@@ -8,28 +8,19 @@ homepage) and `public/` (every other page plus assets).
 
 ## Build
 
-Onyx now lives in its own repo
-([jwd83/onyx](https://github.com/jwd83/onyx), module `onyx.jwd.me`). Install it
-once (the command is named `onyx`), then run it from this directory:
-
-```sh
-go install onyx.jwd.me/onyx@latest
-onyx
-```
-
-Or run it without installing:
+Build this bad boy from the repo root with the Onyx one-liner:
 
 ```sh
 go run onyx.jwd.me/onyx@latest
 ```
 
-Until the `onyx.jwd.me` vanity domain is live, build from a local checkout of
-the tool instead:
+That command uses the latest Onyx module directly, so no local install is
+required. If you do want the reusable `onyx` command on your `PATH`, install it
+once and then run it from this directory:
 
 ```sh
-git clone https://github.com/jwd83/onyx ../onyx
-go -C ../onyx install ./onyx   # puts `onyx` on your PATH
-onyx                           # build this site from this directory
+go install onyx.jwd.me/onyx@latest
+onyx
 ```
 
 See the [Onyx README](https://github.com/jwd83/onyx#readme) for configuration
