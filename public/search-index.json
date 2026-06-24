@@ -6,10 +6,46 @@
     "excerpt": "A book by Lawrence M. Krauss describing our understanding of the physical universe at time of publication. The book covers topics ranging from from the smallest subatomic scales to the largest cosmological/multiversal sc..."
   },
   {
+    "title": "An Appetite for Wonder - The Making of a Scientist",
+    "url": "public/Books/An%20Appetite%20for%20Wonder%20-%20The%20Making%20of%20a%20Scientist/",
+    "path": "Books/An Appetite for Wonder - The Making of a Scientist.md",
+    "excerpt": "An Appetite for Wonder: The Making of a Scientist is Richard Dawkins' first memoir volume. It focuses on his early life, scientific training, and the path into his public writing career. I mostly think of it as context f...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Brownian Motion",
+    "url": "public/Books/Brownian%20Motion/",
+    "path": "Books/Brownian Motion.md",
+    "excerpt": "Brownian Motion is the random jittering motion of particles suspended in fluid. Albert Einstein gave a theoretical treatment that linked the effect to molecular motion, which became major evidence for atoms being physica...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Letter to a Christian Nation",
+    "url": "public/Books/Letter%20to%20a%20Christian%20Nation/",
+    "path": "Books/Letter to a Christian Nation.md",
+    "excerpt": "Letter to a Christian Nation is a short, direct polemic by Sam Harris aimed at American Christian literalism and religious dogma. The writing style is intentionally confrontational. Whether people agree or not, it is har...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
     "title": "On the Origin of Species",
     "url": "public/Books/On%20the%20Origin%20of%20Species/",
     "path": "Books/On the Origin of Species.md",
     "excerpt": "The book by Charles Darwin describing how the endless forms of species arose from simpler beginnings through genetic diversity and natural selection. See Charles Darwin and Evolution for more information. It is interesti..."
+  },
+  {
+    "title": "Principia Mathematica",
+    "url": "public/Books/Principia%20Mathematica/",
+    "path": "Books/Principia Mathematica.md",
+    "excerpt": "In this note, Principia Mathematica refers to Newton's Philosophiae Naturalis Principia Mathematica (1687), a foundational work in classical mechanics. This is where Newton formalized laws of motion and universal gravita...",
+    "headings": [
+      "See also"
+    ]
   },
   {
     "title": "Quantum Man",
@@ -24,6 +60,33 @@
     "excerpt": "Written by Jacob Bronowski The Ascent of Man series features scenes of lighthearted humility... “It is important that students bring a certain ragamuffin, barefoot irreverence to their studies; they are not here to wor..."
   },
   {
+    "title": "The Demon Haunted World",
+    "url": "public/Books/The%20Demon%20Haunted%20World/",
+    "path": "Books/The Demon Haunted World.md",
+    "excerpt": "The Demon Haunted World is Carl Sagan's case for skepticism, scientific literacy, and intellectual self-defense against nonsense. The \"baloney detection kit\" framing is probably the part people remember most. If I had to...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "The God Delusion",
+    "url": "public/Books/The%20God%20Delusion/",
+    "path": "Books/The God Delusion.md",
+    "excerpt": "The God Delusion is Richard Dawkins' popular-level argument against theistic belief and in favor of a naturalistic worldview. The book became a major reference point in the \"new atheist\" era and kicked off a lot of publi...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "The Greatest Show on Earth",
+    "url": "public/Books/The%20Greatest%20Show%20on%20Earth/",
+    "path": "Books/The Greatest Show on Earth.md",
+    "excerpt": "The Greatest Show on Earth is Richard Dawkins' evidence-focused defense of Evolution by Natural Selection. Unlike his religion-focused books, this one is mainly a tour of the data: fossils, genetics, biogeography, and ob...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
     "title": "The History of God",
     "url": "public/Books/The%20History%20of%20God/",
     "path": "Books/The History of God.md",
@@ -34,6 +97,15 @@
     "url": "public/Books/The%20Moral%20Landscape/",
     "path": "Books/The Moral Landscape.md",
     "excerpt": "A book by Sam Harris discussing what science could say about morality. Sam Harris argues that moral values can be objectively determined using Science and reason, challenging the notion that moral questions are inherentl..."
+  },
+  {
+    "title": "The Selfish Gene",
+    "url": "public/Books/The%20Selfish%20Gene/",
+    "path": "Books/The Selfish Gene.md",
+    "excerpt": "The Selfish Gene is Richard Dawkins' gene-centered framing of evolution. The \"selfish\" label is about selection dynamics, not moral advice. Genes that replicate more effectively tend to spread. The book also introduced t...",
+    "headings": [
+      "See also"
+    ]
   },
   {
     "title": "AM",
@@ -188,6 +260,15 @@
     "url": "public/Concepts/Galaxy/",
     "path": "Concepts/Galaxy.md",
     "excerpt": "A Galaxy is a gravitationally bound system of stars, gas, dust, dark matter, and often a central black hole. Our Sun lives in the Milky Way, which is just one galaxy among a ridiculous number in the observable Cosmos. Ga...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "General Relativity",
+    "url": "public/Concepts/General%20Relativity/",
+    "path": "Concepts/General Relativity.md",
+    "excerpt": "General Relativity is Albert Einstein's theory of gravity as curvature of spacetime. Matter and energy tell spacetime how to curve; curved spacetime tells matter how to move. It replaces Newtonian gravity in regimes with...",
     "headings": [
       "See also"
     ]
@@ -372,6 +453,15 @@
     "excerpt": "Protons are at the center of an atom and thought to be positively charged. They are made of of smaller fundamental particles such as quarks popping in out of existence as well as a boiling, bubbling brew of empty space...."
   },
   {
+    "title": "Quantum Electrodynamics",
+    "url": "public/Concepts/Quantum%20Electrodynamics/",
+    "path": "Concepts/Quantum Electrodynamics.md",
+    "excerpt": "Quantum Electrodynamics (QED) is the quantum field theory of electromagnetic interactions. In practice: it describes how charged particles and photons interact, and it has produced some of the most precise predictions in...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
     "title": "Satellite",
     "url": "public/Concepts/Satellite/",
     "path": "Concepts/Satellite.md",
@@ -388,6 +478,15 @@
     "headings": [
       "The Scientific Method",
       "Summary"
+    ]
+  },
+  {
+    "title": "Special Relativity",
+    "url": "public/Concepts/Special%20Relativity/",
+    "path": "Concepts/Special Relativity.md",
+    "excerpt": "Special Relativity is Albert Einstein's theory for physics in inertial frames with constant light speed. Big consequences include time dilation, length contraction, and mass-energy equivalence. It does not include gravit...",
+    "headings": [
+      "See also"
     ]
   },
   {
@@ -422,6 +521,15 @@
     "url": "public/Concepts/The%20Big%20Bang/",
     "path": "Concepts/The Big Bang.md",
     "excerpt": "The start of our universe. When all space and matter was exploded out from a single point. Evidenced by the motion of galaxies as observed by redshift, the cosmic microwave background radiation, etc."
+  },
+  {
+    "title": "The Photoelectric Effect",
+    "url": "public/Concepts/The%20Photoelectric%20Effect/",
+    "path": "Concepts/The Photoelectric Effect.md",
+    "excerpt": "The Photoelectric Effect is the emission of electrons from a material when light of sufficient frequency hits it. Albert Einstein explained it using quantized light (photons), which was a major pillar of early quantum th...",
+    "headings": [
+      "See also"
+    ]
   },
   {
     "title": "The Universe is Flat",
@@ -657,6 +765,15 @@
     ]
   },
   {
+    "title": "PS1",
+    "url": "public/Games/Consoles/PS1/",
+    "path": "Games/Consoles/PS1.md",
+    "excerpt": "PS1 here is shorthand for the PlayStation-era game music sound I still love. Those soundtracks had to do a lot with hardware constraints, and that gave them a distinct texture that still lands. For me this tag connects d...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
     "title": "Sega Dreamcast",
     "url": "public/Games/Consoles/Sega%20Dreamcast/",
     "path": "Games/Consoles/Sega Dreamcast.md",
@@ -802,15 +919,6 @@
       "Upgrading from starter to standard-playable",
       "The Cloud matchup and broader competitive context",
       "Conclusion"
-    ]
-  },
-  {
-    "title": "opcodes",
-    "url": "public/Games/opcodes/",
-    "path": "Games/opcodes.md",
-    "excerpt": "opcodes are the numeric/bit-level instruction identifiers a CPU decodes. In Turing Complete, defining your own opcodes makes the hardware/software boundary click instantly. You stop thinking \"magic instruction\" and start...",
-    "headings": [
-      "See also"
     ]
   },
   {
@@ -977,15 +1085,6 @@
     "excerpt": "One of my favorite bands. I've heard it described as Art Rock. My favorite song is Time."
   },
   {
-    "title": "PS1",
-    "url": "public/Music/PS1/",
-    "path": "Music/PS1.md",
-    "excerpt": "PS1 here is shorthand for the PlayStation-era game music sound I still love. Those soundtracks had to do a lot with hardware constraints, and that gave them a distinct texture that still lands. For me this tag connects d...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
     "title": "Radiohead",
     "url": "public/Music/Radiohead/",
     "path": "Music/Radiohead.md",
@@ -1007,15 +1106,6 @@
     "excerpt": "Arguably one of the most brilliant, prolific and insightful humans to have ever lived. History remembers Einstein with giants the likes of Isaac Newton and Charles Darwin. Special Relativity and General Relativity Browni..."
   },
   {
-    "title": "An Appetite for Wonder - The Making of a Scientist",
-    "url": "public/People/An%20Appetite%20for%20Wonder%20-%20The%20Making%20of%20a%20Scientist/",
-    "path": "People/An Appetite for Wonder - The Making of a Scientist.md",
-    "excerpt": "An Appetite for Wonder: The Making of a Scientist is Richard Dawkins' first memoir volume. It focuses on his early life, scientific training, and the path into his public writing career. I mostly think of it as context f...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
     "title": "Ann Druyan",
     "url": "public/People/Ann%20Druyan/",
     "path": "People/Ann Druyan.md",
@@ -1033,15 +1123,6 @@
     "headings": [
       "Quotes from Quotes",
       "Bill Bryson on Isaac Newton's Principia from A Short History of Nearly Everything"
-    ]
-  },
-  {
-    "title": "Brownian Motion",
-    "url": "public/People/Brownian%20Motion/",
-    "path": "People/Brownian Motion.md",
-    "excerpt": "Brownian Motion is the random jittering motion of particles suspended in fluid. Albert Einstein gave a theoretical treatment that linked the effect to molecular motion, which became major evidence for atoms being physica...",
-    "headings": [
-      "See also"
     ]
   },
   {
@@ -1088,15 +1169,6 @@
     ]
   },
   {
-    "title": "Deno",
-    "url": "public/People/Deno/",
-    "path": "People/Deno.md",
-    "excerpt": "Deno is a modern JavaScript/TypeScript runtime created by Ryan Dahl after his experience building Node.js. Core ideas I like: secure by default permissions model, first-class TypeScript support, batteries-included toolin...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
     "title": "dogmaticCURE",
     "url": "public/People/dogmaticCURE/",
     "path": "People/dogmaticCURE.md",
@@ -1111,15 +1183,6 @@
     "url": "public/People/Galileo%20Galilei/",
     "path": "People/Galileo Galilei.md",
     "excerpt": "One of the OG's of modern science and arguably one of the most influential people of all time. Galileo Galilei (1564-1642) was an Italian scientist, mathematician, and astronomer who made significant contributions to the..."
-  },
-  {
-    "title": "General Relativity",
-    "url": "public/People/General%20Relativity/",
-    "path": "People/General Relativity.md",
-    "excerpt": "General Relativity is Albert Einstein's theory of gravity as curvature of spacetime. Matter and energy tell spacetime how to curve; curved spacetime tells matter how to move. It replaces Newtonian gravity in regimes with...",
-    "headings": [
-      "See also"
-    ]
   },
   {
     "title": "Georg Wilhelm Friedrich Hegel",
@@ -1139,15 +1202,6 @@
     "headings": [
       "Quotes from Quotes",
       "George Bernard Shaw from Man and Superman on The Unreasonable Man."
-    ]
-  },
-  {
-    "title": "internet",
-    "url": "public/People/internet/",
-    "path": "People/internet.md",
-    "excerpt": "The internet is a global network of networks built on shared protocol layers and routing standards. For developers, it is the substrate under everything from APIs to static sites to realtime systems. A lot of modern tool...",
-    "headings": [
-      "See also"
     ]
   },
   {
@@ -1198,15 +1252,6 @@
     ]
   },
   {
-    "title": "Letter to a Christian Nation",
-    "url": "public/People/Letter%20to%20a%20Christian%20Nation/",
-    "path": "People/Letter to a Christian Nation.md",
-    "excerpt": "Letter to a Christian Nation is a short, direct polemic by Sam Harris aimed at American Christian literalism and religious dogma. The writing style is intentionally confrontational. Whether people agree or not, it is har...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
     "title": "Linus Torvalds",
     "url": "public/People/Linus%20Torvalds/",
     "path": "People/Linus Torvalds.md",
@@ -1227,24 +1272,6 @@
     "url": "public/People/Neil%20deGrasse%20Tyson/",
     "path": "People/Neil deGrasse Tyson.md",
     "excerpt": "Neil deGrasse Tyson is an American scientist and science communicator. He has written many interesting books, given many great talks, participated in debates, starred in two seasons of Cosmos, made numerous cameos and ha..."
-  },
-  {
-    "title": "Principia Mathematica",
-    "url": "public/People/Principia%20Mathematica/",
-    "path": "People/Principia Mathematica.md",
-    "excerpt": "In this note, Principia Mathematica refers to Newton's Philosophiae Naturalis Principia Mathematica (1687), a foundational work in classical mechanics. This is where Newton formalized laws of motion and universal gravita...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
-    "title": "Quantum Electrodynamics",
-    "url": "public/People/Quantum%20Electrodynamics/",
-    "path": "People/Quantum Electrodynamics.md",
-    "excerpt": "Quantum Electrodynamics (QED) is the quantum field theory of electromagnetic interactions. In practice: it describes how charged particles and photons interact, and it has produced some of the most precise predictions in...",
-    "headings": [
-      "See also"
-    ]
   },
   {
     "title": "Richard Dawkins",
@@ -1304,15 +1331,6 @@
     ]
   },
   {
-    "title": "Special Relativity",
-    "url": "public/People/Special%20Relativity/",
-    "path": "People/Special Relativity.md",
-    "excerpt": "Special Relativity is Albert Einstein's theory for physics in inertial frames with constant light speed. Big consequences include time dilation, length contraction, and mass-energy equivalence. It does not include gravit...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
     "title": "Stephen Jay Gould",
     "url": "public/People/Stephen%20Jay%20Gould/",
     "path": "People/Stephen Jay Gould.md",
@@ -1320,51 +1338,6 @@
     "headings": [
       "Quotes from Quotes",
       "Stephen Jay Gould from The Panda's Thumb: More Reflections in Natural History"
-    ]
-  },
-  {
-    "title": "The Demon Haunted World",
-    "url": "public/People/The%20Demon%20Haunted%20World/",
-    "path": "People/The Demon Haunted World.md",
-    "excerpt": "The Demon Haunted World is Carl Sagan's case for skepticism, scientific literacy, and intellectual self-defense against nonsense. The \"baloney detection kit\" framing is probably the part people remember most. If I had to...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
-    "title": "The God Delusion",
-    "url": "public/People/The%20God%20Delusion/",
-    "path": "People/The God Delusion.md",
-    "excerpt": "The God Delusion is Richard Dawkins' popular-level argument against theistic belief and in favor of a naturalistic worldview. The book became a major reference point in the \"new atheist\" era and kicked off a lot of publi...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
-    "title": "The Greatest Show on Earth",
-    "url": "public/People/The%20Greatest%20Show%20on%20Earth/",
-    "path": "People/The Greatest Show on Earth.md",
-    "excerpt": "The Greatest Show on Earth is Richard Dawkins' evidence-focused defense of Evolution by Natural Selection. Unlike his religion-focused books, this one is mainly a tour of the data: fossils, genetics, biogeography, and ob...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
-    "title": "The Photoelectric Effect",
-    "url": "public/People/The%20Photoelectric%20Effect/",
-    "path": "People/The Photoelectric Effect.md",
-    "excerpt": "The Photoelectric Effect is the emission of electrons from a material when light of sufficient frequency hits it. Albert Einstein explained it using quantized light (photons), which was a major pillar of early quantum th...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
-    "title": "The Selfish Gene",
-    "url": "public/People/The%20Selfish%20Gene/",
-    "path": "People/The Selfish Gene.md",
-    "excerpt": "The Selfish Gene is Richard Dawkins' gene-centered framing of evolution. The \"selfish\" label is about selection dynamics, not moral advice. Genes that replicate more effectively tend to spread. The book also introduced t...",
-    "headings": [
-      "See also"
     ]
   },
   {
@@ -1424,6 +1397,15 @@
     "url": "public/Technology/database/",
     "path": "Technology/database.md",
     "excerpt": "A database is a system for storing, querying, and managing structured or semi-structured data. In most app stacks it is where long-lived truth lives, while application code handles workflow and presentation. Picking the...",
+    "headings": [
+      "See also"
+    ]
+  },
+  {
+    "title": "Deno",
+    "url": "public/Technology/Deno/",
+    "path": "Technology/Deno.md",
+    "excerpt": "Deno is a modern JavaScript/TypeScript runtime created by Ryan Dahl after his experience building Node.js. Core ideas I like: secure by default permissions model, first-class TypeScript support, batteries-included toolin...",
     "headings": [
       "See also"
     ]
@@ -1514,6 +1496,15 @@
     "url": "public/Technology/Hardware%20Description%20Languages/VHDL/",
     "path": "Technology/Hardware Description Languages/VHDL.md",
     "excerpt": "A hardware description language similar to Verilog."
+  },
+  {
+    "title": "internet",
+    "url": "public/Technology/internet/",
+    "path": "Technology/internet.md",
+    "excerpt": "The internet is a global network of networks built on shared protocol layers and routing standards. For developers, it is the substrate under everything from APIs to static sites to realtime systems. A lot of modern tool...",
+    "headings": [
+      "See also"
+    ]
   },
   {
     "title": "Kernel",
@@ -1615,6 +1606,15 @@
     "excerpt": "node version manger Windows install is of course more of a nightmare than every linux disto or mac so follow along here: https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows It will make...",
     "headings": [
       "node version manger"
+    ]
+  },
+  {
+    "title": "opcodes",
+    "url": "public/Technology/opcodes/",
+    "path": "Technology/opcodes.md",
+    "excerpt": "opcodes are the numeric/bit-level instruction identifiers a CPU decodes. In Turing Complete, defining your own opcodes makes the hardware/software boundary click instantly. You stop thinking \"magic instruction\" and start...",
+    "headings": [
+      "See also"
     ]
   },
   {
