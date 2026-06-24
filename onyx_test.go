@@ -160,6 +160,30 @@ func TestBuildRendersMathBlocksAndCompactTables(t *testing.T) {
 	}
 }
 
+func TestBuildWithoutIniUsesDocsAndIndexTitle(t *testing.T) {
+	root := t.TempDir()
+	// No onyx.ini: the docs/ folder marks the root and the home page title
+	// becomes the site title.
+	writeTestFile(t, root, "docs/index.md", "---\ntitle: My Notebook\n---\n# Welcome\n\n[[Foo]]\n")
+	writeTestFile(t, root, "docs/Foo.md", "# Foo\n")
+
+	var stdout, stderr bytes.Buffer
+	if code := run([]string{root}, &stdout, &stderr); code != 0 {
+		t.Fatalf("run failed with code %d\nstdout:\n%s\nstderr:\n%s", code, stdout.String(), stderr.String())
+	}
+
+	index := readTestFile(t, root, "index.html")
+	if !strings.Contains(index, "My Notebook") {
+		t.Fatalf("site title did not fall back to index.md title:\n%s", index)
+	}
+	if !strings.Contains(index, `href="public/Foo/"`) {
+		t.Fatalf("homepage did not link to Foo without an onyx.ini:\n%s", index)
+	}
+	if _, err := os.Stat(filepath.Join(root, ".nojekyll")); err != nil {
+		t.Fatalf(".nojekyll was not created: %v", err)
+	}
+}
+
 func writeTestFile(t *testing.T, root, rel, content string) {
 	t.Helper()
 	filename := filepath.Join(root, filepath.FromSlash(rel))

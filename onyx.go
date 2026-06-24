@@ -29,10 +29,8 @@ type Config struct {
 	ConfigPath string
 	SiteTitle  string
 	Source     string
-	BaseURL    string
 	Theme      string
 	Search     bool
-	Backlinks  bool
 	Graph      bool
 	ShowSource bool
 }
@@ -117,8 +115,7 @@ type TemplateData struct {
 }
 
 type SiteView struct {
-	Title   string
-	BaseURL string
+	Title string
 }
 
 func main() {
@@ -192,33 +189,46 @@ func findConfig(start string) (string, string, error) {
 	}
 
 	for {
-		candidate := filepath.Join(abs, "onyx.ini")
-		if _, err := os.Stat(candidate); err == nil {
-			return abs, candidate, nil
+		ini := filepath.Join(abs, "onyx.ini")
+		if _, err := os.Stat(ini); err == nil {
+			return abs, ini, nil
+		}
+		if info, err := os.Stat(filepath.Join(abs, "docs")); err == nil && info.IsDir() {
+			// No onyx.ini, but a docs/ folder marks the site root. The returned
+			// path is where an optional onyx.ini would live; readConfig tolerates
+			// its absence.
+			return abs, ini, nil
 		}
 		parent := filepath.Dir(abs)
 		if parent == abs {
-			return "", "", errors.New("no onyx.ini found in this directory or its parents")
+			return "", "", errors.New("no onyx.ini or docs/ directory found in this directory or its parents")
 		}
 		abs = parent
 	}
 }
 
 func readConfig(root, configPath string) (Config, error) {
-	values, err := parseINI(configPath)
-	if err != nil {
-		return Config{}, err
+	// onyx.ini is optional: a missing file leaves every setting at its default.
+	values := map[string]string{}
+	if configPath != "" {
+		parsed, err := parseINI(configPath)
+		if err != nil && !os.IsNotExist(err) {
+			return Config{}, err
+		}
+		if parsed != nil {
+			values = parsed
+		}
 	}
 
 	cfg := Config{
 		Root:       root,
 		ConfigPath: configPath,
-		SiteTitle:  valueOr(values, "site_title", "Onyx"),
+		// An empty title is a sentinel: loadVault later falls back to the home
+		// page's title and finally to "Onyx".
+		SiteTitle:  valueOr(values, "site_title", ""),
 		Source:     valueOr(values, "source", "docs"),
-		BaseURL:    cleanBaseURL(valueOr(values, "base_url", "/")),
 		Theme:      valueOr(values, "theme", "theme"),
 		Search:     boolOr(values, true, "search", "build.search"),
-		Backlinks:  boolOr(values, true, "backlinks", "build.backlinks"),
 		Graph:      boolOr(values, true, "graph", "build.graph"),
 		ShowSource: boolOr(values, true, "show_source", "publish_raw_markdown"),
 	}
@@ -323,17 +333,6 @@ func boolOr(values map[string]string, fallback bool, keys ...string) bool {
 		}
 	}
 	return fallback
-}
-
-func cleanBaseURL(s string) string {
-	s = strings.TrimSpace(s)
-	if s == "" {
-		s = "/"
-	}
-	if !strings.HasSuffix(s, "/") {
-		s += "/"
-	}
-	return s
 }
 
 func buildSite(cfg Config) ([]string, error) {
@@ -515,6 +514,16 @@ func loadVault(cfg Config) (*Vault, []string, error) {
 	}
 
 	vault.Home = chooseHome(vault)
+	// Resolve the site title before any generated home is built (generatedHome
+	// reads it): an explicit onyx.ini title wins, else the home page's title,
+	// else "Onyx".
+	if vault.Config.SiteTitle == "" {
+		if vault.Home != nil {
+			vault.Config.SiteTitle = vault.Home.Title
+		} else {
+			vault.Config.SiteTitle = "Onyx"
+		}
+	}
 	if vault.Home == nil {
 		vault.Home = generatedHome(vault)
 		vault.Notes = append([]*Page{vault.Home}, vault.Notes...)
@@ -851,8 +860,7 @@ func writePage(vault *Vault, page *Page, source templateSource) error {
 	}
 	data := TemplateData{
 		Site: SiteView{
-			Title:   vault.Config.SiteTitle,
-			BaseURL: vault.Config.BaseURL,
+			Title: vault.Config.SiteTitle,
 		},
 		Page:       &pageView,
 		Nav:        template.HTML(renderNav(vault, page)),

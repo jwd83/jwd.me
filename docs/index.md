@@ -1,5 +1,5 @@
 ---
-title: Welcome to The Maze
+title: The Maze
 ---
 # *CTRL K*  to search
 A collection of my thoughts and notes as life long [[Programming Languages|computer programmer]] and [[Naturalism|naturalist]].
