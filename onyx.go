@@ -1489,12 +1489,44 @@ func splitTableRow(line string) []string {
 	return parts
 }
 
+// parseTableAlignments reads the separator row of a table and returns the
+// CSS text-align value for each column. An empty string means no explicit
+// alignment (the default).
+func parseTableAlignments(line string) []string {
+	cells := splitTableRow(line)
+	aligns := make([]string, len(cells))
+	for i, cell := range cells {
+		cell = strings.TrimSpace(cell)
+		left := strings.HasPrefix(cell, ":")
+		right := strings.HasSuffix(cell, ":")
+		switch {
+		case left && right:
+			aligns[i] = "center"
+		case right:
+			aligns[i] = "right"
+		case left:
+			aligns[i] = "left"
+		}
+	}
+	return aligns
+}
+
+func alignAttr(aligns []string, i int) string {
+	if i < len(aligns) && aligns[i] != "" {
+		return ` style="text-align:` + aligns[i] + `"`
+	}
+	return ""
+}
+
 func (r *MarkdownRenderer) renderTable(lines []string) string {
 	header := splitTableRow(lines[0])
+	aligns := parseTableAlignments(lines[1])
 	var b strings.Builder
 	b.WriteString("<table>\n<thead><tr>")
-	for _, cell := range header {
-		b.WriteString("<th>")
+	for i, cell := range header {
+		b.WriteString("<th")
+		b.WriteString(alignAttr(aligns, i))
+		b.WriteString(">")
 		b.WriteString(r.renderInline(cell))
 		b.WriteString("</th>")
 	}
@@ -1505,8 +1537,10 @@ func (r *MarkdownRenderer) renderTable(lines []string) string {
 			continue
 		}
 		b.WriteString("<tr>")
-		for _, cell := range cells {
-			b.WriteString("<td>")
+		for i, cell := range cells {
+			b.WriteString("<td")
+			b.WriteString(alignAttr(aligns, i))
+			b.WriteString(">")
 			b.WriteString(r.renderInline(cell))
 			b.WriteString("</td>")
 		}
