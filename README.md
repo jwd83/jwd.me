@@ -1,38 +1,39 @@
 # jwd.me
 
-This repo is a Markdown notebook published with Onyx.
+The content and generated output for [jwd.me](https://jwd.me) — a Markdown
+notebook published with [Onyx](https://github.com/jwd83/onyx).
 
-Onyx is intentionally tiny: one `onyx.go` file, no config file required, no third-party Go modules, no npm, no build system, and no runtime server.
+`docs/` is the source of truth. The build renders it to `index.html` (the
+homepage) and `public/` (every other page plus assets).
 
 ## Build
 
+Onyx now lives in its own repo
+([jwd83/onyx](https://github.com/jwd83/onyx), module `onyx.jwd.me`). Install it
+once (the command is named `onyx`), then run it from this directory:
+
 ```sh
-go run onyx.go
+go install onyx.jwd.me/onyx@latest
+onyx
 ```
 
-The build finds the site root (the nearest directory containing a `docs/` folder), renders the vault in `docs/`, writes the homepage to `index.html`, and writes generated assets/pages to `public/`.
+Or run it without installing:
 
-`docs/` remains the source of truth.
+```sh
+go run onyx.jwd.me/onyx@latest
+```
 
-## Configuration
+Until the `onyx.jwd.me` vanity domain is live, build from a local checkout of
+the tool instead:
 
-There is no config file. The defaults are the convention:
+```sh
+git clone https://github.com/jwd83/onyx ../onyx
+go -C ../onyx install ./onyx   # puts `onyx` on your PATH
+onyx                           # build this site from this directory
+```
 
-| Setting | Default |
-| --- | --- |
-| Source folder | `docs/` |
-| Site title | the `docs/index.md` title (frontmatter `title:` or first `# heading`), falling back to `Onyx` |
-| Theme overrides | `theme/` if present, otherwise the built-in CSS, JS, and templates |
-| Search, graph, and Markdown-source links | on |
+See the [Onyx README](https://github.com/jwd83/onyx#readme) for configuration
+and theming options.
 
-Everything is optional. If a `theme/` folder exists it overrides the built-in
-`style.css`, `onyx.js`, `page.html`, and `home.html`; per-note `publish: false`
-or `draft: true` frontmatter excludes a note from the build.
-
-An `onyx.ini` at the site root is still honored if you want to override the
-defaults — it can set `site_title`, `source`, `theme`, and the `search`,
-`graph`, and `show_source` toggles — but it is no longer needed.
-
-Generated links are relative, so the site works from a GitHub Pages project URL such as `/jwd.me/` without hardcoded root paths like `/public/onyx.js`.
-
-The root `.nojekyll` file tells GitHub Pages to serve the generated static files directly instead of running Jekyll over the repo.
+The root `.nojekyll` file tells GitHub Pages to serve the generated static files
+directly instead of running Jekyll over the repo.
