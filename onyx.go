@@ -65,6 +65,7 @@ type Page struct {
 	FrontMatter map[string]string
 	IsHome      bool
 	Generated   bool
+	HasMath     bool
 }
 
 type LinkView struct {
@@ -701,6 +702,7 @@ func renderVault(vault *Vault, warnings *[]string) {
 		note.Excerpt = excerpt(result.Text, 220)
 		note.Headings = result.Headings
 		note.Tags = result.Tags
+		note.HasMath = result.HasMath
 		note.Outgoing = renderer.outgoing
 	}
 }
@@ -1079,6 +1081,7 @@ type MarkdownRenderer struct {
 	headingIDs map[string]int
 	outgoing   map[string]bool
 	headings   []string
+	hasMath    bool
 }
 
 type RenderResult struct {
@@ -1086,6 +1089,7 @@ type RenderResult struct {
 	Text     string
 	Headings []string
 	Tags     []string
+	HasMath  bool
 }
 
 func (r *MarkdownRenderer) Render(markdown string) RenderResult {
@@ -1097,6 +1101,7 @@ func (r *MarkdownRenderer) Render(markdown string) RenderResult {
 		Text:     text,
 		Headings: r.headings,
 		Tags:     extractTags(markdown),
+		HasMath:  r.hasMath,
 	}
 }
 
@@ -1133,6 +1138,17 @@ func (r *MarkdownRenderer) renderBlocks(lines []string) string {
 			} else {
 				i = j
 			}
+			continue
+		}
+
+		if mathLines, next, ok := mathBlock(lines, i); ok {
+			r.hasMath = true
+			b.WriteString(`<div class="onyx-math">`)
+			b.WriteString("$$\n")
+			b.WriteString(html.EscapeString(strings.Join(mathLines, "\n")))
+			b.WriteString("\n$$")
+			b.WriteString("</div>\n")
+			i = next
 			continue
 		}
 
@@ -1265,6 +1281,9 @@ func startsBlock(lines []string, i int) bool {
 	if _, _, ok := listMarker(lines[i]); ok {
 		return true
 	}
+	if strings.HasPrefix(trimmed, "$$") {
+		return true
+	}
 	return isTableStart(lines, i)
 }
 
@@ -1391,6 +1410,41 @@ func (r *MarkdownRenderer) renderListItem(content string) string {
 	return r.renderInline(content)
 }
 
+// mathBlock detects a display math block delimited by $$ and returns the LaTeX
+// content lines (without the $$ fences) along with the index of the line that
+// follows the block. Both the single-line form `$$ ... $$` and the multi-line
+// form with `$$` on its own line are supported. The content is preserved
+// verbatim so MathJax can typeset it on the client.
+func mathBlock(lines []string, i int) ([]string, int, bool) {
+	trimmed := strings.TrimSpace(lines[i])
+	if !strings.HasPrefix(trimmed, "$$") {
+		return nil, 0, false
+	}
+	rest := trimmed[2:]
+	// Single-line: $$ ... $$
+	if strings.HasSuffix(rest, "$$") && len(rest) >= 2 {
+		return []string{strings.TrimSpace(rest[:len(rest)-2])}, i + 1, true
+	}
+	// Multi-line: opening $$ (optionally with trailing content) until closing $$.
+	var body []string
+	if head := strings.TrimSpace(rest); head != "" {
+		body = append(body, head)
+	}
+	for j := i + 1; j < len(lines); j++ {
+		lt := strings.TrimSpace(lines[j])
+		if lt == "$$" {
+			return body, j + 1, true
+		}
+		if strings.HasSuffix(lt, "$$") {
+			body = append(body, strings.TrimSpace(strings.TrimSuffix(lt, "$$")))
+			return body, j + 1, true
+		}
+		body = append(body, lines[j])
+	}
+	// Unterminated block: keep the remaining lines as math rather than mangling them.
+	return body, len(lines), true
+}
+
 func isTableStart(lines []string, i int) bool {
 	if i+1 >= len(lines) {
 		return false
@@ -1408,11 +1462,11 @@ func isTableSeparator(line string) bool {
 	}
 	for _, cell := range cells {
 		cell = strings.TrimSpace(cell)
-		if len(cell) < 3 {
+		if cell == "" {
 			return false
 		}
 		cell = strings.Trim(cell, ":")
-		if len(cell) < 3 {
+		if cell == "" {
 			return false
 		}
 		for _, r := range cell {
@@ -1993,7 +2047,7 @@ const defaultPageTemplate = `{{.Generated}}
   <title>{{if .Page.IsHome}}{{.Site.Title}}{{else}}{{.Page.Title}} - {{.Site.Title}}{{end}}</title>
   <link rel="stylesheet" href="{{.CSSURL}}">
   <script>window.ONYX_ROOT = {{.RootScript}}; window.ONYX_PAGE = {{.PageID}};</script>
-  {{if or .Search .Graph}}<script defer src="{{.JSURL}}"></script>{{end}}
+  {{if or .Search .Graph}}<script defer src="{{.JSURL}}"></script>{{end}}{{if .Page.HasMath}}<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>{{end}}
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -2343,6 +2397,11 @@ a:hover { color: var(--accent-2); }
   vertical-align: top;
 }
 .onyx-content th { background: var(--panel); text-align: left; }
+.onyx-content .onyx-math {
+  margin: 1.1rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
 
 .callout {
   border: 1px solid var(--line);

@@ -7,7 +7,7 @@
   <title>BMI - The Maze</title>
   <link rel="stylesheet" href="../../../../public/onyx.css">
   <script>window.ONYX_ROOT = "../../../../"; window.ONYX_PAGE = "Concepts/Health/BMI";</script>
-  <script defer src="../../../../public/onyx.js"></script>
+  <script defer src="../../../../public/onyx.js"></script><script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -45,8 +45,36 @@
           <a class="onyx-source" href="../../../../docs/Concepts/Health/BMI.md">Markdown</a>
         </header>
         <div class="onyx-content">
-          <p>Body mass index (BMI) is a measure of body fat based upon your height and weight that applies to <strong>adult</strong> men and women only. The formula in imperial freedom units is as follows. $$ \text{BMI}=703.0717<em>\frac{\text{Pounds}}{\text{Inches}^2} $$ For a 175 pound human that is 73 inches tall this works out to a BMI of... $$ \begin{align} \text{BMI}&amp;=703.0717</em>\frac{\text{Pounds}}{\text{Inches}^2}\\ \\ \text{BMI}&amp;=703.0717<em>\frac{175}{73^2}\\ \\ \text{BMI}&amp;=703.0717</em>\frac{175}{5329}\\ \\ \text{BMI}&amp;=703.0717*0.032839181835241\\ \\ \text{BMI}&amp;=23.088299399512105 \end{align} $$ ...approximately 23.1. BMI breakpoints for weight healthiness are generally considered as follows...</p>
-<p>BMI Range|Classification --|-- Below 18.5|Underweight 18.5-25|Normal 25-30|Overweight 30-35|Class 1 Obesity 35-40|Class 2 Obesity Above 40|Class 3 Obesity</p>
+          <p>Body mass index (BMI) is a measure of body fat based upon your height and weight that applies to <strong>adult</strong> men and women only. The formula in imperial freedom units is as follows.</p>
+<div class="onyx-math">$$
+\text{BMI}=703.0717*\frac{\text{Pounds}}{\text{Inches}^2}
+$$</div>
+<p>For a 175 pound human that is 73 inches tall this works out to a BMI of...</p>
+<div class="onyx-math">$$
+\begin{align}
+\text{BMI}&amp;=703.0717*\frac{\text{Pounds}}{\text{Inches}^2}\\
+\\
+\text{BMI}&amp;=703.0717*\frac{175}{73^2}\\
+\\
+\text{BMI}&amp;=703.0717*\frac{175}{5329}\\
+\\
+\text{BMI}&amp;=703.0717*0.032839181835241\\
+\\
+\text{BMI}&amp;=23.088299399512105
+\end{align}
+$$</div>
+<p>...approximately 23.1. BMI breakpoints for weight healthiness are generally considered as follows...</p>
+<table>
+<thead><tr><th>BMI Range</th><th>Classification</th></tr></thead>
+<tbody>
+<tr><td>Below 18.5</td><td>Underweight</td></tr>
+<tr><td>18.5-25</td><td>Normal</td></tr>
+<tr><td>25-30</td><td>Overweight</td></tr>
+<tr><td>30-35</td><td>Class 1 Obesity</td></tr>
+<tr><td>35-40</td><td>Class 2 Obesity</td></tr>
+<tr><td>Above 40</td><td>Class 3 Obesity</td></tr>
+</tbody>
+</table>
 <p>Given the chart above we can see that our 175 pound 73 inch tall human is considered normal weight.</p>
 
         </div>

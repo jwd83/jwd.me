@@ -7,7 +7,7 @@
   <title>TDEE - The Maze</title>
   <link rel="stylesheet" href="../../../../public/onyx.css">
   <script>window.ONYX_ROOT = "../../../../"; window.ONYX_PAGE = "Concepts/Health/TDEE";</script>
-  <script defer src="../../../../public/onyx.js"></script>
+  <script defer src="../../../../public/onyx.js"></script><script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -46,8 +46,25 @@
         </header>
         <div class="onyx-content">
           <p>Estimating your Total Daily Energy Expenditure is as simple as calculating your <a class="wiki-link" href="../../../../public/Concepts/Health/BMR/">BMR</a> and multiplying it by your TDEE activity level multiplier.</p>
-<p>Approximate TDEE Multiplier | Activity Level --|--: 1.2|points for a person who does little to no exercise 1.375|points for a slightly active person who does light exercise 1–3 days a week 1.55|points for a moderately active person who performs moderate exercise 3–5 days a week 1.725|points for a very active person who exercises hard 6–7 days a week 1.9|points for an extra active person who either has a physically demanding job or has a particularly challenging exercise routine</p>
-<p>Assuming you have a BMR of 1750 and your activity level is a TDEE value of 1.2 your approximate daily caloric burn is... $$ \begin{align} \text{TDEE}&amp;=\text{BMR} <em> \text{TDEE Multiplier}\\ \text{TDEE}&amp;=1750 </em> 1.2\\ \text{TDEE}&amp;=2100 \end{align} $$ ...2100 calories.</p>
+<table>
+<thead><tr><th>Approximate TDEE Multiplier</th><th>Activity Level</th></tr></thead>
+<tbody>
+<tr><td>1.2</td><td>points for a person who does little to no exercise</td></tr>
+<tr><td>1.375</td><td>points for a slightly active person who does light exercise 1–3 days a week</td></tr>
+<tr><td>1.55</td><td>points for a moderately active person who performs moderate exercise 3–5 days a week</td></tr>
+<tr><td>1.725</td><td>points for a very active person who exercises hard 6–7 days a week</td></tr>
+<tr><td>1.9</td><td>points for an extra active person who either has a physically demanding job or has a particularly challenging exercise routine</td></tr>
+</tbody>
+</table>
+<p>Assuming you have a BMR of 1750 and your activity level is a TDEE value of 1.2 your approximate daily caloric burn is...</p>
+<div class="onyx-math">$$
+\begin{align}
+\text{TDEE}&amp;=\text{BMR} * \text{TDEE Multiplier}\\
+\text{TDEE}&amp;=1750 * 1.2\\
+\text{TDEE}&amp;=2100
+\end{align}
+$$</div>
+<p>...2100 calories.</p>
 
         </div>
         

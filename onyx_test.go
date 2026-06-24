@@ -106,6 +106,60 @@ func TestBuildRefusesUnmarkedPublicDirectory(t *testing.T) {
 	}
 }
 
+func TestBuildRendersMathBlocksAndCompactTables(t *testing.T) {
+	root := t.TempDir()
+	writeTestFile(t, root, "onyx.ini", "site_title = Test Notes\nsource = docs\nbase_url = /\n")
+	writeTestFile(t, root, "docs/index.md", "# Home\n\n[[BMI]]\n")
+	writeTestFile(t, root, "docs/BMI.md", strings.Join([]string{
+		"Formula below.",
+		"$$",
+		"\\text{BMI}=703.0717*\\frac{\\text{Pounds}}{\\text{Inches}^2}",
+		"$$",
+		"Breakpoints:",
+		"",
+		"Range|Class",
+		"--|--",
+		"Below 18.5|Underweight",
+		"18.5-25|Normal",
+		"",
+	}, "\n"))
+
+	var stdout, stderr bytes.Buffer
+	if code := run([]string{root}, &stdout, &stderr); code != 0 {
+		t.Fatalf("run failed with code %d\nstdout:\n%s\nstderr:\n%s", code, stdout.String(), stderr.String())
+	}
+
+	page := readTestFile(t, root, "public/BMI/index.html")
+	if !strings.Contains(page, `<div class="onyx-math">`) {
+		t.Fatalf("math block was not rendered as a math container:\n%s", page)
+	}
+	// The asterisk inside math must survive verbatim, not become emphasis.
+	if !strings.Contains(page, "703.0717*\\frac") {
+		t.Fatalf("math content was mangled (asterisk treated as markdown):\n%s", page)
+	}
+	if strings.Contains(page, "<em>") {
+		t.Fatalf("math asterisk leaked into an <em> tag:\n%s", page)
+	}
+	// The compact 2-dash table must become a real table.
+	if !strings.Contains(page, "<table>") || !strings.Contains(page, "<th>Range</th>") {
+		t.Fatalf("compact table was not rendered as a table:\n%s", page)
+	}
+	if !strings.Contains(page, "<td>Underweight</td>") {
+		t.Fatalf("table body row missing:\n%s", page)
+	}
+	if strings.Contains(page, "Range|Class") || strings.Contains(page, "--|--") {
+		t.Fatalf("raw table markup leaked into output:\n%s", page)
+	}
+	// MathJax should be loaded only because the page uses math.
+	if !strings.Contains(page, "tex-chtml.js") {
+		t.Fatalf("MathJax script was not included on a page with math:\n%s", page)
+	}
+	home := readTestFile(t, root, "index.html")
+	if strings.Contains(home, "tex-chtml.js") {
+		t.Fatalf("MathJax script leaked onto a page without math:\n%s", home)
+	}
+}
+
 func writeTestFile(t *testing.T, root, rel, content string) {
 	t.Helper()
 	filename := filepath.Join(root, filepath.FromSlash(rel))
