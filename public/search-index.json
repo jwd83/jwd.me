@@ -1693,15 +1693,6 @@
     "excerpt": "A fantastic and easy to use language that has become the standard in AI / Machine Learning. It has a wonderful ecosystem of packages that simplify most programming chores into simple concepts where the heavy lifting is t..."
   },
   {
-    "title": "web browser",
-    "url": "public/Technology/Programming/Languages/web%20browser/",
-    "path": "Technology/Programming/Languages/web browser.md",
-    "excerpt": "A web browser is the client runtime for the web: it loads documents, runs scripts, applies styles, and manages security boundaries. For frontend dev, the browser is the real platform and JavaScript is the native scriptin...",
-    "headings": [
-      "See also"
-    ]
-  },
-  {
     "title": "AI",
     "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/AI/",
     "path": "Technology/Programming/Libraries \u0026 Frameworks/AI.md",
@@ -1859,6 +1850,15 @@
     "url": "public/Technology/Unreal/",
     "path": "Technology/Unreal.md",
     "excerpt": "A state of the art game engine written in C++."
+  },
+  {
+    "title": "web browser",
+    "url": "public/Technology/web%20browser/",
+    "path": "Technology/web browser.md",
+    "excerpt": "A web browser is the client runtime for the web: it loads documents, runs scripts, applies styles, and manages security boundaries. For frontend dev, the browser is the real platform and JavaScript is the native scriptin...",
+    "headings": [
+      "See also"
+    ]
   },
   {
     "title": "The World Wide Web",

@@ -1249,12 +1249,6 @@
       "degree": 12
     },
     {
-      "id": "Technology/Programming/Languages/web browser",
-      "title": "web browser",
-      "url": "public/Technology/Programming/Languages/web%20browser/",
-      "degree": 8
-    },
-    {
       "id": "Technology/Programming/Libraries \u0026 Frameworks/AI",
       "title": "AI",
       "url": "public/Technology/Programming/Libraries%20\u0026%20Frameworks/AI/",
@@ -1355,6 +1349,12 @@
       "title": "Unreal",
       "url": "public/Technology/Unreal/",
       "degree": 2
+    },
+    {
+      "id": "Technology/web browser",
+      "title": "web browser",
+      "url": "public/Technology/web%20browser/",
+      "degree": 8
     },
     {
       "id": "Technology/web",
@@ -3278,11 +3278,11 @@
     },
     {
       "source": "Technology/internet",
-      "target": "Technology/Programming/Languages/web browser"
+      "target": "Technology/ping"
     },
     {
       "source": "Technology/internet",
-      "target": "Technology/ping"
+      "target": "Technology/web browser"
     },
     {
       "source": "Technology/Kernel",
@@ -3514,15 +3514,15 @@
     },
     {
       "source": "Technology/Programming/Languages/JavaScript",
-      "target": "Technology/Programming/Languages/web browser"
-    },
-    {
-      "source": "Technology/Programming/Languages/JavaScript",
       "target": "Technology/internet"
     },
     {
       "source": "Technology/Programming/Languages/JavaScript",
       "target": "Technology/web"
+    },
+    {
+      "source": "Technology/Programming/Languages/JavaScript",
+      "target": "Technology/web browser"
     },
     {
       "source": "Technology/Programming/Languages/Node.js",
@@ -3595,26 +3595,6 @@
     {
       "source": "Technology/Programming/Languages/Python",
       "target": "Technology/REPL"
-    },
-    {
-      "source": "Technology/Programming/Languages/web browser",
-      "target": "Technology/File and Document Formats/CSS"
-    },
-    {
-      "source": "Technology/Programming/Languages/web browser",
-      "target": "Technology/File and Document Formats/HTML"
-    },
-    {
-      "source": "Technology/Programming/Languages/web browser",
-      "target": "Technology/Programming/Languages/JavaScript"
-    },
-    {
-      "source": "Technology/Programming/Languages/web browser",
-      "target": "Technology/internet"
-    },
-    {
-      "source": "Technology/Programming/Languages/web browser",
-      "target": "Technology/web"
     },
     {
       "source": "Technology/Programming/Libraries \u0026 Frameworks/AI",
@@ -3702,11 +3682,11 @@
     },
     {
       "source": "Technology/Programming/Libraries \u0026 Frameworks/Server Side Rendering",
-      "target": "Technology/Programming/Languages/web browser"
+      "target": "Technology/Programming/Libraries \u0026 Frameworks/Nuxt 3"
     },
     {
       "source": "Technology/Programming/Libraries \u0026 Frameworks/Server Side Rendering",
-      "target": "Technology/Programming/Libraries \u0026 Frameworks/Nuxt 3"
+      "target": "Technology/web browser"
     },
     {
       "source": "Technology/Programming/Libraries \u0026 Frameworks/Vue",
@@ -3771,6 +3751,26 @@
     {
       "source": "Technology/Unreal",
       "target": "Technology/Programming/Languages/C++"
+    },
+    {
+      "source": "Technology/web browser",
+      "target": "Technology/File and Document Formats/CSS"
+    },
+    {
+      "source": "Technology/web browser",
+      "target": "Technology/File and Document Formats/HTML"
+    },
+    {
+      "source": "Technology/web browser",
+      "target": "Technology/Programming/Languages/JavaScript"
+    },
+    {
+      "source": "Technology/web browser",
+      "target": "Technology/internet"
+    },
+    {
+      "source": "Technology/web browser",
+      "target": "Technology/web"
     },
     {
       "source": "Technology/web",
