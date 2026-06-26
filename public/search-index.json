@@ -946,11 +946,12 @@
     ]
   },
   {
-    "title": "Chapter 1 - The simplest 8 bit CPU",
+    "title": "Turing Complete",
     "url": "public/Games/Turing%20Complete/",
     "path": "Games/Turing Complete.md",
-    "excerpt": "A game that aids in teaching you combinational logic and CPU design in turn. As I see it the game is broken up into 4 main chapters or sections. Chapter 1 - The simplest 8 bit CPU The first chapter teaches you the basics...",
+    "excerpt": "Turing Complete A game that aids in teaching you combinational logic and CPU design in turn. As I see it the game is broken up into 4 main chapters or sections. Chapter 1 - The simplest 8 bit CPU The first chapter teache...",
     "headings": [
+      "Turing Complete",
       "Chapter 1 - The simplest 8 bit CPU",
       "Chapter 2 - Programming the simplest 8 bit CPU",
       "Chapter 3 - Designing a more complex 8 bit CPU",

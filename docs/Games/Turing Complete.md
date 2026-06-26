@@ -1,3 +1,4 @@
+# Turing Complete
 A [game](https://turingcomplete.game/) that aids in teaching you combinational logic and [[CPU]] design in turn. As I see it the game is broken up into 4 main chapters or sections. 
 
 # Chapter 1 - The simplest 8 bit CPU
